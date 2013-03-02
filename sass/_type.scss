@@ -33,3 +33,20 @@ h2 {
     text-align:left;
   }
 }
+
+blockquote {
+  padding:1em 0 1.75em 0;
+  font-style:italic;
+  p {
+    font-size:$type-3;
+  }
+  footer a {
+    font-size:$type-5;
+    text-decoration:none;
+    color:#666;
+  }
+}
+
+em {
+  font-style:italic;
+}

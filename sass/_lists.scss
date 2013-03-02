@@ -1,10 +1,21 @@
 .large-list {
   font-size:$type-4;  
   li {
-    border-top:1px solid #ddd;
+    border-top:1px solid #eee;
   }
   a {
+    display:block;
+    padding:.5em 0;
+    color:#444;
+    line-height:2;
     text-decoration:none;
-    line-height:3;
+    &:hover,
+    &:active {
+      color:#FF5335;
+    }
+    .meta {
+      display:block; 
+    }
   }
 }
+
