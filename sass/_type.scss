@@ -1,8 +1,16 @@
+// The internet is run on paragraphs and links. Let people see them please.
+
 p {
-  font-size:20px!important;
+  font-size:$type-4;
   line-height:$copy-line-height;
 }
 
+// I mean it's not that big.
 h1 {
   font-size:128px!important;
+}
+
+// Uh you don't need to read this stuff.  
+.meta {
+  font-size:$type-5; 
 }

@@ -1,65 +1,55 @@
 /*
-$primary-color:;
-$secondary-color:;
-$tertiary-color:;
+Syntax error: File to import not found or unreadable: spacings.
+              Load paths:
+                /Users/mrmrs/Sites/jkl
+                /Users/mrmrs/Sites/jkl/sass
+        on line 6 of sass/i.scss
 
-$padding:;
-$margin:;
+1: // Include all the partials you want compiled into i.css
+2: 
+3: @import "vars";
+4: @import "colors";
+5: @import "type";
+6: @import "spacings";
+7: 
+8: @import "reset";
 
+Backtrace:
+sass/i.scss:6
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/import_node.rb:45:in `import'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:215:in `visit_import'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:299:in `block in watch'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/Users/mrmrs/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
 */
-p {
-  font-size: 20px!important;
-  line-height: 1.5; }
-
-h1 {
-  font-size: 128px!important; }
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, address, cite, code,
-del, dfn, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-u, b, i, em
-dl, dt, dd, ol, ul, li,
-fieldset, input, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none; }
-
-i, em {
-  font-style: italic; }
-
-strong, b {
-  font-weight: bold; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: spacings.\A               Load paths:\A                 /Users/mrmrs/Sites/jkl\A                 /Users/mrmrs/Sites/jkl/sass\A         on line 6 of sass/i.scss\A \A 1: // Include all the partials you want compiled into i.css\A 2: \A 3: @import \"vars\";\A 4: @import \"colors\";\A 5: @import \"type\";\A 6: @import \"spacings\";\A 7: \A 8: @import \"reset\";"; }
