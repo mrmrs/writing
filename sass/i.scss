@@ -1,9 +1,12 @@
 // Include all the partials you want compiled into i.css
 
+@import "reset";
+
 @import "vars";
 @import "colors";
+@import "grid";
 @import "type";
 @import "spacing";
+@import "images";
 
-@import "reset";
 

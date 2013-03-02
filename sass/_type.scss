@@ -3,14 +3,33 @@
 p {
   font-size:$type-4;
   line-height:$copy-line-height;
+  + p { 
+    //text-indent:1em; 
+    margin-top:1em;
+  }
 }
 
 // I mean it's not that big.
 h1 {
-  font-size:128px!important;
+  font-size:$type-1;
+  font-weight:100!important;
+  font-family:georgia;
+  margin-bottom:.25em;
+}
+
+h2 {
+  font-size:$type-2;
+  text-align:center;
 }
 
 // Uh you don't need to read this stuff.  
 .meta {
   font-size:$type-5; 
+}
+
+.ct {
+  text-align:center;
+  @include breakpoint(one-hand) {
+    text-align:left;
+  }
 }
