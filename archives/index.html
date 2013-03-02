@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section class="single-column">
+  <article>
+    <h2 class="ct">Archives</h2>
+    <ul class="large-list ct">
+      {% for post in site.posts limit: 25 %}
+        <li><a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>

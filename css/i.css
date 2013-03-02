@@ -87,6 +87,14 @@ h2 {
     .ct {
       text-align: left; } }
 
+.large-list {
+  font-size: 20px; }
+  .large-list li {
+    border-top: 1px solid #dddddd; }
+  .large-list a {
+    text-decoration: none;
+    line-height: 3; }
+
 .row {
   padding: 2em 0; }
 

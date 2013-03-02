@@ -1,0 +1,10 @@
+.large-list {
+  font-size:$type-4;  
+  li {
+    border-top:1px solid #ddd;
+  }
+  a {
+    text-decoration:none;
+    line-height:3;
+  }
+}
