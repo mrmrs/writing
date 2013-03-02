@@ -19,12 +19,17 @@ layout: default
     </p>
     <img src="img/photo.jpg">
   </article>
-  <article>
-    <h2 class="ct">Archives</h2>
-    <ul class="large-list ct">
-      {% for post in site.posts limit: 5 %}
-        <li><a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </article>
+  <section class="mt-2">
+<article>
+  <h2 class="ct">Archives</h2>
+  <ul class="large-list ct mt-1">
+    {% for post in paginator.posts %}
+      <li><a href="{{ post.url }}" title="{{post.title}}">
+        <span class="meta">{{ post.date | date_to_long_string }}</span>
+        {{ post.title }}
+      </a></li>
+    {% endfor %}
+  </ul>
+</article>
+  </section>
 </section>
