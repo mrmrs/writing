@@ -8,6 +8,7 @@ TODO:
 Social Navigation designed -> configurable
 Extend footer
 Syntax Highlighting
+Navigation in general
 
 
 For deployment:
