@@ -18,5 +18,10 @@ layout: default
       Works on big desktops and small mobile phones.
     </p>
     <img src="img/photo.jpg">
+    <ul>
+      {% for post in site.posts limit: 5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
   </article>
 </section>
