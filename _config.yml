@@ -1,0 +1,12 @@
+name: ""
+descripiton: ""
+
+#url: "[http:// ]"
+url: "[http://localhost:4000]"
+
+paginate: 2
+
+permalink: pretty
+
+# Uncomment if you have pygments installed and want to use it for syntax highlighting
+#pygments: true
