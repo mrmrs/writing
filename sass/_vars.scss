@@ -1,3 +1,4 @@
+/*
 $primary-color:;
 $secondary-color:;
 $tertiary-color:;
@@ -5,8 +6,14 @@ $tertiary-color:;
 $padding:;
 $margin:;
 
-$type-1:;
-$type-2:;
-$type-3:;
-$type-4:;
-$type-5:;
+*/
+
+$type-1:128px;
+$type-2:64px;
+$type-3:32px;
+$type-4:20px;
+$type-5:12px;
+
+$copy:$type-4;
+
+$copy-line-height:1.5;
