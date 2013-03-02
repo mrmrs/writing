@@ -1,0 +1,11 @@
+<article>
+  <h2 class="ct">Archives</h2>
+  <ul class="large-list ct mt-1">
+    {% for post in site.posts limit: 25 %}
+      <li><a href="{{ post.url }}" title="{{post.title}}">
+        <span class="meta">{{ post.date | date_to_long_string }}</span>
+        {{ post.title }}
+      </a></li>
+    {% endfor %}
+  </ul>
+</article>
