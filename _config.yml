@@ -8,5 +8,12 @@ paginate: 2
 
 permalink: pretty
 
+twitter: "mrmrs_"
+instagram: "mrmrs_"
+dribbble: "mrmrs"
+soundcloud: "mrmrs"
+github: "mrmrs"
+flickr: "heyitsadam"
+
 # Uncomment if you have pygments installed and want to use it for syntax highlighting
 #pygments: true
