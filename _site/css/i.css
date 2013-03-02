@@ -87,16 +87,42 @@ h2 {
     .ct {
       text-align: left; } }
 
+blockquote {
+  padding: 1em 0 1.75em 0;
+  font-style: italic; }
+  blockquote p {
+    font-size: 32px; }
+  blockquote footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #666; }
+
+em {
+  font-style: italic; }
+
 .large-list {
   font-size: 20px; }
   .large-list li {
-    border-top: 1px solid #dddddd; }
+    border-top: 1px solid #eeeeee; }
   .large-list a {
-    text-decoration: none;
-    line-height: 3; }
+    display: block;
+    padding: 0.5em 0;
+    color: #444;
+    line-height: 2;
+    text-decoration: none; }
+    .large-list a:hover, .large-list a:active {
+      color: #FF5335; }
+    .large-list a .meta {
+      display: block; }
 
 .row {
   padding: 2em 0; }
+
+.mt-1 {
+  margin-top: 1em; }
+
+.mt-2 {
+  margin-top: 2em; }
 
 img {
   width: 100%;
