@@ -1,6 +1,7 @@
 // The internet is run on paragraphs and links. Let people see them please.
 
 p {
+  // Because 20px body copy is the new Black
   font-size:$type-4;
   line-height:$copy-line-height;
   + p { 
