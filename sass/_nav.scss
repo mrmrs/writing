@@ -23,3 +23,16 @@ ul.social li {
     }
   }
 }
+
+.horizontal {
+
+  li {display:inline-block;}
+  li a {
+    padding:.5em 1em;
+    border-radius:4px;
+    background:#eee;
+    outline:1px solid #e3e3e3;
+    text-decoration:none;
+  }
+}
+

@@ -78,14 +78,24 @@ h1 {
   font-weight: 100!important;
   margin-bottom: .25em; }
 
+.h3 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 100!important;
+  margin-bottom: .25em; }
+
+.post h1 {
+  font-size: 64px; }
+  @media screen and (min-width: 100px) and (max-width: 479px) {
+    .post h1 {
+      font-size: 32px; } }
+
 @media screen and (min-width: 100px) and (max-width: 479px) {
-  .h1-r,
-  .post h1 {
+  .h1-r {
     font-size: 64px; } }
 
 h2 {
-  font-size: 64px;
-  text-align: center; }
+  font-size: 64px; }
 
 .meta {
   font-size: 12px; }
@@ -108,6 +118,10 @@ blockquote {
 
 em {
   font-style: italic; }
+
+p.bump-it {
+  font-size: 32px;
+  margin-bottom: 1em; }
 
 .large-list {
   font-size: 20px; }
@@ -146,6 +160,15 @@ ul.social li {
     ul.social li a:active {
       color: #666; }
 
+.horizontal li {
+  display: inline-block; }
+.horizontal li a {
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  background: #eee;
+  outline: 1px solid #e3e3e3;
+  text-decoration: none; }
+
 .row {
   padding: 2em 0; }
 
@@ -154,6 +177,9 @@ ul.social li {
 
 .mt-2 {
   margin-top: 2em; }
+
+.mt-4 {
+  margin-top: 8em; }
 
 img {
   width: 100%;
