@@ -1,37 +1,34 @@
 ---
-title: Post Future After Party
+title: A Post About Coding Things with Examples
 layout: posts
 ---
 
-<article class="single-column post">
-  <p>{{site.date}}</p>
-  <h1>
-    Post-FUTURE
-  </h1>
-  <p>
-    We call it the after after after party. 
-  </p>
-  <h2 class="h3 mt-1">CSS Code</h2>
-  {% highlight css %}
-    .ct-r {
-      text-align:center; 
-      @include breakpoint(one-hand) {
-        text-align:left; 
-      }
-    }
-  {% endhighlight %}
-  <h2 class="h3 mt-1">Ruby Code</h2>
-  {% highlight ruby %}
-    class KeychainPromotion
-      def initialize(purchase_process)
-        @purchase_process = purchase_process
-      end
+<p>
+  We call it the after after after party. 
+</p>
 
-      def sign_up_for_mailing_list(customer)
-        MailingList.add(customer)
-        keychain = Product.find("promo-keychain")
-        @purchase_process.purchase_product(customer,keychain)
-      end
-    end    
-  {% endhighlight %}
-</article>
+<h2 class="h3 mt-1">CSS Code</h2>
+{% highlight css %}
+  .ct-r {
+    text-align:center; 
+    @include breakpoint(one-hand) {
+      text-align:left; 
+    }
+  }
+{% endhighlight %}
+
+<h2 class="h3 mt-1">Ruby Code</h2>
+{% highlight ruby %}
+  class KeychainPromotion
+    def initialize(purchase_process)
+      @purchase_process = purchase_process
+    end
+
+    def sign_up_for_mailing_list(customer)
+      MailingList.add(customer)
+      keychain = Product.find("promo-keychain")
+      @purchase_process.purchase_product(customer,keychain)
+    end
+  end    
+{% endhighlight %}
+

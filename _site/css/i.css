@@ -90,6 +90,9 @@ h1 {
     .post h1 {
       font-size: 32px; } }
 
+.post footer {
+  color: #999; }
+
 @media screen and (min-width: 100px) and (max-width: 479px) {
   .h1-r {
     font-size: 64px; } }
@@ -111,17 +114,24 @@ blockquote {
   font-style: italic; }
   blockquote p {
     font-size: 32px; }
-  blockquote footer a {
-    font-size: 12px;
+  blockquote footer, blockquote footer a {
+    font-size: 20px;
+    line-height: 2;
     text-decoration: none;
-    color: #666; }
+    color: #999; }
 
 em {
   font-style: italic; }
 
-p.bump-it {
+.bump-it {
   font-size: 32px;
   margin-bottom: 1em; }
+
+.author {
+  text-transform: uppercase; }
+
+.bb {
+  border-bottom: 1px dotted #eeeeee; }
 
 .large-list {
   font-size: 20px; }
