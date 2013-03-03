@@ -5,10 +5,9 @@ More info to come.
 
 TODO:
 
-Social Navigation designed -> configurable
 Extend footer
 Syntax Highlighting
-Navigation in general
+Responsive type
 
 
 For deployment:
