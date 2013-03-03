@@ -13,8 +13,20 @@ p {
 h1 {
   font-size:$type-1;
   font-weight:100!important;
-  font-family:georgia;
   margin-bottom:.25em;
+}
+
+.h2 {
+  font-size:$type-2;
+  font-weight:100!important;
+  margin-bottom:.25em;
+}
+
+.h1-r,
+.post h1 {
+  @include breakpoint(one-hand) {
+    font-size:$type-2; 
+  }
 }
 
 h2 {

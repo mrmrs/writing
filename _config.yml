@@ -16,4 +16,4 @@ soundcloud: "mrmrs"
 flickr: "heyitsadam"
 
 # Uncomment if you have pygments installed and want to use it for syntax highlighting
-#pygments: true
+pygments: true
