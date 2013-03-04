@@ -1,5 +1,43 @@
 // The internet is run on paragraphs and links. Let people see them please.
 
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:100;
+}
+
+// I mean it's not that big.
+
+h1,.h2,.h3,.h4,.h5,.h6 {
+  margin-bottom:.25em;
+  letter-spacing:-1px;
+}
+
+h1,.h1 {
+  font-size:$type-1;
+}
+
+h2,.h2 {
+  font-size:$type-2;
+}
+
+h3,.h3 {
+  font-size:$type-3;
+}
+
+h4,.h4 {
+  font-size:$type-4;
+  font-weight:900;
+}
+
+h5,.h5 {
+  font-size:$type-4;
+  font-style:italic;
+}
+
+h6,.h6 {
+  font-size:$type-5;
+}
+
 p {
   // Because 20px body copy is the new Black
   font-size:$type-4;
@@ -10,36 +48,15 @@ p {
   }
 }
 
-// I mean it's not that big.
-h1 {
-  font-size:$type-1;
-  font-weight:100!important;
-  margin-bottom:.25em;
-}
-
-.h2 {
-  font-size:$type-2;
-  font-weight:100!important;
-  margin-bottom:.25em;
-}
-
-.h3 {
-  font-size:$type-3;
-  letter-spacing:-1px;
-  font-weight:100!important;
-  margin-bottom:.25em;
-}
-
-.post h1 {
-  font-size:$type-2;
-  @include breakpoint(one-hand) {
-      font-size:$type-3;
-  }
-}
-
 .post {
+   h1 {
+    font-size:$type-2;
+    @include breakpoint(one-hand) {
+        font-size:$type-3;
+    }
+  }
   footer {
-    color:#999;
+    color:$grey-light;
   }
 }
 
@@ -49,11 +66,7 @@ h1 {
   }
 }
 
-h2 {
-  font-size:$type-2;
-}
-
-// Uh you don't need to read this stuff.  
+// Uh you don't need to read this stuff. Let's make it small.
 .meta {
   font-size:$type-5; 
 }
@@ -84,8 +97,8 @@ em {
 }
 
 .bump-it {
- font-size:$type-3; 
- margin-bottom:1em;
+  font-size:$type-3; 
+  margin-bottom:1em;
 }
 
 .author {
