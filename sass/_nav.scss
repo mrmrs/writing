@@ -7,7 +7,6 @@ ul.social li {
   &:last-child {
     border-right: none;
   }
-
   a {
     font-weight:100;
     color:$grey-medium;
@@ -25,7 +24,6 @@ ul.social li {
 }
 
 .horizontal {
-
   li {display:inline-block;}
   li a {
     padding:.5em 1em;
@@ -35,4 +33,3 @@ ul.social li {
     text-decoration:none;
   }
 }
-

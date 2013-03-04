@@ -1,5 +1,7 @@
 code {
   background:$grey-dark;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
   border-radius:3px;
   display:block;
   font-family: 
@@ -24,6 +26,5 @@ code {
   padding:1em;
   @include breakpoint(one-hand) {
     padding:1em 0.2em;
-    font-size:14px;
   }
 }

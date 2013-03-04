@@ -58,9 +58,36 @@ $margin:;
 
 */
 .single-column {
-  max-width: 768px!important;
   margin: 0 auto;
-  padding: 1em; }
+  padding: 1em;
+  width: 100%;
+  max-width: 768px!important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: .25em; }
+
+h1, .h1 {
+  font-size: 128px; }
+
+h2, .h2 {
+  font-size: 64px; }
+
+h3, .h3 {
+  font-size: 32px; }
+
+h4, .h4 {
+  font-size: 20px;
+  font-weight: 900; }
+
+h5, .h5 {
+  font-size: 20px;
+  font-style: italic; }
+
+h6, .h6 {
+  font-size: 12px; }
 
 p {
   font-size: 20px;
@@ -68,37 +95,17 @@ p {
   p + p {
     margin-top: 1em; }
 
-h1 {
-  font-size: 128px;
-  font-weight: 100!important;
-  margin-bottom: .25em; }
-
-.h2 {
-  font-size: 64px;
-  font-weight: 100!important;
-  margin-bottom: .25em; }
-
-.h3 {
-  font-size: 32px;
-  letter-spacing: -1px;
-  font-weight: 100!important;
-  margin-bottom: .25em; }
-
 .post h1 {
   font-size: 64px; }
   @media screen and (min-width: 100px) and (max-width: 479px) {
     .post h1 {
       font-size: 32px; } }
-
 .post footer {
-  color: #999; }
+  color: #eeeeee; }
 
 @media screen and (min-width: 100px) and (max-width: 479px) {
   .h1-r {
     font-size: 64px; } }
-
-h2 {
-  font-size: 64px; }
 
 .meta {
   font-size: 12px; }
@@ -501,6 +508,8 @@ img {
 /* Literal.Number.Integer.Long */
 code {
   background: #222222;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   display: block;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -512,5 +521,4 @@ code {
   padding: 1em; }
   @media screen and (min-width: 100px) and (max-width: 479px) {
     code {
-      padding: 1em 0.2em;
-      font-size: 14px; } }
+      padding: 1em 0.2em; } }

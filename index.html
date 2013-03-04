@@ -3,20 +3,11 @@ layout: default
 ---
 
 <section class="single-column">
-  <article>
-    <h1 class="ct">JKL</h1>
-    <p>
-      Introducing JKL - a lightweight boilerplate for creating a responsive Jekyll blog. Minimal styles focused on readability.
-      You shouldn't have to do busy work to get going. 
-    </p>
-    <p>
-      Typography is ace.
-      <!--http://en.wikipedia.org/wiki/Robert_Bringhurst-->
-      Default body copy is set to 20px.
-      <!--http://jxnblk.tumblr.com/post/41796724549/im-sick-of-your-tiny-tiny-type-->
-      <!--https://twitter.com/jxnblk/status/281087996663582720-->
-      Works on big desktops and small mobile phones.
-    </p>
+  <article class="post">
+    {% for post in site.posts limit: 1 %}
+       <h1 class="ct h1">{{ post.title }}</h1>
+      {{ post.content }}
+    {% endfor %}
   </article>
   <section class="mt-4">
     <article>
@@ -29,6 +20,7 @@ layout: default
           </a></li>
         {% endfor %}
       </ul>
+      <p class="ct"><a href="/archives/" class="ct" title="Archives">More posts...</a></p>
     </article>
   </section>
 </section>
