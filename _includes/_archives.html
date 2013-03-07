@@ -3,7 +3,7 @@
   <ul class="large-list ct mt-1">
     {% for post in site.posts limit: 25 %}
       <li><a href="{{ post.url }}" title="{{post.title}}">
-        <span class="meta">{{ post.date | date_to_long_string }}</span>
+        <date datetime="{{post.date}}" class="meta">{{ post.date | date_to_long_string }}</date>
         {{ post.title }}
       </a></li>
     {% endfor %}

@@ -1,17 +1,5 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head>
-	<meta charset="utf-8">
-  <title>
-    {{ site.name }} . {{ page.title }}
-  </title>
-  <meta name="author" content="{{site.author}}">
-  <meta name="description" content="{{site.description}}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/css/i.css">
-</head>
+{% include _head.html %}
 <body>
-  {% include _navigation.html %}
   <article class="mt-2 post single-column">
     <h1>
       {{page.title}}
@@ -30,6 +18,7 @@
     </footer>
   </article>
   {% include _related_posts.html %}
+  {% include _navigation.html %}
   {% include _footer.html %}
 </body>
 </html>
