@@ -5,13 +5,14 @@
   }
   a {
     display:block;
-    padding:.5em 0;
+    padding:1em 0;
     color:$grey-dark;
-    line-height:2;
+    line-height:1.5;
     text-decoration:none;
     &:hover,
     &:active {
       color:$orange;
+      .meta {color:$orange;}
     }
     .meta {
       display:block; 

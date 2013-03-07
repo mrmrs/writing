@@ -14,13 +14,17 @@ layout: default
     <!--      <h2 class="ct">Archives</h2>-->
       <ul class="large-list ct mt-1">
         {% for post in paginator.posts %}
-          <li><a href="{{ post.url }}" title="{{post.title}}">
-            <span class="meta">{{ post.date | date_to_long_string }}</span>
-            {{ post.title }}
-          </a></li>
+          <li>
+            <a href="{{ post.url }}" title="{{post.title}}">
+              <date datetime="{{post.date}}" class="meta">
+                {{ post.date | date_to_long_string }}
+              </date>
+              {{ post.title }}
+            </a>
+          </li>
         {% endfor %}
       </ul>
-      <p class="ct"><a href="/archives/" class="ct" title="Archives">More posts...</a></p>
+      <p class="ct"><a href="{{site.url}}/archives/" class="ct" title="Archives">More posts...</a></p>
     </article>
   </section>
 </section>

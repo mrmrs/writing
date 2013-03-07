@@ -137,6 +137,9 @@ em {
 .author {
   text-transform: uppercase; }
 
+date {
+  color: #999999; }
+
 .bb {
   border-bottom: 1px dotted #eeeeee; }
 
@@ -146,12 +149,14 @@ em {
     border-top: 1px solid #eeeeee; }
   .large-list a {
     display: block;
-    padding: 0.5em 0;
+    padding: 1em 0;
     color: #222222;
-    line-height: 2;
+    line-height: 1.5;
     text-decoration: none; }
     .large-list a:hover, .large-list a:active {
       color: #ff5335; }
+      .large-list a:hover .meta, .large-list a:active .meta {
+        color: #ff5335; }
     .large-list a .meta {
       display: block; }
 
