@@ -1,13 +1,13 @@
 # This will be the first part of the title tag for your site <title> site.name + page.title </title>
 name: "JKL"
 # Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
-descripiton: ""
+descripiton: "Light-weight scaffolding for a Jekyll project"
 
 # Owner (organization or individual) of site content
-author: ""
+author: "mrmrs"
 
 #url: "[http:// ]"
-url: "[http://localhost:4000]"
+url: "http://localhost:4000"
 
 # Pagination variable for how many posts to show in a list
 paginate: 5
