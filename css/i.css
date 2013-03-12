@@ -391,6 +391,9 @@ p {
   p + p {
     margin-top: 1em; }
 
+.intro {
+  font-size: 32px; }
+
 .post h1 {
   font-size: 64px; }
   @media screen and (min-width: 100px) and (max-width: 479px) {
@@ -434,7 +437,7 @@ em {
   text-transform: uppercase; }
 
 date {
-  color: #999999; }
+  color: #777777; }
 
 .bb {
   border-bottom: 1px dotted #eeeeee; }
@@ -456,6 +459,19 @@ date {
     .large-list a .meta {
       display: block; }
 
+.post ul, .post dl {
+  line-height: 1.618;
+  font-size: 20px;
+  margin-bottom: 1em; }
+.post dt {
+  font-weight: bold; }
+.post dd {
+  margin-bottom: .5em;
+  color: #777777; }
+.post ul {
+  list-style-type: disc;
+  margin-left: 1em; }
+
 nav[role="navigation"] li,
 ul.social li {
   display: inline-block;
@@ -466,7 +482,7 @@ ul.social li {
   nav[role="navigation"] li a,
   ul.social li a {
     font-weight: 100;
-    color: #999999;
+    color: #777777;
     display: block;
     padding-right: 1em;
     text-decoration: none; }
