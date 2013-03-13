@@ -472,6 +472,9 @@ date {
   list-style-type: disc;
   margin-left: 1em; }
 
+a {
+  text-decoration: none; }
+
 nav[role="navigation"] li,
 ul.social li {
   display: inline-block;
