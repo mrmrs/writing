@@ -18,15 +18,17 @@ permalink: pretty
 # Variable format options for URL styles below
 # pretty                                          => /2009/04/29/slap-chop/index.html
 # /:month-month:day-:year/:title.html/            => 04-29-2009/slap-chop.html
-#permalink: /blog/:yearr/:month/:day/:title       => /blog/2009/04/29/slap-chop/index.html
+# /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
 
 # If you want to display social nav - fill out the appropriate handles. Delete or comment out unneeded networks. 
-github: "mrmrs"
-twitter: "mrmrs_"
-instagram: "mrmrs_"
-dribbble: "mrmrs"
-soundcloud: "mrmrs"
-flickr: "heyitsadam"
+github: ""
+twitter: ""
+instagram: ""
+dribbble: ""
+soundcloud: ""
+flickr: ""
 
 # UnComment once you have pygments installed. Used for code syntax highlighting.
-pygments: true
+#pygments: true
+
+exclude: Rakefile
