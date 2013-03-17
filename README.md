@@ -10,8 +10,10 @@ A light-weight JKL scaffolding that's ready to deploy after setting up one confi
 #### rake dev
      jekyll --server --auto
 
-Sets up jekyll server for dev on port 4000. Site is regenerated everytime you save a file. NOTE: Changing _config.yml will require a restart of the jekyll server to
-see changes.
+Sets up jekyll server for dev on port 4000. Site is regenerated everytime you save a file. 
+NOTE: Changing _config.yml will require a restart of the jekyll server to see changes.
+To restart server, go to terminal tab that server is running in then press
+    ctrl+C ⇧  enter
 
 #### rake sass
      sass --watch _sass:css 
