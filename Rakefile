@@ -15,3 +15,4 @@ desc "Remove _site from directory before committing"
 task :clean do
   system "rm -rf _site"
 end # task :clean
+
