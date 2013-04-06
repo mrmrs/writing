@@ -1,6 +1,6 @@
 # JKL
 ===================
-A light-weight JKL scaffolding that's ready to deploy after setting up one config.
+A light-weight JKL scaffolding that's ready to deploy after setting up one config. Still being developed.
 
 # Get Started
 ===================
@@ -25,7 +25,3 @@ Example posts are in jkl/_posts/
 There are two layouts, one for posts, one for other pages. Layouts are stored, creatively, in jkl/_layouts/
 Folders with an underscore are not copied over to _site
 
-## TODO
-* Rake tasks for deployment via github or server
-* More styling
-* Style Guide
