@@ -1,13 +1,14 @@
 # This will be the first part of the title tag for your site <title> site.name + page.title </title>
-name: "JKL"
+name: "x--x"
 # Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
-descripiton: "Light-weight scaffolding for a Jekyll project"
+descripiton: "Writing about writing code and making music"
 
 # Owner (organization or individual) of site content
 author: "mrmrs"
 
 #url: "[http:// ]"
-url: "http://localhost:4000"
+#url: "/"
+url: "☠☣.ws"
 
 # Your UA tracking number (i.e 35858753-1) for Google Analytics. 
 # If you comment this out, or don't fill out this parameter - Google analytics won't be included. 
