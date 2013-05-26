@@ -57,3 +57,9 @@ vi *.html css/*
 :bufdo %s/\ id=".*"//ge | update
 </code>
 
+10. Swapping two letters to correct a typo
+<small class="db">For example if you type http:s//someurl.com/login</small>
+<code>
+With your cursor on : type xp
+</code>
+
