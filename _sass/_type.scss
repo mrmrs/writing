@@ -1,7 +1,23 @@
-// The internet is run on paragraphs and links. Let people see them please.
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
+
+body {
+  font-family:baskerville;
+  border-top:4px solid #111;
+  position:relative;
+  background:$primary-color;
+}
+
+.content-wrapper {
+  min-height:600px;
+  background:#fff;
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-weight:100;
+  font-family:baskerville;
+  text-transform:uppercase;
 }
 
 // I mean it's not that big.
@@ -11,7 +27,7 @@ h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 h1,.h1 {
-  font-size:$type-1;
+  font-size:$type-4;
 }
 
 h2,.h2 {
@@ -37,8 +53,7 @@ h6,.h6 {
 }
 
 p {
-  // Because 20px body copy is the new Black
-  font-size:$type-4;
+  font-size:$copy;
   line-height:$copy-line-height;
   + p { 
     margin-top:1em;
@@ -49,12 +64,22 @@ p {
   font-size:$type-3;
 }
 
+.article-header {
+  border-bottom:1px solid #ccc;
+  padding-bottom:2em;
+  padding-top:1em;
+}
+
 .post {
    h1 {
-    font-size:$type-2;
+    letter-spacing:.1em;
+    padding:0;
+    margin:0;
+    line-height:1.5;
     @include breakpoint(one-hand) {
         font-size:$type-3;
     }
+    h2 {margin:0;}
   }
   footer {
     color:$grey-light;
@@ -80,10 +105,17 @@ p {
 }
 
 blockquote {
-  padding:1em 0 1.75em 0;
+  margin:0;
+  padding:0 0 1em 0;
   font-style:italic;
+    @include breakpoint(one-hand) {
+        padding:0;
+    }
   p {
-    font-size:$type-3;
+    font-size:$type-2;
+    @include breakpoint(one-hand) {
+        font-size:$type-3;
+    }
   }
   footer,footer a {
     font-size:$type-4;
@@ -109,3 +141,20 @@ em {
 date {
   color:$grey-medium;
 }
+
+ol {
+  font-size:$copy;
+}
+
+strong {
+  font-weight:600;
+}
+
+.title-spacing {
+  letter-spacing:.1em;
+}
+
+.db {display:block;}
+.dbf {width:100%;display:block;}
+.page-time {display:block;vertical-align:bottom;float:right;margin-right:20px;height:48px;margin-top:24px;}
+.center {text-align:center;}

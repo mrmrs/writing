@@ -38,3 +38,11 @@
       margin-left:1em;
     }
 }
+
+.post ol {
+  margin-left:-1.75em;
+  li {
+    margin-bottom: .5em; 
+    line-height:$copy-line-height;
+  } 
+}

@@ -5,7 +5,9 @@ layout: default
 <section class="single-column">
   <article class="post">
     {% for post in site.posts limit: 1 %}
-       <h1 class="ct h1">{{ post.title }}</h1>
+      <header class="article-header">
+        <h1 class="h2">{{ post.title }}</h1>
+      </header>
       {{ post.content }}
     {% endfor %}
   </article>
@@ -18,7 +20,7 @@ layout: default
               <date datetime="{{post.date}}" class="meta">
                 {{ post.date | date_to_long_string }}
               </date>
-              {{ post.title }}
+                {{ post.title }}
             </a>
           </li>
         {% endfor %}

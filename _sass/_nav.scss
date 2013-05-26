@@ -33,3 +33,38 @@ ul.social li {
     text-decoration:none;
   }
 }
+
+.site-footer {
+  border-top:1px solid darken($primary-color, 30%);
+  margin:0;
+  bottom:0;
+  font-size:$type-5;
+
+  li {
+      display:inline-block;
+      line-height:3;
+      margin-right:20px;
+  }
+
+  a {
+    padding:16px;
+    border-radius:3px;
+    color:darken($primary-color, 90%);
+    letter-spacing:.2em;
+    font-weight:100;
+    -webkit-transition:border ease-out .6s, background ease-out .6s;
+    border:1px solid transparent;
+    &:hover {
+      /*
+      background-color:rgba(255,255,255,0.7);
+      -webkit-transition:background-color, .6s;
+      transition:background-color, .6s;
+      */
+      cursor: pointer;
+      border:1px solid darken($primary-color, 10%);
+      background: rgba(255,255,255,0.7);
+      -webkit-transition: border ease-out .6s,
+                          background ease-out .6s;
+    }
+  }
+}

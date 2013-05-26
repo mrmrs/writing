@@ -1,5 +1,6 @@
 code {
-  background:$grey-dark;
+  background:#eee;
+  color:#222;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
@@ -25,6 +26,6 @@ code {
   overflow:scroll;
   padding:1em;
   @include breakpoint(one-hand) {
-    padding:1em 0.2em;
+    padding:1em 1em;
   }
 }
