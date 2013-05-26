@@ -46,3 +46,28 @@
     line-height:$copy-line-height;
   } 
 }
+
+.list-full {
+  width: 100%;
+  margin:0;
+}
+
+.list-full--item-link {
+  display:block;
+  padding:40px 20px;
+  border-bottom:1px solid #fff;
+  font-size:$type-3;
+  @include breakpoint(one-hand) {
+    font-size:$type-4; 
+    line-height:1.5;
+  }
+  color:#222;
+  &:hover {
+    background:#ffcc33;
+    color:#fff;
+    .meta {color:#fff;}
+  }
+}
+
+
+.flush-right {position:absolute;right:20px;}

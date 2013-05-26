@@ -35,7 +35,7 @@ ul.social li {
 }
 
 .site-footer {
-  border-top:1px solid darken($primary-color, 30%);
+  border-top:1px solid #ccc;
   margin:0;
   bottom:0;
   font-size:$type-5;
@@ -44,12 +44,13 @@ ul.social li {
       display:inline-block;
       line-height:3;
       margin-right:20px;
+      margin-bottom:10px;
   }
 
-  a {
+  li a {
     padding:16px;
     border-radius:3px;
-    color:darken($primary-color, 90%);
+    color:#ababab;
     letter-spacing:.2em;
     font-weight:100;
     -webkit-transition:border ease-out .6s, background ease-out .6s;
@@ -66,5 +67,16 @@ ul.social li {
       -webkit-transition: border ease-out .6s,
                           background ease-out .6s;
     }
+  }
+  .footer-link {
+    letter-spacing:.2em;
+    margin-top:20px;
+    border-top:1px solid #fff;
+    text-align:center;
+    display:block;
+    width:100%;
+    color:#999;
+    padding-top:20px;
+    padding-bottom:20px;
   }
 }

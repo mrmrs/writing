@@ -1,5 +1,5 @@
 ---
-title: "Vim commands for HTML and CSS VOL.1"
+title: "Vim commands for HTML and CSS vol.1"
 layout: post
 ---
 

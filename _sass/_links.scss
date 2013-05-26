@@ -4,16 +4,18 @@ a {
 }
 
 .site-logo {
-  display:none;
-  margin:20px 0 0 20px;
+  position:relative;
+  top:20px;
   text-align:center;
-  vertical-align:center;
-  line-height:48px;
+  margin:0 auto;
+  display:block;
+  vertical-align:text-top;
   border-radius:9999px;
+  height:48px;
   width:48px;
-  float:left;
   background:#eee;
   color:#ccc;
+  line-height:64px;
   font-size:100px;
   overflow:hidden;
   @include breakpoint(one-hand) {display:none;}
