@@ -10,6 +10,7 @@ layout: default
 
 <section>
     <article>
+      <h1 class="h1 padding-20 sans-serif title-spacing">Articles</h1>
       <ul class="list-full">
         {% for post in paginator.posts %}
           <li class="list-full--item">
@@ -19,7 +20,7 @@ layout: default
                 {{ post.date | date_to_long_string }}
               </date>
               -->
-              {{ post.title }} <span class="flush-right">›</span>
+              {{ post.title }} <span class="flush-right mobile-hide">›</span>
             </a>
           </li>
         {% endfor %}

@@ -20,3 +20,14 @@ a {
   overflow:hidden;
   @include breakpoint(one-hand) {display:none;}
 }
+
+.site-home-link {
+ display:block;
+  height:48px;
+  line-height:48px;
+  text-align:center;
+  width:100%;
+  transition:color .5s;-webkit-transition:color .5s; 
+  &:hover {transition:color .5s;-webkit-transition:color .5s; color:$orange;}
+
+}

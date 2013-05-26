@@ -12,10 +12,14 @@ body {
 
 .content-wrapper {
   top:0;
+  padding-top:20px;
   min-height:680px;
   background:#fff;
   height:100%;
   overflow:hidden;
+  @include breakpoint(one-hand) {
+    min-height:200px; 
+  }
 }
 
 h1,h2,h3,h4,h5,h6 {

@@ -1,0 +1,6 @@
+@include breakpoint(one-hand) {
+  .mobile-hide {
+    display:none!important;   
+    color:red;
+  }
+}

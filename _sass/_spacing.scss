@@ -13,3 +13,8 @@
 .mt-4 {
   margin-top:8em;
 }
+
+.padding-20 {
+  padding:20px;
+  @include breakpoint(one-hand) {padding:10px;}
+}

@@ -372,10 +372,14 @@ body {
 
 .content-wrapper {
   top: 0;
+  padding-top: 20px;
   min-height: 680px;
   background: #fff;
   height: 100%;
   overflow: hidden; }
+  @media screen and (max-width: 479px) {
+    .content-wrapper {
+      min-height: 200px; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
@@ -424,7 +428,7 @@ p {
   padding: 0;
   margin: 0;
   line-height: 1.5; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     .post h1 {
       font-size: 32px; } }
   .post h1 h2 {
@@ -432,7 +436,7 @@ p {
 .post footer {
   color: #eeeeee; }
 
-@media screen and (min-width: 100px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .h1-r {
     font-size: 42px; } }
 
@@ -441,7 +445,7 @@ p {
 
 .ct {
   text-align: center; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     .ct {
       text-align: left; } }
 
@@ -449,12 +453,12 @@ blockquote {
   margin: 0;
   padding: 0 0 1em 0;
   font-style: italic; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     blockquote {
       padding: 0; } }
   blockquote p {
     font-size: 42px; }
-    @media screen and (min-width: 100px) and (max-width: 479px) {
+    @media screen and (max-width: 479px) {
       blockquote p {
         font-size: 32px; } }
   blockquote footer, blockquote footer a {
@@ -524,6 +528,10 @@ strong {
 .bg-dark {
   color: #222; }
 
+.logo {
+  background: #222;
+  color: #fff; }
+
 .large-list {
   font-size: 24px; }
   .large-list li {
@@ -567,18 +575,25 @@ strong {
 .list-full--item-link {
   display: block;
   padding: 40px 20px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #e3e3e3;
   font-size: 32px;
   color: #222; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     .list-full--item-link {
       font-size: 24px;
-      line-height: 1.5; } }
+      line-height: 1.5;
+      padding: 10px;
+      border-bottom: 1px solid #e3e3e3; } }
   .list-full--item-link:hover {
     background: #ffcc33;
+    border-bottom: 1px solid #cc9900;
     color: #fff; }
     .list-full--item-link:hover .meta {
       color: #fff; }
+  .list-full--item-link:active {
+    -webkit-transition: background .3s;
+    background: #ffd966;
+    border-bottom: 1px solid #cc9900; }
 
 .flush-right {
   position: absolute;
@@ -604,9 +619,22 @@ a {
   line-height: 64px;
   font-size: 100px;
   overflow: hidden; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     .site-logo {
       display: none; } }
+
+.site-home-link {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  transition: color .5s;
+  -webkit-transition: color .5s; }
+  .site-home-link:hover {
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    color: #ff5335; }
 
 nav[role="navigation"] li,
 ul.social li {
@@ -640,7 +668,6 @@ ul.social li {
   text-decoration: none; }
 
 .site-footer {
-  border-top: 1px solid #ccc;
   margin: 0;
   bottom: 0;
   font-size: 16px; }
@@ -689,6 +716,12 @@ ul.social li {
 
 .mt-4 {
   margin-top: 8em; }
+
+.padding-20 {
+  padding: 20px; }
+  @media screen and (max-width: 479px) {
+    .padding-20 {
+      padding: 10px; } }
 
 img {
   width: 100%;
@@ -1012,6 +1045,11 @@ code {
   margin: 1em 0;
   overflow: scroll;
   padding: 1em; }
-  @media screen and (min-width: 100px) and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     code {
       padding: 1em 1em; } }
+
+@media screen and (max-width: 479px) {
+  .mobile-hide {
+    display: none !important;
+    color: red; } }

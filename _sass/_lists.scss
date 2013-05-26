@@ -55,17 +55,25 @@
 .list-full--item-link {
   display:block;
   padding:40px 20px;
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid #e3e3e3;
   font-size:$type-3;
   @include breakpoint(one-hand) {
     font-size:$type-4; 
     line-height:1.5;
+    padding:10px;
+    border-bottom:1px solid #e3e3e3;
   }
   color:#222;
   &:hover {
     background:#ffcc33;
+    border-bottom:1px solid darken(#ffcc33, 20%);
     color:#fff;
     .meta {color:#fff;}
+  }
+  &:active{
+    -webkit-transition: background .3s;
+    background:lighten(#ffcc33,10%);
+    border-bottom:1px solid darken(#ffcc33, 20%);
   }
 }
 
