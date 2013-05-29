@@ -23,18 +23,21 @@ people who will give you bad vim advice. I'm probably one of those people but I 
 If you want to learn vim your best bet is to ignore the internet and use vim to learn vim. 
 Step one in that process is to start letting :help help you.
 </p>
-
 #### De-mystifying :help
 <p>
+Let's face it, documentation can be scary. It's not an answer engine, it's just a massive blob of technical
+writing, right?
+
+Well, maybe we're wrong.
+
 I <b>used</b> to think that :help was most useful when you had a command you wanted to learn more about. 
 And <b>it is</b> great for that. But :help isn't just a mindless list of commands and their definitions. 
 Vims :help is a treasure trove of well-written articles on how to edit text efficiently. 
 The user manual chapters aren't nearly as dense and dry as you might expect from the help docs 
-for a command based text editor invented on one of <a href="http://en.wikipedia.org/wiki/ADM-3A" title="ADM3A">these.</a>
+of a command based text editor invented on one of <a href="http://en.wikipedia.org/wiki/ADM-3A" title="ADM3A">these.</a>
 </p>
-
 <p>
-There is something that is very important to remember when you are learning Vim.
+There is something important to remember when you are learning Vim.
 Vim isn't just your old IDE but faster. It's a different way of thinking. Learning vim is a constant exercise 
 in how to not get stumped by <a href="http://en.wikipedia.org/wiki/Candle_problem">the candle problem.</a>
 </p>
