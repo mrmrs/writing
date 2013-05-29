@@ -42,7 +42,7 @@ Vim isn't just your old IDE but faster. It's a different way of thinking. Learni
 in how to not get stumped by <a href="http://en.wikipedia.org/wiki/Candle_problem">the candle problem.</a>
 </p>
 <p>
-  Taking the time to passively browse through the :help docs will keep your brain thining creatively about
+  Taking the time to passively browse through the :help docs will keep your brain thinking creatively about
   how each new command/motion can be applied to your current workflow. Most likely, as you're stumbling around,
   you'll discover solutions to problems you didn't even realize you had. 
 </p>
