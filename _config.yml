@@ -10,7 +10,7 @@ author: "mrmrs"
 url: "http://xn--h4hg.ws"
 
 # Pagination variable for how many posts to show in a list
-paginate: 5
+paginate: 10
 
 # Style of permalinks
 permalink: pretty
