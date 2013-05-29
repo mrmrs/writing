@@ -1,5 +1,5 @@
 ---
-title: "On learning vim"
+title: "On learning Vim"
 layout: post
 ---
 <p class="intro">

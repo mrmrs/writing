@@ -53,22 +53,26 @@
 }
 
 .list-full--item-link {
+  -webkit-transition:background ease-in-out .5s, color .5s;
+  transition:background ease-in-out .5s, color .5s;
   display:block;
   padding:40px 20px;
   border-bottom:1px solid #e3e3e3;
   font-size:$type-3;
+  color:#222;
   @include breakpoint(one-hand) {
     font-size:$type-4; 
     line-height:1.5;
     padding:10px;
     border-bottom:1px solid #e3e3e3;
   }
-  color:#222;
   &:hover {
     background:#ffcc33;
-    border-bottom:1px solid darken(#ffcc33, 20%);
     color:#fff;
+    border:1px solid transparent;
     .meta {color:#fff;}
+    -webkit-transition:background ease-in-out .5s, color .5s;
+    transition:background ease-in-out .5s, color .5s;
   }
   &:active{
     -webkit-transition: background .3s;

@@ -12,10 +12,11 @@ reasons for doing this, but it really comes down to two things:
 1. It allows me to more accurately understand the constraints of the platform I am designing for.
 2. I can edit code faster than I can edit visual assets.
 
+
 I do not have a history of getting something I'm designing perfect on the first
 try. If I did, I probably wouldn't care about being able to iterate through
-design ideas quickly. But I do care about it greatly - because I'm never right on the first try. And
-I don't think that will be changing any time soon.
+design ideas quickly. Iterating quickly is of exteme importance to me. 
+Because I'm never right on the first try and I don't think that will be changing any time soon.
 
 There are times in which typing is not the bottle-neck. There are times when it is wise to sit and stare. 
 Digesting what has already been created is an essential part of any design process. 
