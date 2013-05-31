@@ -3,31 +3,13 @@ a {
   &:hover {cursor:pointer;}
 }
 
-.site-logo {
-  position:relative;
-  top:20px;
-  text-align:center;
-  margin:0 auto;
-  display:block;
-  vertical-align:text-top;
-  border-radius:9999px;
-  height:48px;
-  width:48px;
-  background:#eee;
-  color:#ccc;
-  line-height:64px;
-  font-size:100px;
-  overflow:hidden;
-  @include breakpoint(one-hand) {display:none;}
-}
 
 .site-home-link {
- display:block;
-  height:48px;
-  line-height:48px;
+  display:block;
+  font-size:32px;
   text-align:center;
   width:100%;
+  padding:10px 0;
   transition:color .5s;-webkit-transition:color .5s; 
   &:hover {transition:color .5s;-webkit-transition:color .5s; color:$orange;}
-
 }

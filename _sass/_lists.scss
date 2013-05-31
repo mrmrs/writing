@@ -49,7 +49,13 @@
 
 .list-full {
   width: 100%;
-  margin:0;
+  margin-bottom:0;
+}
+
+.list-full--item {
+  border-bottom:1px solid #e3e3e3;
+  &:last-child {border-bottom:1px solid transparent;}
+  &:hover {border-bottom:1px solid transparent;}
 }
 
 .list-full--item-link {
@@ -57,19 +63,16 @@
   transition:background ease-in-out .5s, color .5s;
   display:block;
   padding:40px 20px;
-  border-bottom:1px solid #e3e3e3;
   font-size:$type-3;
   color:#222;
   @include breakpoint(one-hand) {
     font-size:$type-4; 
     line-height:1.5;
-    padding:10px;
-    border-bottom:1px solid #e3e3e3;
+    padding:15px;
   }
   &:hover {
     background:#ffcc33;
     color:#fff;
-    border:1px solid transparent;
     .meta {color:#fff;}
     -webkit-transition:background ease-in-out .5s, color .5s;
     transition:background ease-in-out .5s, color .5s;
@@ -80,6 +83,7 @@
     border-bottom:1px solid darken(#ffcc33, 20%);
   }
 }
+
 
 
 .flush-right {position:absolute;right:20px;}
