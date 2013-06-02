@@ -4,3 +4,25 @@
     color:red;
   }
 }
+
+.text-link {
+  font-size:32px;
+  color:#777;
+  -webkit-transition:color ease-in-out .4s;
+  &:hover {
+    color:#222;
+    -webkit-transition:color ease-in-out .4s;
+  }
+}
+
+.author {
+  font-size:14px;
+  display:block;
+}
+
+.reading-list {
+  article {
+    margin-bottom:40px; 
+  }
+  p {display:none;}
+}
