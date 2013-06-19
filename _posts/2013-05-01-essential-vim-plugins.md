@@ -49,17 +49,16 @@ If you use Vim for source control - I'd suggest installing this. :Gbrowse alone
 is worth the price of admission. :Gbrowse will open that file on github in your
 default browser.
 
-[Snipmate](https://github.com/garbas/vim-snipmate, "Snippets for Vim")
+[Snipmate](https://github.com/garbas/vim-snipmate "Snippets for Vim")
 I fell in love with snippets when I first started to use textmate forever ago.
 This is basically snippet syntax support for vim. 
 
-[Zencoding](https://github.com/mattn/zencoding-vim, "Vim port of Emmet")
+[Zencoding](https://github.com/mattn/zencoding-vim "Vim port of Emmet")
 While Emmet isn't officially available on vim - it does have a zen-coding fork
 that strives for feature parity with Emmet. It's a great way to edit/generate
 large blocks of css and html.
 
-[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors, "Multiple
-Cursors")
+[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors "Multiple Cursors")
 Have you ever wanted to edit more than one of line of text at the same time?
 This is helpful for that. The repo has some great demos. I'd also suggest
 learning regex. But that's a much longer post. 
