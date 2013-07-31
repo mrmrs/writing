@@ -27,9 +27,9 @@ a breeze. I suggest setting your .vimrc to have a history greater than the defau
 Full path fuzzy file, buffer, mru, tag, ... finder for Vim. The quickest way to
 get around if you know what you're kind of looking for. 
 I have this mapped to 'ff' in my .vimrc like so
-<code>
+```
   nnoremap ff :CtrlP<CR>
-</code>
+```
 ff is right on my homerow and for some reason ff means "fuzzy find && find file" in my mind
 so it's easy to remember. You can map it to anything you fancy.
 
@@ -42,9 +42,9 @@ Adds snippet support in vim. Snipmate plus also features nested snippets.
 
 [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors "Multiple Cursors")
 Have you ever wanted to edit more than one of line of text at the same time?
-This is helpful for that. [demo](http://www.youtube.com/watch?v=Umb59mMvCxA "Video Demo")
+This is helpful for that.  [demo](http://www.youtube.com/watch?v=Umb59mMvCxA "Video Demo")
 
-[Syntastic}(https://github.com/scrooloose/syntastic "Syntastic")
+[Syntastic](https://github.com/scrooloose/syntastic "Syntastic")
 Syntastic checks your syntax and let's you know when you break something. 
 When you hook it up with csslint and jshint you basically have 
 developer super powers.
