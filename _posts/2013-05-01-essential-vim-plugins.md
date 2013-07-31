@@ -7,7 +7,7 @@ As a front-end developer I've found these plug-ins to be quite wonderful. While
 I'm comfortable running stock - I prefer to have these as a part of my
 setup.
 
-[pathogen](https://github.com/tpope/vim-pathogen/ "Pathogen - Manage your vim plugins")
+[Pathogen](https://github.com/tpope/vim-pathogen/ "Pathogen - Manage your vim plugins")
 Step one to installing vim plugins is to install pathogen.
 ```
    mkdir -p ~/.vim/autoload ~/.vim/bundle; \
@@ -15,7 +15,7 @@ Step one to installing vim plugins is to install pathogen.
    https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 ```
 
-[gundo](https://github.com/sjl/gundo.vim/ "Gundo - Visualize your history")
+[Gundo](https://github.com/sjl/gundo.vim/ "Gundo - Visualize your history")
 Visualize your undo tree with ease. Vims undo tree is much more verbose then people realize. 
 *As a result it's incredibly powerful as a design tool.*  Visualizing it makes mangaging your history
 a breeze. I suggest setting your .vimrc to have a history greater than the default 20. 
@@ -23,7 +23,7 @@ a breeze. I suggest setting your .vimrc to have a history greater than the defau
   set history=256
 ```
 
-[ctrlp](https://github.com/kien/ctrlp.vim/ "ctrlp - fuzzy finder")
+[Ctrlp](https://github.com/kien/ctrlp.vim/ "ctrlp - fuzzy finder")
 Full path fuzzy file, buffer, mru, tag, ... finder for Vim. The quickest way to
 get around if you know what you're kind of looking for. 
 I have this mapped to 'ff' in my .vimrc like so
@@ -66,7 +66,7 @@ This is mandatory for editing xml or html.
 Nothing fancy here. 
 Install these for better syntax highlighting and tag completion.
 
-[html5.vim](https://github.com/othree/html5.vim)
-[scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim)
-[vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
-[vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
+[Html5.vim](https://github.com/othree/html5.vim)
+[Scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim)
+[Vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
+[Vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
