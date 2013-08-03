@@ -390,33 +390,33 @@ h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: .25em; }
 
 h1, .h1 {
-  font-size: 24px; }
+  font-size: 16px; }
 
 h2, .h2 {
-  font-size: 42px; }
+  font-size: 44px; }
 
 h3, .h3 {
-  font-size: 32px; }
+  font-size: 22px; }
 
 h4, .h4 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 900; }
 
 h5, .h5 {
-  font-size: 24px;
+  font-size: 16px;
   font-style: italic; }
 
 h6, .h6 {
   font-size: 16px; }
 
 p {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.5; }
   p + p {
     margin-top: 1em; }
 
 .intro {
-  font-size: 32px; }
+  font-size: 22px; }
 
 .article-header {
   border-bottom: 1px solid #ccc;
@@ -430,7 +430,7 @@ p {
   line-height: 1.5; }
   @media screen and (max-width: 479px) {
     .post h1 {
-      font-size: 32px; } }
+      font-size: 22px; } }
   .post h1 h2 {
     margin: 0; }
 .post footer {
@@ -438,7 +438,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .h1-r {
-    font-size: 42px; } }
+    font-size: 44px; } }
 
 .meta {
   font-size: 16px; }
@@ -457,12 +457,12 @@ blockquote {
     blockquote {
       padding: 0; } }
   blockquote p {
-    font-size: 42px; }
+    font-size: 44px; }
     @media screen and (max-width: 479px) {
       blockquote p {
-        font-size: 32px; } }
+        font-size: 22px; } }
   blockquote footer, blockquote footer a {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 2;
     text-decoration: none;
     color: #999; }
@@ -471,7 +471,7 @@ em {
   font-style: italic; }
 
 .bump-it {
-  font-size: 32px;
+  font-size: 22px;
   margin-bottom: 1em; }
 
 .author {
@@ -481,7 +481,7 @@ date {
   color: #777777; }
 
 ol {
-  font-size: 16px; }
+  font-size: 22px; }
 
 strong {
   font-weight: 600; }
@@ -533,7 +533,7 @@ strong {
   color: #fff; }
 
 .large-list {
-  font-size: 24px; }
+  font-size: 16px; }
   .large-list li {
     border-top: 1px solid #eee; }
   .large-list a {
@@ -551,7 +551,7 @@ strong {
 
 .post ul, .post dl {
   line-height: 1.618;
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 1em; }
 .post dt {
   font-weight: bold; }
@@ -584,11 +584,11 @@ strong {
   transition: background ease-in-out .5s, color .5s;
   display: block;
   padding: 40px 20px;
-  font-size: 32px;
+  font-size: 22px;
   color: #222; }
   @media screen and (max-width: 479px) {
     .list-full--item-link {
-      font-size: 24px;
+      font-size: 16px;
       line-height: 1.5;
       padding: 15px; } }
   .list-full--item-link:hover {
@@ -628,7 +628,7 @@ a {
 nav[role="navigation"] li,
 ul.social li {
   display: inline-block;
-  font-size: 24px; }
+  font-size: 16px; }
   nav[role="navigation"] li:last-child,
   ul.social li:last-child {
     border-right: none; }
