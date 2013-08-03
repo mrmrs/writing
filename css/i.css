@@ -389,20 +389,20 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: .25em; }
 
-h1, .h1 {
+h1, .h1, .f1 {
   font-size: 16px; }
 
-h2, .h2 {
+h2, .h2, .f2 {
   font-size: 44px; }
 
-h3, .h3 {
+h3, .h3, .f3 {
   font-size: 22px; }
 
-h4, .h4 {
+h4, .h4, .f4 {
   font-size: 16px;
   font-weight: 900; }
 
-h5, .h5 {
+h5, .h5, .f5 {
   font-size: 16px;
   font-style: italic; }
 
@@ -584,7 +584,7 @@ strong {
   transition: background ease-in-out .5s, color .5s;
   display: block;
   padding: 40px 20px;
-  font-size: 22px;
+  font-size: 44px;
   color: #222; }
   @media screen and (max-width: 479px) {
     .list-full--item-link {

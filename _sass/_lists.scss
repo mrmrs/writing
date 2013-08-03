@@ -63,7 +63,7 @@
   transition:background ease-in-out .5s, color .5s;
   display:block;
   padding:40px 20px;
-  font-size:$type-3;
+  font-size:$type-2;
   color:#222;
   @include breakpoint(one-hand) {
     font-size:$type-4; 
