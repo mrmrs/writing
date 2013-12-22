@@ -7,15 +7,17 @@ TL;DR: Touching the mouse is bad for productivity. Do it as little as possible o
 
 There are some things you should know before we really get started.
 
-I am one of the laziest people you will ever meet.
-I am a designer by trade.
-I don't have a background in computer science.
-My degree is in studio art and it's from a small school in Ohio.
+I am one of the laziest people you will ever meet.<br>
+I am a designer by trade.<br>
+I don't have a background in computer science.<br>
+My degree is in studio art and it's from a small school in Ohio.<br>
+
 As much as I might talk about some technical things,
 just remember all I'm trying to do is figure out how to
 design the most amount of great stuff
 in the shortest amount of time with
 the least amount of effort possible.
+
 Terminal, command-line text editors, these are just tools to help us build beautiful products. They shouldn't be scary.
 
 Computers are here to do the boring stuff for us. And We should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
@@ -26,13 +28,13 @@ Exactly.
 
 # A brief primer.
 
-## What is command-based editing?
+### What is command-based editing?
 
 Generally speaking it involves editing text without using your mouse.
 It's essentially a lot of keyboard shortcuts.
 You can use these 'commands' to make the text dance all without ever touching your mouse.
 
-## So, what are command-based editors?
+### So, what are command-based editors?
 
 Well, there are several command-based text editors out there. You might have heard of some
 of them already: vi/vim, emacs, and nano/pico are a a few commonly used
@@ -41,20 +43,21 @@ command-based editors.
 All of them are pretty great in some regard.
 I know vim the best and my third grade teacher taught me to write what I know so that's what I'm going to stick with trying to explain here.
 
-## Okay but what are these commands you speak of?
+### Okay but what are these commands you speak of?
 
 Haha yeah I should explain that. Text editing, is mostly just a bunch of common discreet tasks. Commands do things like: delete characters, copy lines of text, jump to other occurrences of a word in a project, paste saved blocks of code or text, and navigate between files. All without leaving your keyboard.
 
-## What is this vim you speak of?
+### What is this vim you speak of?
 
 Vim is a text editor that is available on all unix systems (as well as someothers). If you are on a linux or mac right now, vim is already installed on your machine. Its ubiquity is one of the many reasons I like vim. I can step into any unix environment and have a familiar text editing environment.
 
-## Wait why are we talking about editing text at all? We just want to design stuff.
+### Wait why are we talking about editing text at all? We just want to design stuff.
 
 That's a good question. And I can only answer it for myself, but as a designer, I write a lot. I write code. I write down my ideas. I write emails to colleagues. I write copy for websites and applications. Sometimes I write documentation for things I'm designing. Much of what I do just boils down to writing and then revising / editing text. Since it is where I spend the bulk of my time, I figure it's not the worst investment of my time to try and make the process a bit more efficient. Mostly because of the math behind the graph below. But also because
 it hasn't been that hard. And in fact it's been a lot of fun.
 
-http://xkcd.com/1205/
+### The xkcd guide on when to stop and automate something
+![Is it worth the time](http://imgs.xkcd.com/comics/is_it_worth_the_time.png "Is it worth the time")
 
 When you think about it, editing text is really a constant series of blackholes for your time. And that graph hopefully gives you an indication of how much time you have already lost and how much time you might lose in the future.
 There are countless routine tasks that you are losing between 1-10 seconds on. You might not even realize it yet. Just the time it takes to move your hands from the keyboard and place them on the mouse and back is > .5 seconds. How many times do you think you touch your mouse a day to grab a selection of text?
