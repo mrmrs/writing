@@ -15,23 +15,23 @@ If you are on a mobile phone or don't want to brave navigating around the docume
 
 You'll notice this list starts at chapter 2. Intentionally so. I've also left out a couple of chapters that probably aren't THAT pertinent to front end development / designing faster.
 
-[The first steps in Vim](http://vimdoc.sourceforge.net/htmldoc/usr_02.html "The first steps in Vim")
+[usr_02.html The first steps in Vim](http://vimdoc.sourceforge.net/htmldoc/usr_02.html "The first steps in Vim")
 
-[Moving around](http://vimdoc.sourceforge.net/htmldoc/usr_03.html "Moving around")
+[usr_03.html Moving around](http://vimdoc.sourceforge.net/htmldoc/usr_03.html "Moving around")
 
-[Making small changes](http://vimdoc.sourceforge.net/htmldoc/usr_04.html "Making small changes")
+[usr_04.html Making small changes](http://vimdoc.sourceforge.net/htmldoc/usr_04.html "Making small changes")
 
-[Set your settings](http://vimdoc.sourceforge.net/htmldoc/usr_05.html "Set your settings")
+[usr_05.html Set your settings](http://vimdoc.sourceforge.net/htmldoc/usr_05.html "Set your settings")
 
-[Editing more than one file](http://vimdoc.sourceforge.net/htmldoc/usr_07.html "Editing more than one file")
+[usr_07.html Editing more than one file](http://vimdoc.sourceforge.net/htmldoc/usr_07.html "Editing more than one file")
 
-[Splitting windows](http://vimdoc.sourceforge.net/htmldoc/usr_08.html "Splitting windows")
+[usr_08.html Splitting windows](http://vimdoc.sourceforge.net/htmldoc/usr_08.html "Splitting windows")
 
-[Using the GUI](http://vimdoc.sourceforge.net/htmldoc/usr_09.html "Using the GUI")
+[usr_08.html Using the GUI](http://vimdoc.sourceforge.net/htmldoc/usr_09.html "Using the GUI")
 
-[Making big changes](http://vimdoc.sourceforge.net/htmldoc/usr_10.html "Making big changes")
+[usr_10.html Making big changes](http://vimdoc.sourceforge.net/htmldoc/usr_10.html "Making big changes")
 
-[Clever tricks](http://vimdoc.sourceforge.net/htmldoc/usr_12.html "Clever tricks")
+[user_12.html Clever tricks](http://vimdoc.sourceforge.net/htmldoc/usr_12.html "Clever tricks")
 
 
 ## Editing Effectively

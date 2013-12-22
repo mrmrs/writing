@@ -3604,7 +3604,7 @@
     display: block; }
 
   .dib-ns {
-    display: inline-block; }
+    display: inline-block !important; }
 
   .dli-ns {
     display: list-item; }
