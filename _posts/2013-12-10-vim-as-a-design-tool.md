@@ -22,11 +22,11 @@ Terminal, command-line text editors, these are just tools to help us build beaut
 
 Computers are here to do the boring stuff for us. And We should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
 
-So how do we get computers do a lot of heavy lifting for us? Command-based text editing.
-Wut?
-Exactly.
+So how do we get computers do a lot of heavy lifting for us? Command-based text editing.<br>
+Wut?<br>
+Exactly.<br>
 
-# A brief primer.
+## A brief primer.
 
 ### What is command-based editing?
 
