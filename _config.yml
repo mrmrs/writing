@@ -7,10 +7,10 @@ descripiton: "Thoughts on vim, css, design, and software-development."
 author: "mrmrs"
 
 #url: "[http:// ]"
-url: "http://xn--h4hg.ws"
-#url: "localhost:5000"
+#url: "http://xn--h4hg.ws"
+url: "localhost:4000"
 
-port: 5000
+port: 4000
 
 # Pagination variable for how many posts to show in a list
 paginate: 10
@@ -24,7 +24,7 @@ permalink: pretty
 # /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
 
 # UnComment once you have pygments installed. Used for code syntax highlighting.
-#pygments: true
+pygments: true
 #
 
 future: false
