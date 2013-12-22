@@ -1,10 +1,10 @@
-<article class="mtl pvm bt">
-  <div class="readable">
-    <h1>Similar</h1>
-    <ul class="list">
+<article class="mtl phm pbm ptl bt bor--silver bb">
+  <div class="mx-wi7 center">
+    <h1 class="sans-serif ttu tracked f5">Similar</h1>
+    <ul class="list pln">
       {% for post in site.related_posts limit: 5 %}
-      <li class="list_item">
-        <a href="{{ post.url }}" class="f4 sans-serif" title="{{post.title}}">
+      <li class="pln">
+        <a href="{{ post.url }}" class="db pvs f4 sans-serif" title="{{post.title}}">
           <!--<span>{{ post.date | date_to_long_string }}</span>-->
           {{ post.title }}
           <span>›</span>

@@ -3,7 +3,6 @@ title: "Common Vim"
 layout: post
 ---
 
-# Common Vim
 
 ### a
 

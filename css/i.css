@@ -4649,6 +4649,10 @@ img {
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent !important; }
 
+a {
+  text-decoration: none;
+  color: #333; }
+
 @media screen and (min-width: 48em) {
   .link-ns {
     text-decoration: none; } }
@@ -14420,3 +14424,12 @@ table {
 
   .wwi-l {
     word-wrap: inherit; } }
+code {
+  background: #eee;
+  font-size: 16px;
+  padding: .25rem .5rem;
+  white-space: nowrap;
+  margin-right: .5rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: avenir, "avenir next", helvetica, arial, sans-serif; }
