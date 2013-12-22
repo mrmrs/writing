@@ -7,8 +7,8 @@ descripiton: "Thoughts on vim, css, design, and software-development."
 author: "mrmrs"
 
 #url: "[http:// ]"
-#url: "http://xn--h4hg.ws"
-url: "localhost:4000"
+url: "http://xn--h4hg.ws"
+#url: "localhost:4000"
 
 port: 4000
 
