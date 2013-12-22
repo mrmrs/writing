@@ -3,7 +3,6 @@ title: "Common Vim"
 layout: post
 ---
 
-
 ### a
 
 ```a``` enter into insert mode after the character your cursor is on
@@ -18,20 +17,17 @@ layout: post
 
 ### c
 
-c stands for change. It doesn't do anything on its on. Here are some common commands handy for editing front end code
+c stands for change. It will not do anything on its on. Here are some common commands handy for editing front end code
 
 ```cw``` cw stands for change word. This will delete the word your cursor is over and enter into insert mode
 
+```ci(``` Change all text in between a set of parenthesis.
+
 ```ci"``` If your cursor is in between a set of quotes, this will delete everything inside those quotes and drop you into insert mode.
 
+```ct"``` Change text in between quotes.
 
-```ci(``` Change all text inbetween a set of parenthesis
-
-```ci{``` Change all text in between brackets (amazing for replacing the contents of an entire css class)
-
-```ct"``` Change text in between quotes
-
-```2ct"``` Delete text from cursor up until the 2nd " in a line
+```2ct"``` Delete text from cursor up until the 2nd quote in a line
 
 ```cF"``` Change from cursor up until and including the next quote
 
@@ -44,6 +40,7 @@ c stands for change. It doesn't do anything on its on. Here are some common comm
 ```:cd ~/Sites/projectname``` Change directories to a known directory.
 
 #### MISC
+
 CTRL-c In Normal mode, any pending command is aborted. Also aborts current search.
 
 
@@ -52,13 +49,14 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```dd``` Delete the current line
 
-```D``` Delete from cursor until the end of the line. Same as ```d$```
+```D``` Delete from cursor until the end of the line.
+Same as ```d$```
 
 ```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode.
 
-```2dw``` This will delete the word your cursor is on as well as the next one. You can replace 2 with any number. It's pretty sweet.
+```2dw``` This will delete the word your cursor is on as well as the next one. You can replace 2 with any number.
 
-```2df"``` Delete from cursor to the 2nd " mark. This is inclusive so it will delete the second ". This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
+```2df"``` Delete from cursor to the 2nd quote mark. This is inclusive so it will delete the second quote. This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
 
 ```di"``` Delete everything inside of these quotes
 
@@ -319,7 +317,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```,``` repeat it in the opposite direction
 
-```dt<``` Delete up until the next <. This is handy in the markup world.
+```dt<``` Delete up until the next ```<```. This is handy in the markup world.
 
 ```dt"``` Delete from cursor until next "
 
@@ -344,7 +342,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```V``` Starts visual mode linewise (selects whole lines).
 
-```<c-v>``` Starts visual mode blockwise (very favorite).
+```CTRL-v``` Starts visual mode blockwise (very favorite).
 
 ```gv``` Reselect last visual selection
 
@@ -376,7 +374,7 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```mk { motion } y'k``` Mark a spot k, navigate to a new spot and then copies from mark k to the current position of your cursor
 
-```yt"``` Copies from current cursor postion to the next " on the same line.
+```yt"``` Copies from current cursor postion to the next quote on the same line.
 
 ```yt>``` Copies from current cursor postion to the next > on the same line.
 
@@ -411,7 +409,7 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 ```
 .class {
     font-size: 20px;
-      line-height: 1.6;
+    line-height: 1.6;
 }
 ```
 
