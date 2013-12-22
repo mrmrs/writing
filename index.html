@@ -1,29 +1,16 @@
 ---
 layout: default
 ---
-
-<!--
-<header class="section-padding">
-  <h1 class="h6 title-spacing lh-2 ct">Thoughts on design, vim, & software development.</h1>
+<header class="pam pal-m phx-l mtm mtl-ns mbn">
+  <h1 class="sans-serif fw5 f6 f5-ns ttu mega-tracked mbn">Articles</h1>
 </header>
--->
-
-<section>
-    <article>
-      <h1 class="h1 padding-20 sans-serif title-spacing">Articles</h1>
-      <ul class="list-full">
-        {% for post in paginator.posts %}
-          <li class="list-full--item">
-            <a href="{{ post.url }}" title="{{post.title}}" class="list-full--item-link">
-              <!--
-              <date datetime="{{post.date}}" class="meta db lh-2">
-                {{ post.date | date_to_long_string }}
-              </date>
-              -->
-              {{ post.title }} <span class="flush-right mobile-hide">›</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </article>
-</section>
+<ul class="list pln mtn mbn">
+  {% for post in paginator.posts %}
+  <li class="pln bb bor--silver">
+    <a href="{{post.url}}" title="{{post.title}}" class="db pvl phm pal-m phx-l pvl-l f3 f1-ns f2-m f2-l link blk hov">
+      {{ post.title }}
+      <span class="fr">»</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,34 +1,26 @@
 {% include _head.html %}
 <body>
-{% include _google_analytics.html %}
-{% include _header.html %}
-<div class="content-wrapper">
-  <div class="single-column">
-  <time  class="caps sans-serif ct dbf title-spacing" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time><br>
-    <article class="post">
-      <header class="article-header">
-        <h1 class="h2">
-          {{page.title}}
-        </h1>
-        {% if page.subtitle %}
-          <h2 class="h3">
-            {{page.subtitle}}
-          </h2>
-        {% endif %}
-      </header>
-    <!-- This is where post content lives -->
-      {{content}}
-    <!-- end of post content -->
-     <footer class="mt-2">
-      {% if page.author %}
-      <p class="meta author">
-      By: <a href="" rel="author">{{page.author}}</a></p>
+  {% include _google_analytics.html %}
+  {% include _header.html %}
+  <article class="pas pal-ns">
+    <header class="readable mx-wi8 center ptl">
+      <time class="sans-serif ttu lh-title tracked db tc-ns mbl mbx-ns mtm f6 caps" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time>
+      <h1 class="f2 f2-ns f2-m f2-l fw-100 thin caps sans-serif ttu">
+        {{page.title}}
+      </h1>
+      {% if page.subtitle %}
+      <h2>
+        {{page.subtitle}}
+      </h2>
       {% endif %}
-    </footer>
+    </header>
+    <!-- This is where post content lives -->
+    <div class="f3 f2-ns f2-l mx-wi8 center lh-copy">
+      {{content}}
+    </div>
+    <!-- end of post content -->
   </article>
   {% include _related_posts.html %}
-</div>
-</div>
   {% include _footer.html %}
 </body>
 </html>

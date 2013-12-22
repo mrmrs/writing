@@ -1,15 +1,29 @@
-a {
-  text-decoration:none;
-  &:hover {cursor:pointer;}
+/* ==========================================================================
+   LINKS
+   ========================================================================== */
+
+.link { text-decoration: none; }
+.hov:hover {
+  background-color: $orangered;
+  -webkit-transition: background-color .3s ease-in-out;
+  border-color: transparent!important;
 }
 
-
-.site-home-link {
-  display:block;
-  font-size:32px;
-  text-align:center;
-  width:100%;
-  padding:10px 0;
-  transition:color .5s;-webkit-transition:color .5s; 
-  &:hover {transition:color .5s;-webkit-transition:color .5s; color:$orange;}
+.hov:active {
+  background-color: $coral;
+  -webkit-transition: background-color .3s ease-in-out;
+  border-color: transparent!important;
 }
+
+@include break(not-small) {
+  .link-ns { text-decoration: none; }
+}
+
+@include break(medium) {
+  .link-m { text-decoration: none; }
+}
+
+@include break(large) {
+  .link-l { text-decoration: none; }
+}
+

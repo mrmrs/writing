@@ -1,11 +1,13 @@
 <article>
-  <h1 class="h2 ct">Archives</h1>
-  <ul class="large-list ct mt-1">
+  <h1>Archives</h1>
+  <ul class="list">
     {% for post in site.posts limit: 25 %}
-      <li><a href="{{ post.url }}" title="{{post.title}}">
-        <date datetime="{{post.date}}" class="meta">{{ post.date | date_to_long_string }}</date>
+    <li>
+      <a href="{{ post.url }}" title="{{post.title}}">
+        <time datetime="{{post.date}}">{{ post.date | date_to_long_string }}</time>
         {{ post.title }}
-      </a></li>
+      </a>
+    </li>
     {% endfor %}
   </ul>
 </article>

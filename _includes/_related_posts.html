@@ -1,14 +1,16 @@
-<article class="mt-4">
-  <h1 class="h4 title-spacing sans-serif">Similar</h1>
-  <ul class="large-list">
-  {% for post in site.related_posts limit: 3 %}
-    <li>
-      <a href="{{ post.url }}" title="{{post.title}}" class="f3">
-        <span class="meta">{{ post.date | date_to_long_string }}</span>
-        {{ post.title }} 
-        <span class="fr mobile-hide">›</span>
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
+<article class="mtl pvm bt">
+  <div class="readable">
+    <h1>Similar</h1>
+    <ul class="list">
+      {% for post in site.related_posts limit: 5 %}
+      <li class="list_item">
+        <a href="{{ post.url }}" class="f4 sans-serif" title="{{post.title}}">
+          <!--<span>{{ post.date | date_to_long_string }}</span>-->
+          {{ post.title }}
+          <span>›</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </article>
