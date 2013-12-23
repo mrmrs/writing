@@ -17,7 +17,7 @@ layout: post
 
 ### c
 
-c stands for change. It will not do anything on its on. Here are some common commands handy for editing front end code
+c stands for "change" will not do anything on its on, but acts as a modifier to other commands. Here are some common commands handy for editing front end code
 
 ```cw``` cw stands for change word. This will delete the word your cursor is over and enter into insert mode
 
@@ -62,7 +62,7 @@ Same as ```d$```
 
 ```da"``` Delete everything wrapped in quotes (including the quotes)
 
-```<C-d>``` Scroll half page
+```<C-d>``` Scroll half page (in this case "d" is a mnemonic for "down")
 
 #### EX commands
 
@@ -71,6 +71,8 @@ Same as ```d$```
 ### e
 
 ```e``` jumps to the end of the next word
+
+```E``` same
 
 ```ge``` jumps to the end of the previous word
 
@@ -127,8 +129,6 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```h``` Move cursor one character to the left
 
-```h``` Move cursor one character to the left
-
 ```4h``` Move cursor four characters to the left
 
 ```dh``` Delete character to the left of cursor
@@ -143,9 +143,9 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```i``` Enter insert mode where your cursor is. Any text you insert will be inserted before the character your cursor was over.
 
-```4i<tab>``` Insert 4 tabs
+```4i<tab><escape>``` Insert 4 tabs (leaves you in command mode, not insert mode)
 
-```80i*``` Insert 80 * characters
+```80i*<escape>``` Insert 80 * characters
 
 ```I``` Insert text at the very beginning of the line
 
@@ -177,12 +177,17 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ### m
 
-m is for marking spots. It does not do anything by itself.
+m is for marking spots (which you can think of as bookmarks in your files). It does not do anything by itself.
 
-```mk``` mark spot as k
-you can then move to any spot in the file and do something like
+```mk``` mark spot as k.
 
-```d'k```,```c'k``` or ```y'k``` Delete, change, or yank from spot k to your current cursor position.
+```'k``` return the cursor to the spot you marked as "k"
+
+```d'k``` delete from the cursor's position to the spot you marked as "k"
+
+```c'k``` change from the cursor's position to the spot you marked as "k"
+
+```y'k``` yank/copy from the cursor's position to the spot you marked as "k"
 
 ### n
 
@@ -206,7 +211,7 @@ you can then move to any spot in the file and do something like
 
 Paste is a pretty big deal when you are dealing with code. So p should be one of your best friends.
 
-```p``` pastes in the last thing you yanked or deleted (copied or cut).
+```p``` pastes in the last thing you yanked or deleted (copied or cut) after the cursor.
 
 ```P``` pastes in the last thing you yanked or deleted (copied or cut) before the cursor.
 
@@ -229,9 +234,7 @@ Paste is a pretty big deal when you are dealing with code. So p should be one of
 
 ```:<c-r>/``` Pastes in your last search pattern when you are on the command line
 
-```"ap``` Pastes in register a. To see a list of registers and what they have in them, do ```:reg``` or ```:registers```
-
-```"ap``` Pastes in register a. To see a list of registers and what they have in them, do ```:reg``` or ```:registers```
+```"ap``` Pastes in the contents of register a. To see a list of registers and what they have in them, do ```:reg``` or ```:registers```
 
 ```"= 8*8<CR>p``` Pastes in evaluation of the expression ```8*8```. This could be any maths you want. ```=``` is the expression register, which allows you to do calculations.
 From normal mode you can launch it by hitting ```"=```
@@ -250,7 +253,7 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 
 #### EX Commands
 
-```:q``` quits file
+```:q``` quits file only if you have no unsaved changes
 
 ```:q!``` quits file without writing any of your changes
 
@@ -265,9 +268,11 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 
 ```ra``` Replaces the character under the cursor with a.
 
+```R``` Enter "replace mode" which is like insert mode except you will overwrite characters instead of insert between them.
+
 #### EX Commands
 
-```:r filename``` Pastes in the contents of filename.
+```:r filename``` Read the contents of filename and place into the current buffer.
 
 ```:r !ls``` Pastes in the output of ls. ! calls an external process in vim. So this can be pretty userful
 
@@ -396,7 +401,9 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ### SEARCH
 
-```*``` search for word under cursor in current file. Super useful for finding common hex codes in css. And other things.
+```*``` search forward for the word under cursor in current file. Super useful for finding common hex codes in css. And other things.
+
+```#``` search backward for the word under cursor in current file.
 
 ```/``` Forward search for things.
 
@@ -430,6 +437,7 @@ MISC
 ```.``` Repeat last change.
 
 ```@:``` Repeat last command line
+
 
 
 
