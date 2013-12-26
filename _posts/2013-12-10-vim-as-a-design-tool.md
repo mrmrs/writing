@@ -18,7 +18,7 @@ design the most amount of great stuff
 in the shortest amount of time with
 the least amount of effort possible.
 
-Terminal, command-line text editors, these are just tools to help us build beautiful products. They shouldn't be scary.
+Terminal and command-line text editors are just tools to help us build beautiful products. They shouldn't be scary.
 
 Computers are here to do the boring stuff for us. And We should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
 
@@ -49,7 +49,7 @@ Haha yeah I should explain that. Text editing, is mostly just a bunch of common 
 
 ### What is this vim you speak of?
 
-Vim is a text editor that is available on all unix systems (as well as someothers). If you are on a linux or mac right now, vim is already installed on your machine. Its ubiquity is one of the many reasons I like vim. I can step into any unix environment and have a familiar text editing environment.
+Vim is a text editor that is available on all unix systems (as well as someothers). If you are on a Linux or Mac box right now, vim is already installed on your machine. Its ubiquity is one of the many reasons I like vim. I can step into any unix environment and have a familiar text editing environment.
 
 ### Wait why are we talking about editing text at all? We just want to design stuff.
 
