@@ -9,3 +9,31 @@ code {
 h1,h2,h3,h4,h5,h6 {
  font-family: avenir, "avenir next", helvetica, arial, sans-serif;
 }
+
+.post-content,
+.related-posts {
+  a:link {
+    color: #009EE3;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+  }
+  a:visited { color: #009EE3; }
+  a:hover {
+    color: #004260;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+  }
+  a:active { color: #59b7e0; }
+}
+
+.site-footer {
+  a:link {
+    -webkit-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+  }
+  a:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+  }
+}

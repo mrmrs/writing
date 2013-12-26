@@ -4640,12 +4640,14 @@ img {
   text-decoration: none; }
 
 .hov:hover {
-  background-color: orangered;
+  background-color: #A7D6EB;
+  transition: background-color .3s ease-in-out;
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent !important; }
 
 .hov:active {
-  background-color: coral;
+  background-color: #009ee3;
+  transition: background-color .3s ease-in-out;
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent !important; }
 
@@ -14433,3 +14435,28 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: avenir, "avenir next", helvetica, arial, sans-serif; }
+
+.post-content a:link,
+.related-posts a:link {
+  color: #009EE3;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out; }
+.post-content a:visited,
+.related-posts a:visited {
+  color: #009EE3; }
+.post-content a:hover,
+.related-posts a:hover {
+  color: #004260;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out; }
+.post-content a:active,
+.related-posts a:active {
+  color: #59b7e0; }
+
+.site-footer a:link {
+  -webkit-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out; }
+.site-footer a:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out; }

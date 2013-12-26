@@ -4,13 +4,15 @@
 
 .link { text-decoration: none; }
 .hov:hover {
-  background-color: $orangered;
+  background-color: #A7D6EB;
+  transition: background-color .3s ease-in-out;
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent!important;
 }
 
 .hov:active {
-  background-color: $coral;
+  background-color: #009ee3;
+  transition: background-color .3s ease-in-out;
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent!important;
 }
