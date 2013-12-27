@@ -10,6 +10,22 @@ h1,h2,h3,h4,h5,h6 {
  font-family: avenir, "avenir next", helvetica, arial, sans-serif;
 }
 
+.txtlnk:link {
+  color: #009EE3;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+.txtlnk:visited { color: #009EE3; }
+
+.txtlnk:hover {
+  color: #004260;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+.txtlnk:active { color: #59b7e0; }
+
 .post-content,
 .related-posts {
   a:link {

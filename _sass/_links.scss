@@ -2,7 +2,10 @@
    LINKS
    ========================================================================== */
 
+a  { text-decoration: none; color: #333; }
+
 .link { text-decoration: none; }
+
 .hov:hover {
   background-color: #A7D6EB;
   transition: background-color .3s ease-in-out;
@@ -16,8 +19,6 @@
   -webkit-transition: background-color .3s ease-in-out;
   border-color: transparent!important;
 }
-
-a  { text-decoration: none; color: #333; }
 
 @include break(not-small) {
   .link-ns { text-decoration: none; }
