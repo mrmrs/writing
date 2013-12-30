@@ -165,7 +165,12 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```<C-w>K``` rotates window to horizontal split
 
-```dk``` delete line above cursor
+Line One
+Line Two
+Line Three
+
+
+```dk``` delete current line and line above cursor
 
 ### l
 
@@ -288,6 +293,12 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 
 #### EX Commands
 
+```:sp``` This will split the current window horizontally. Sp is short for split.
+
+```:sp file.txt``` This will split the current window horizontally with a file named file.txt
+
+```:vsp file.txt``` This will split the current window vertically. vsp stands for vertical split.
+
 s is how you do find and replace, so let's just say it is all of the important.
 
 ```:s/foo/bar``` replaces foo with bar on the current line for the first occurance of foo
@@ -311,6 +322,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 ```:tabdo %s/\ class=".*"//ge | update``` Delete all classes in markup for all files in the current tab.
 
 ```:%s/\s\+$//e``` Removes trailing whitespace
+
 
 ### t
 
