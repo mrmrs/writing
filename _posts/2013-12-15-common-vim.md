@@ -13,7 +13,7 @@ layout: post
 
 ```b``` move cursor to first character of previous word
 
-```B``` same
+```B``` same as above
 
 ### c
 
@@ -49,8 +49,7 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```dd``` Delete the current line
 
-```D``` Delete from cursor until the end of the line.
-Same as ```d$```
+```D``` Delete from cursor until the end of the line. Same as ```d$```
 
 ```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode.
 
@@ -212,6 +211,10 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 
 ```12CTRL-o``` You can also pass it a count so this will go backwards in the jumplist 12 spots
 
+### EX Commands
+
+```:only``` Closes all splits except for the current one
+
 ### p
 
 Paste is a pretty big deal when you are dealing with code. So p should be one of your best friends.
@@ -284,6 +287,8 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 ```:r !w3m -dump http://somewebsite.com``` Pastes in the content from somewebsite.com without any of the markup. Must have w3m installed. WHICH YOU SHOULD.
 
 ```:r !tree``` Pastes in the output from running tree on a directory.
+
+```:reg``` or ```:registers``` Print out a list of available registers and their contents. Registers are like a multi-shelf clipboard. But it also stores all of your recent deletes. In vim delete behaves more like cut than a true delete.
 
 ### s
 
@@ -435,22 +440,28 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```?``` Backwards search
 
-MISC
+```?http``` Search backwards for the string ```http```
+
+#### MISC
 
 ```==``` Format current line of code.
 
-```:12,54=``` Format lines 12,54.
-
-```:56,99>``` Indent lines 56,99.
-
 ```>>``` Indent current line.
-
-```12>>``` Indent 12 lines including the line you are on.
 
 ```.``` Repeat last change.
 
 ```@:``` Repeat last command line
 
+```:set paste``` Set this if you are pasting in content from the system clipboard. Trust me.
+```:set paste!``` Using ! at the end of any set reverses the current setting. This is useful so that you only have to remember one command and you never have to remember current state. For instance to be able to see line numbers you can do ```:set nu``` or ```:set number```. To undo these commands, you would set ```:set nonu``` or ```:set nonumber```. This seems like a lot to remember. An alternative is using ! like so ```:set nu!``` This will reverse whatever state set number currently resolves to. If line numbers are currently shown, they will be hidden. If they are hidden, they will become revealed. I use this pattern a lot when changing settings of file.
 
+#### Ranges
 
+```:12,54=``` Format lines 12 through 54.
+
+```:56,99>``` Indent lines 56 through 99.
+
+```:52,84y``` Yank / copy lines 52 through 84.
+
+```12>>``` Indent 12 lines including the line you are on.
 
