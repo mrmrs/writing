@@ -15,6 +15,8 @@ layout: post
 
 ```B``` same as above
 
+```<C-b>``` scroll page backwards (move up in the file)
+
 ### c
 
 c stands for "change" will not do anything on its on, but acts as a modifier to other commands. Here are some common commands handy for editing front end code
@@ -93,14 +95,20 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 f is for finding things so it doesn't do anything on it's own. It will jump to the next character you type after f. It can be combined with c,d,y to change, cut, and copy sections of text.
 
 ```fr``` jumps to the next r on the (same line only)
+
 ```ft``` jumps to the next t on the (same line only)
+
 ```f,``` jumps to the next , on the (same line only)
 
 ```Fr``` jumps to the previous r (same line only)
+
 ```Ft``` jumps to the previous t (same line only)
+
 ```F,``` jumps to the previous , (same line only)
 
 ```2df"``` delete from cursor through two occurences of "
+
+```<C-f>``` scrolls one full page forward
 
 ### g
 
@@ -354,7 +362,9 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```U``` Undo all latest changes on one line, the line where the latest change was made.
 
-```<c-r>``` Redo changes
+```<C-r>``` Redo changes
+
+```<C-u>``` Scroll forward half a page
 
 #### EX Commands
 
@@ -409,6 +419,9 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```yF>``` Copies from current cursor postion up to  and including the previous > on the same line.
 
+```<C-y>``` Scroll up by 1 line
+
+```12<C-y>``` Scroll up 12 lines
 
 ### z
 
@@ -468,3 +481,20 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```12>>``` Indent 12 lines including the line you are on.
 
+#### Page Scrolling
+
+Remember ```<C-``` means the control key. So ```<C-b>``` would translate to pressing control and b at the same time.
+
+```<C-b>``` Scroll backwards one full screen
+
+```<C-u>``` Scroll backwards or 'up' a half screen
+
+```<C-d>``` Scroll forwards or 'down' a half screen
+
+```<C-f>``` Scroll forwards
+
+```<C-y>``` Scroll backwards count lines (defaults to one)
+
+```<C-e>``` Scroll forwards one full line
+
+```<C-y>``` Scroll backwards one full line
