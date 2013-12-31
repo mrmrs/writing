@@ -453,6 +453,7 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 ```@:``` Repeat last command line
 
 ```:set paste``` Set this if you are pasting in content from the system clipboard. Trust me.
+
 ```:set paste!``` Using ! at the end of any set reverses the current setting. This is useful so that you only have to remember one command and you never have to remember current state. For instance to be able to see line numbers you can do ```:set nu``` or ```:set number```. To undo these commands, you would set ```:set nonu``` or ```:set nonumber```. This seems like a lot to remember. An alternative is using ! like so ```:set nu!``` This will reverse whatever state set number currently resolves to. If line numbers are currently shown, they will be hidden. If they are hidden, they will become revealed. I use this pattern a lot when changing settings of file.
 
 #### Ranges
