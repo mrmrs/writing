@@ -231,7 +231,6 @@ Paste is a pretty big deal when you are dealing with code. So p should be one of
 
 ```"2p``` This will paste in text from the second register. You will use this all of the time. Most useful when you delete something you want to paste, then delete something else. Move to the place where you want to paste text, hit p and go "doh". Just remember ```"2p```
 
-
 ```"%p``` Pastes in the name of the current file.
 
 ```:212pu``` Pastes in last copy or delete on line 212. 212 can be any line number.
@@ -284,11 +283,14 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 
 ```:r !ls``` Pastes in the output of ls. ! calls an external process in vim. So this can be pretty userful
 
-```:r !w3m -dump http://somewebsite.com``` Pastes in the content from somewebsite.com without any of the markup. Must have w3m installed. WHICH YOU SHOULD.
+```:r !cd -; ls``` Pastes in the directory listing of the last directory you were in
+
+```:r !w3m -dump http://somewebsite.com``` Pastes in the content from somewebsite.com without any of the markup. Must have w3m installed. WHICH YOU SHOULD :) If you have homebrew installed you can simply run ```brew install w3m```
 
 ```:r !tree``` Pastes in the output from running tree on a directory.
 
 ```:reg``` or ```:registers``` Print out a list of available registers and their contents. Registers are like a multi-shelf clipboard. But it also stores all of your recent deletes. In vim delete behaves more like cut than a true delete.
+
 
 ### s
 
