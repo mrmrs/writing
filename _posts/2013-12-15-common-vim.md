@@ -299,6 +299,7 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 
 ```:vsp file.txt``` This will split the current window vertically. vsp stands for vertical split.
 
+
 s is how you do find and replace, so let's just say it is all of the important.
 
 ```:s/foo/bar``` replaces foo with bar on the current line for the first occurance of foo
