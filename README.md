@@ -1,6 +1,8 @@
 # ☠☣.ws
 
-Thoughts from a front-end developer on vim, design, and software development.
+Thoughts from a designer on vim, design, css, and software development.
 
-Built on top of http://jk-l.cc - a light-weight scaffolding for building 
-a responsive and highly readable jekyll blog. 
+Built on top of [nkd](http://nkd.cc) - a light-weight scaffolding for building
+a responsive and highly readable jekyll blog.
+
+
