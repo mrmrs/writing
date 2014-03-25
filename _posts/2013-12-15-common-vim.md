@@ -118,6 +118,10 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```g;``` jumps to the last place you edited text
 
+```g,``` jumps forward in the change list.
+
+```4g,``` jumps forward 4 spots on the change list.
+
 ```gg=G``` or ```1G=G``` format the entire file
 
 ```gn``` Grab the next match from last search and visually select it

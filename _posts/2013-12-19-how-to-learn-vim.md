@@ -3,17 +3,38 @@ title: "How to Learn Vim"
 layout: post
 ---
 
-Learning vim can be a bit daunting at first. I know that I spun my wheels on efficiently learning vim for quite some time. I was TRYING hard to learn new things but I didn't seem to be leveling up in the ways I wanted to.
+Learning vim can be a bit daunting at first. I know that I spun my wheels on
+efficiently learning vim for quite some time. I was TRYING hard to learn new
+things but I didn't seem to be leveling up in the ways I wanted to.
 
 This was mainly due to one fatal flaw.
 
-I kept trying to use google. Now, google dot com has served me so well in regards to learning many things about my cpu machine. But in the case of learning about vim, it slowed me down a lot. I kept asking bad questions and not really knowing what I was looking for. Then one day I was bored and just typed :help in vim. And I started reading all of the words on the page. Amazing concept I know, but as a designer it's pretty easy for my eyes to gloss over when I see docs and then I don't read anything at all. But this time I gave it a shot.
+I kept trying to use google. Now, google dot com has served me so well in
+regards to learning many things about my cpu machine. But in the case of
+learning about vim, it slowed me down a lot. I kept asking bad questions and not
+really knowing what I was looking for. Then one day I was bored and just typed
+:help in vim. And I started reading all of the words on the page. Amazing
+concept I know, but as a designer it's pretty easy for my eyes to gloss over
+when I see docs and then I don't read anything at all. But this time I gave it a
+shot.
 
-What I found was an amazing set of instructions on how to use vim. The help docs are well crafted and not nearly as dry as you might expect. Granted it has its moments as many features in vim I have never or will never need. But diving into random sections of :help can feel like plugging a game genie into your brain. It only takes a minute to discover three new cheat codes that you can start to practice and absorb into muscle memory.
+What I found was an amazing set of instructions on how to use vim. The help docs
+are well crafted and not nearly as dry as you might expect. Granted it has its
+moments as many features in vim I have never or will never need. But diving into
+random sections of :help can feel like plugging a game genie into your brain. It
+only takes a minute to discover three new cheat codes that you can start to
+practice and absorb into muscle memory.
 
-If you are on a mobile phone or don't want to brave navigating around the documentation in vim just yet check out these links below. They are a great starting point for mastering the fundamentals of efficient text editing. I'll wait while you skim through these. Kidding, bookmark them. I strongly suggest reading these. It's the fastest way to get exposed to some of the power and flexibility vim has to offer.
+If you are on a mobile phone or don't want to brave navigating around the
+documentation in vim just yet check out these links below. They are a great
+starting point for mastering the fundamentals of efficient text editing. I'll
+wait while you skim through these. Kidding, bookmark them. I strongly suggest
+reading these. It's the fastest way to get exposed to some of the power and
+flexibility vim has to offer.
 
-You'll notice this list starts at chapter 2. Intentionally so. I've also left out a couple of chapters that probably aren't THAT pertinent to front end development / designing faster.
+You'll notice this list starts at chapter 2. Intentionally so. I've also left
+out a couple of chapters that probably aren't THAT pertinent to front end
+development / designing faster.
 
 #### Vim Help Docs
 
@@ -68,63 +89,95 @@ You'll notice this list starts at chapter 2. Intentionally so. I've also left ou
 If you read the help docs in their entirety (more fun than it sounds) And you read [Drew Neil's Practical Vim](http://pragprog.com/book/dnvim/practical-vim "Practical Vim - Drew Neil")… you will most likely be able to melt peoples brains when they watch you manipulate text in no time.
 
 The best way to read the docs is to actually navigate around them inside vim. You can get to the first article I link to by opening your terminal and typing vim CR (CR means carriage return, most commonly referred to as return or enter)
-Once vim has loaded type :help
-You should now be looking at the help docs. Go ahead and read the intro help docs. But if you want to skip ahead to the second chapter you can search for the file name by typing ```/usr_02<CR>gf```
-That will jump to the string we just searched for and open the file under our cursor with gf. Magic.
+  Once vim has loaded type :help
+  You should now be looking at the help docs. Go ahead and read the intro help docs. But if you want to skip ahead to the second chapter you can search for the file name by typing ```/usr_02<CR>gf```
+  That will jump to the string we just searched for and open the file under our cursor with gf. Magic.
 
-I'd recommend navigating help inside vim as you'll be starting to practice the muscle navigation of moving around and reading text.
+  I'd recommend navigating help inside vim as you'll be starting to practice the muscle navigation of moving around and reading text.
 
 ## Using help even more
 
-Besides just reading the main help sections I linked to above, you can also look up anything you want by passing it as an argument to help ```:h or :help```
+  Besides just reading the main help sections I linked to above, you can also look up anything you want by passing it as an argument to help ```:h or :help```
 
-```:h a``` Will show you help docs on pressing a in normal mode
+  ```:h a``` Will show you help docs on pressing a in normal mode
 
-```:h :a``` Will show docs on the ex command a
+  ```:h :a``` Will show docs on the ex command a
 
-```:h CTRL-a``` Will show help docs on pressing CTRL-a in normal mode
+  ```:h CTRL-a``` Will show help docs on pressing CTRL-a in normal mode
 
-```:h i_CTRL-a``` Will show help docs for pressing CTRL-a while in insert mode, hence the ```i_```
+  ```:h i_CTRL-a``` Will show help docs for pressing CTRL-a while in insert mode, hence the ```i_```
 
-This also works for visual mode like ```:h v_CTRL-a```
+  This also works for visual mode like ```:h v_CTRL-a```
 
-Finally, the vim help is hyperlinked and can be navigated like a webpage.  When your cursor is on a highlighted bit of text, you can type ```ctrl-]``` (control and the closeing square bracket) to navigate the help page being linked.  ```ctrl-T``` will navigate you back.  To try it, do ```:help visual``` to view the help for "visual mode".  Move your cursor to the highlighted string ```:edit``` and hit ```ctrl-]```.  You should now be on the help for the ```:edit``` command.  Hitting ```ctrl-T``` will bring you back.
+  Finally, the vim help is hyperlinked and can be navigated like a webpage.  When your cursor is on a highlighted bit of text, you can type ```ctrl-]``` (control and the closeing square bracket) to navigate the help page being linked.  ```ctrl-T``` will navigate you back.  To try it, do ```:help visual``` to view the help for "visual mode".  Move your cursor to the highlighted string ```:edit``` and hit ```ctrl-]```.  You should now be on the help for the ```:edit``` command.  Hitting ```ctrl-T``` will bring you back.
 
-When I was beginning to learn the initial keybindings I would often quiz myself by going through the alphabet and seeing if I could define what each key would do both at lower and uppercase. If I couldn't recall it I would dive into help with :h g or something similar. Eventually after making it through the alphabet, I picked up what ```CTRL-[a-z]``` did while I was in normal mode. It was an easy way for me to continually test myself on what I had learned previously. If it took three days to get past the letter a, so be it.
+  When I was beginning to learn the initial keybindings I would often quiz myself by going through the alphabet and seeing if I could define what each key would do both at lower and uppercase. If I couldn't recall it I would dive into help with :h g or something similar. Eventually after making it through the alphabet, I picked up what ```CTRL-[a-z]``` did while I was in normal mode. It was an easy way for me to continually test myself on what I had learned previously. If it took three days to get past the letter a, so be it.
 
 ## Mental Modes
 
-I found early on that learning vim is not just memorizing a bunch of key combos. It's also learning to think with intention. You must think about what you want to do and then do it. Thinking this way will bubble up common actions to your brain and will be a constant reminder to automate common workflows. I constantly try to ask myself what I'm doing over and over again that I shouldn't be. It is a different mode to work in but I have found that it has helped me become more efficient with how I interact with my computer whether or not I am using vim.
+  I found early on that learning vim is not just memorizing a bunch of key combos. It's also learning to think with intention. You must think about what you want to do and then do it. Thinking this way will bubble up common actions to your brain and will be a constant reminder to automate common workflows. I constantly try to ask myself what I'm doing over and over again that I shouldn't be. It is a different mode to work in but I have found that it has helped me become more efficient with how I interact with my computer whether or not I am using vim.
 
-Vim is also a constant battle against the [candle problem](http://en.wikipedia.org/wiki/Candle_problem "Candle Problem") which challenges our ability to creatively use the tools we already know about. For instance I knew about :r for a few years. I also knew about ! and ls. But it was a long time before I thought to actually combine them all together and what the outcome would be.
+  Vim is also a constant battle against the [candle problem](http://en.wikipedia.org/wiki/Candle_problem "Candle Problem") which challenges our ability to creatively use the tools we already know about. For instance I knew about :r for a few years. I also knew about ! and ls. But it was a long time before I thought to actually combine them all together and what the outcome would be.
 
-Vim is full of little lego blocks that you'll be learning how to creatively combine for some time to come. I have found that it has made me a more creative problem solver overall.
+  Vim is full of little lego blocks that you'll be learning how to creatively
+  combine for some time to come. I have found that it has made me a more
+  creative problem solver overall.
+
+## Understanding Vims Modes
+
+  For many beginners, vims various editing modes can be confusing and
+  frustrating. They seem foreign and odd compared to most familiar text editing
+  paradigms. But modal editing is probably more familiar to you than you might
+  think.
+  If you've ever used a smart phone that does not have a physical keyboard, you are familiar with modes. What? Well, let me explain.
+
+  Most often times on a smartphone, you are presented with a screen that does
+  not show you a keyboard by default. You must trigger the keyboard to launch by
+  tapping a form field that takes keyboard input, or maybe a "compose" icon like
+  you see in the twitter app. This makes sense because you are most likely
+  trying to do something that does not involve typing when you first look at an
+  interface. If I go to a website, I just want to see the content without some
+  keyboard obscuring my view.
+
+  When you think about it, much of text manipulation is about navigating, moving
+  around, selecting,  and reading.  More often than not when I open a file, my
+  first actions are centered around navigation.
+  Unless I have a blank file, it is very rare that my first several actions
+  involve typing at all.  I generally need to navigate to a spot in a file and
+  read something before I get going.
+
 
 ## Morning Routines
 
-I suggest taking 5-10 minutes in the morning, even if you are a seasoned vim user, to try and learn one new thing.
+  I suggest taking 5-10 minutes in the morning, even if you are a seasoned vim
+  user, to try and learn one new thing.
 
 ## Learn with others
 
-When I'm showing someone something I know how to do in vim generally two things happen. First they ask me a question I don't know the answer to. This is great! Now I have something I know I need to learn. Second, they generally show me something cool they know. Now everyone knows more stuff and text gets edited less inefficiently.
+  When I'm showing someone something I know how to do in vim generally two
+  things happen. First they ask me a question I don't know the answer to. This
+  is great! Now I have something I know I need to learn. Second, they generally
+  show me something cool they know. Now everyone knows more stuff and text gets
+  edited less inefficiently.
 
 ## Summary
 
-Vim help docs are amazing and should be your best friend. Don't be intimidated by the word "documentation".
-Never stop learning! You'll get exponentially faster and the world will have better products for it.
+  Vim help docs are amazing and should be your best friend. Don't be intimidated
+  by the word "documentation".  Never stop learning! You'll get exponentially
+  faster and the world will have better products for it.
 
 
 # Additional Resources
 
-Watch all of these screencasts. They are incredibly informative and most of them are well under 5 minutes.
-[Vimcasts.org](http://vimcasts.org/episodes/archive "Vimcasts")
+  Watch all of these screencasts. They are incredibly informative and most of them are well under 5 minutes.
+  [Vimcasts.org](http://vimcasts.org/episodes/archive "Vimcasts")
 
-[Learn vim progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/ "Learn vim progressively")
+  [Learn vim progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/ "Learn vim progressively")
 
-[The vim learning curve is a myth](http://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth "The vim learning curve is a myth")
+  [The vim learning curve is a myth](http://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth "The vim learning curve is a myth")
 
-[Vim Adventures, learn vim commands through playing a game](http://vim-adventures.com "Vim Adventures")
+  [Vim Adventures, learn vim commands through playing a game](http://vim-adventures.com "Vim Adventures")
 
-[A collection of vim resources](http://www.openvim.com "Open Vim")
+  [A collection of vim resources](http://www.openvim.com "Open Vim")
 
-[Learn vimscript the hardway](http://learnvimscriptthehardway.stevelosh.com "Learn vimscript the hard way")
+  [Learn vimscript the hardway](http://learnvimscriptthehardway.stevelosh.com "Learn vimscript the hard way")
