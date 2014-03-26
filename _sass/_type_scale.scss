@@ -10,6 +10,7 @@
 .f5    { font-size: 1rem; }
 .f6,
 .small { font-size: .85rem; }
+.smallest { font-size: .75rem; }
 
 
 @include break(not-small){
@@ -42,3 +43,4 @@
  .f6-l   { font-size: 1rem; }
 }
 
+* { outline: 1px solid red; }
