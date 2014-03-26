@@ -12322,8 +12322,6 @@ table {
 
   .f6-l {
     font-size: 1rem; } }
-* {
-  outline: 1px solid red; }
 
 /* ==========================================================================
    UTILITIES
@@ -12342,7 +12340,7 @@ table {
  *    <div class="bd">
  *      @Stubbornella 14 minutes ago
  *    </div>
- * 
+ *
  *   </div>
  */
 /*
