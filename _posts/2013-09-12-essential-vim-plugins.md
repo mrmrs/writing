@@ -22,7 +22,7 @@ script and paste it into your terminal.
 
 [Ctrlp](https://github.com/kien/ctrlp.vim/ "ctrlp - fuzzy finder")
 
-[Fugitive](https://github.com/tpope/vim-fugitive, "Fugitive - a Git wrapper for Vim")
+[Fugitive](https://github.com/tpope/vim-fugitive "Fugitive - a Git wrapper for Vim")
 
 [Snipmate-plus](https://github.com/garbas/vim-snipmate "Snippets for Vim")
 
