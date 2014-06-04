@@ -143,9 +143,19 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```gv``` Reselects most recent visual selection
 
+```gv$A``` Reselects most recent visual selection then moves to the end of the line, and enters insert mode
+
 ```g~~``` Switch case of all characters in current line
 
 ```gq``` Format selected text
+
+```:%g/pattern/norm @q``` Run macro q on all lines in a file that match a pattern
+
+```:%g/^\d/norm yyGp``` This searches for all lines of a file that start with a digit as the first character. It then coppies the line and pastes it at the bottom of the file.
+
+```:%g/^$/norm dd``` Delete all blank lines in a file
+
+```:%g/^\$/norm "Ayy``` Yank (copy) all lines that start with a dollar sign and append them to register A.
 
 ### h
 
