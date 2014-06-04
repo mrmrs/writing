@@ -391,8 +391,6 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```<C-r>``` Redo changes
 
-```<C-u>``` Scroll forward half a page
-
 #### EX Commands
 
 ```:undol ``` List all the history points in your tree of changes
