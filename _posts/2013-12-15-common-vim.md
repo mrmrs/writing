@@ -149,6 +149,8 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```gq``` Format selected text
 
+### EX Commands 
+
 ```:%g/pattern/norm @q``` Run macro q on all lines in a file that match a pattern
 
 ```:%g/^\d/norm yyGp``` This searches for all lines of a file that start with a digit as the first character. It then coppies the line and pastes it at the bottom of the file.
