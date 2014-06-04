@@ -391,7 +391,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```<C-r>``` Redo changes
 
-```<C-u>``` Scroll forward half a page
+```<C-u>``` Scroll window upwards to the amount set by the "scroll" option. Default is half a screen.
 
 #### EX Commands
 
