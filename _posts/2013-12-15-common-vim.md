@@ -55,7 +55,12 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode.
 
+
 ```2dw``` This will delete the word your cursor is on as well as the next one. You can replace 2 with any number.
+
+```d^``` Delete from cursor to beginning of the line
+
+```d/pattern``` Deletes up to first matched pattern.
 
 ```2df"``` Delete from cursor to the 2nd quote mark. This is inclusive so it will delete the second quote. This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
 
@@ -68,6 +73,8 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 #### EX commands
 
 ```:%d``` Deletes all lines in a file
+
+```:2,8d``` Deletes lines two through eight.
 
 ### e
 
@@ -135,6 +142,8 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 ```gP``` Pastes just like P but leave the cursor after the pasted text
 
 ```g~~``` Switch case of all characters in current line
+
+```gq``` Format selected text
 
 ### h
 
