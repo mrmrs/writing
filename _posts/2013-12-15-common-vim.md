@@ -141,6 +141,8 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```gP``` Pastes just like P but leave the cursor after the pasted text
 
+```gv``` Reselects most recent visual selection
+
 ```g~~``` Switch case of all characters in current line
 
 ```gq``` Format selected text
