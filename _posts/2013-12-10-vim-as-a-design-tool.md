@@ -5,12 +5,11 @@ layout: post
 
 TL;DR: Touching the mouse is bad for productivity. Do it as little as possible or not at all.
 
-There are some things you should know before we really get started.
+There are some things you should know before we get started.
 
 I am one of the laziest people you will ever meet.<br>
 I am a designer by trade.<br>
-I don't have a background in computer science.<br>
-My degree is in studio art and it's from a small school in Ohio.<br>
+I didn't study computer science in college. I studied studio art.<br>
 
 I might talk about some technical things,
 but remember all I'm trying to do is figure out how to
@@ -18,9 +17,9 @@ design the most amount of great stuff
 in the shortest amount of time with
 the least amount of effort.
 
-Terminal and command-line text editors are just tools to help us build beautiful products. They shouldn't seem scary to us. They are here to help.
+Terminal and command-based text editors are just tools to help us build beautiful products. They shouldn't seem scary to us. They are here to help.
 
-Computers are here to do the boring stuff for us. And We should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
+Computers are here to do the boring stuff for us. And we should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
 
 So what is one way to get computers to do a lot of heavy lifting for us? Command-based text editing.<br>
 Wut?<br>
