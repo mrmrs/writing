@@ -12,17 +12,17 @@ I am a designer by trade.<br>
 I don't have a background in computer science.<br>
 My degree is in studio art and it's from a small school in Ohio.<br>
 
-As much as I might talk about some technical things,
-just remember all I'm trying to do is figure out how to
+I might talk about some technical things,
+but remember all I'm trying to do is figure out how to
 design the most amount of great stuff
 in the shortest amount of time with
-the least amount of effort possible.
+the least amount of effort.
 
-Terminal and command-line text editors are just tools to help us build beautiful products. They shouldn't be scary.
+Terminal and command-line text editors are just tools to help us build beautiful products. They shouldn't seem scary to us. They are here to help.
 
 Computers are here to do the boring stuff for us. And We should let them. Because the less time we spend doing boring dumb stuff, the more time we can spend thinking about fun things. Like memes and gifs and cats.
 
-So how do we get computers do a lot of heavy lifting for us? Command-based text editing.<br>
+So what is one way to get computers to do a lot of heavy lifting for us? Command-based text editing.<br>
 Wut?<br>
 Exactly.<br>
 
@@ -31,21 +31,17 @@ Exactly.<br>
 ### What is command-based editing?
 
 Generally speaking it involves editing text without using your mouse.
-It's essentially a lot of keyboard shortcuts.
-You can use these 'commands' to make the text dance all without ever touching your mouse.
+If you're familiar with the improved speed that keyboard shortcuts provide you in something like photoshop or illustrator - 
+you're going to love using a similar model to manipulate text on the page.
 
 ### So, what are command-based editors?
 
-Well, there are several command-based text editors out there. You might have heard of some
-of them already: vi/vim, emacs, and nano/pico are a a few commonly used
-command-based editors.
-
-All of them are pretty great in some regard.
-I know vim the best and my third grade teacher taught me to write what I know so that's what I'm going to stick with trying to explain here.
+Well, there are several command-based text editors out there. vi/vim, emacs, and nano/pico are some of the more common editors you may have heard about before.
+All of them are pretty great in some regard. But I know vim the best. And my third grade teacher taught me to write what I know so that's what I'm going to stick with trying to explain here.
 
 ### Okay but what are these commands you speak of?
 
-Haha yeah I should explain that. Text editing, is mostly just a bunch of common discreet tasks. Commands do things like: delete characters, copy lines of text, jump to other occurrences of a word in a project, paste saved blocks of code or text, and navigate between files. All without leaving your keyboard.
+Haha yeah I should explain that. Text editing, is just a bunch of common discreet tasks. Commands do things like: delete characters, copy lines of text, jump to other occurrences of a word in a project, paste saved blocks of code or text, and navigate between files. All without leaving your keyboard.
 
 ### What is this vim you speak of?
 
@@ -53,7 +49,7 @@ Vim is a text editor that is available on all unix systems (as well as someother
 
 ### Wait why are we talking about editing text at all? We just want to design stuff.
 
-That's a good question. And I can only answer it for myself, but as a designer, I write a lot. I write code. I write down my ideas. I write emails to colleagues. I write copy for websites and applications. Sometimes I write documentation for things I'm designing. Much of what I do just boils down to writing and then revising / editing text. Since it is where I spend the bulk of my time, I figure it's not the worst investment of my time to try and make the process a bit more efficient. Mostly because of the math behind the graph below. But also because
+That's a good question. And I can only answer it for myself. As a designer, I write a lot. I write code. I write down my ideas. I write emails to colleagues. I write copy for websites and applications. Sometimes I write documentation for things I'm designing. Much of what I do just boils down to writing and then revising / editing text. Since it is where I spend the bulk of my time, I figure it's not the worst investment of my time to try and make the process a bit more efficient. Mostly because of the math behind the graph below. But also because
 it hasn't been that hard. And in fact it's been a lot of fun.
 
 ### The xkcd guide on when to stop and automate something
