@@ -4,7 +4,7 @@ layout: post
 ---
 
 As a front-end developer I've found these plugins to be quite wonderful for editing HTML, CSS, and Javascript. While
-I'm comfortable running stock vim, and I would encourage you to learn to be as well, I prefer to have these plugins installed as a part of my setup.
+I'm comfortable running stock vim, I prefer to have these plugins installed as a part of my setup.
 
 I do not have a strong preference between pathogen and vundle for package management.
 I have used both - but am currently using
