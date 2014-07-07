@@ -224,13 +224,15 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 
 ```mk``` mark spot as k.
 
-```'k``` return the cursor to the spot you marked as "k"
 
-```d'k``` delete from the cursor's position to the spot you marked as "k"
 
-```c'k``` change from the cursor's position to the spot you marked as "k"
+````k``` return the cursor to the spot you marked as "k"
 
-```y'k``` yank/copy from the cursor's position to the spot you marked as "k"
+```d`k``` delete from the cursor's position to the spot you marked as "k"
+
+```c`k``` change from the cursor's position to the spot you marked as "k"
+
+```y`k``` yank/copy from the cursor's position to the spot you marked as "k"
 
 
 ### n
