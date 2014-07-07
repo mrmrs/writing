@@ -13,7 +13,7 @@ layout: post
 
 ```b``` move cursor to first character of previous word
 
-```B``` same as above
+```B``` move cursor to first character of previous non-blank series of characters
 
 ```<C-b>``` scroll page backwards (move up in the file)
 
