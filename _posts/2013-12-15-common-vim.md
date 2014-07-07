@@ -82,7 +82,7 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```e``` jumps to the end of the next word
 
-```E``` same
+```E``` jumps to the end of the next non-blank series of characters
 
 ```ge``` jumps to the end of the previous word
 
