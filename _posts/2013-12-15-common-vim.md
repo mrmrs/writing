@@ -27,11 +27,11 @@ c stands for "change" will not do anything on its on, but acts as a modifier to 
 
 ```ci"``` If your cursor is in between a set of quotes, this will delete everything inside those quotes and drop you into insert mode.
 
-```ct"``` Change text in between quotes.
+```ct"``` Change text til the quotes.
 
-```2ct"``` Delete text from cursor up until the 2nd quote in a line
+```2ct"``` Delete text from cursor up til the 2nd quote in a line
 
-```cF"``` Change from cursor up until and including the next quote
+```cF"``` Change from cursor backwards finding and including the previous quote
 
 ```C``` Delete until the end of the line and enter into insert mode
 
