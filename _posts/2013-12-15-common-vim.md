@@ -3,11 +3,13 @@ title: "Common Vim"
 layout: post
 ---
 
+
 ### a
 
 ```a``` enter into insert mode after the character your cursor is on
 
 ```A``` enter into insert mode at the end of the current line
+
 
 ### b
 
@@ -16,6 +18,7 @@ layout: post
 ```B``` move cursor to first character of previous non-blank series of characters
 
 ```<C-b>``` scroll page backwards (move up in the file)
+
 
 ### c
 
@@ -48,13 +51,11 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ### d
 
-
 ```dd``` Delete the current line
 
 ```D``` Delete from cursor until the end of the line. Same as ```d$```
 
 ```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode.
-
 
 ```2dw``` This will delete the word your cursor is on as well as the next one. You can replace 2 with any number.
 
@@ -75,6 +76,7 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 ```:%d``` Deletes all lines in a file
 
 ```:2,8d``` Deletes lines two through eight.
+
 
 ### e
 
@@ -116,6 +118,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 ```2df"``` delete from cursor through two occurences of "
 
 ```<C-f>``` scrolls one full page forward
+
 
 ### g
 
@@ -159,6 +162,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```:%g/^\$/norm "Ayy``` Yank (copy) all lines that start with a dollar sign and append them to register A.
 
+
 ### h
 
 ```h``` Move cursor one character to the left
@@ -173,6 +177,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```:h i_CTRL-R``` Opens vim help to documentation on pressing control and r while in insert mode
 
+
 ### i
 
 ```i``` Enter insert mode where your cursor is. Any text you insert will be inserted before the character your cursor was over.
@@ -183,6 +188,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```I``` Insert text at the very beginning of the line
 
+
 ### j
 
 ```j``` moves cursor down one line
@@ -190,6 +196,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 ```32j```  moves the cursor down 32 lines.
 
 ```J``` joins two lines
+
 
 ### k
 
@@ -203,8 +210,8 @@ Line One
 Line Two
 Line Three
 
-
 ```dk``` delete current line and line above cursor
+
 
 ### l
 
@@ -213,6 +220,7 @@ Line Three
 ```dl``` Delete character under cursor. Same as x.
 
 ```L``` Move cursor to last line in window
+
 
 ### m
 
@@ -228,6 +236,7 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 
 ```y'k``` yank/copy from the cursor's position to the spot you marked as "k"
 
+
 ### n
 
 ```n``` moves forward to next match of a search pattern
@@ -235,6 +244,7 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 ```N``` moves to backwards to previous match of a search pattern
 
 ```gn``` search forward for the last used search pattern.
+
 
 ### o
 
@@ -249,6 +259,7 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 ### EX Commands
 
 ```:only``` Closes all splits except for the current one
+
 
 ### p
 
@@ -281,6 +292,7 @@ Paste is a pretty big deal when you are dealing with code. So p should be one of
 ```"= 8*8<CR>p``` Pastes in evaluation of the expression ```8*8```. This could be any maths you want. ```=``` is the expression register, which allows you to do calculations.
 From normal mode you can launch it by hitting ```"=```
 
+
 ### q
 
 q records things - so it doesn't do much on its own. You need to tell it what register to store the recorded sequence in.
@@ -304,6 +316,7 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 ```:12,42wq``` saves lines 12 to 42 and quits file
 
 ```:wqa``` saves and quits all files in buffer
+
 
 ### r
 ```r``` Replaces character under cursor with next input i.e.
@@ -340,7 +353,6 @@ and bump both of those numbers up to 2. And if we run it again with ```@@``` it 
 ```:sp file.txt``` This will split the current window horizontally with a file named file.txt
 
 ```:vsp file.txt``` This will split the current window vertically. vsp stands for vertical split.
-
 
 s is how you do find and replace, so let's just say it is all of the important.
 
@@ -383,6 +395,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```dt}``` Delete from cursor until next }
 
+
 ### u
 
 ```u``` Undo changes
@@ -408,11 +421,13 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```gv``` Reselect last visual selection
 
+
 ### w
 
 ```w``` Moves to the next word
 
 ```3w``` Moves to the third word
+
 
 ### x
 
@@ -421,6 +436,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 ```X``` this will delete a character before the cursor. Same as ```dh```
 
 ```:12,42d x``` This will delete lines 12,42 into register x
+
 
 ### y
 
@@ -449,6 +465,7 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 ```<C-y>``` Scroll up by 1 line
 
 ```12<C-y>``` Scroll up 12 lines
+
 
 ### z
 
