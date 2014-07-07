@@ -63,11 +63,11 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```d/pattern``` Deletes up to first matched pattern.
 
-```2df"``` Delete from cursor to the 2nd quote mark. This is inclusive so it will delete the second quote. This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
+```2df"``` Delete from cursor to find the 2nd quote mark. This is inclusive so it will delete the second quote. This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
 
 ```di"``` Delete everything inside of these quotes
 
-```da"``` Delete everything wrapped in quotes (including the quotes)
+```da"``` Delete everything with quotes wrapped around (including the quotes)
 
 ```<C-d>``` Scroll half page (in this case "d" is a mnemonic for "down")
 
