@@ -442,7 +442,7 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```"xyy``` Copies current line into register x
 
-```"jY``` Copies current line into register j
+```"jY``` Copies current line into register j. If you like "Y" to work from the cursor to the end of line (which is more logical, but not Vi-compatible) use ":map Y y$".
 
 ```:12,112y``` Copies lines 12 through 112
 
@@ -454,9 +454,9 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ```yT>``` Copies from current cursor postion to the previous > on the same line.
 
-```yf>``` Copies from current cursor postion up to  and including the next > on the same line.
+```yf>``` Copies from current cursor postion up to and including the next > on the same line.
 
-```yF>``` Copies from current cursor postion up to  and including the previous > on the same line.
+```yF>``` Copies from current cursor postion up to and including the previous > on the same line.
 
 ```<C-y>``` Scroll up by 1 line
 
