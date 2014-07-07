@@ -391,7 +391,7 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```dt"``` Delete from cursor until next "
 
-```dt}``` Delete from cursor until next }
+```dT}``` Delete backwards from cursor until previous }
 
 
 ### u
