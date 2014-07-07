@@ -206,10 +206,6 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```<C-w>K``` rotates window to horizontal split
 
-Line One
-Line Two
-Line Three
-
 ```dk``` delete current line and line above cursor
 
 
