@@ -191,11 +191,11 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ### j
 
-```j``` moves cursor down one line
+```j``` Moves cursor down one line
 
-```32j```  moves the cursor down 32 lines.
+```32j```  Moves the cursor down 32 lines.
 
-```J``` joins two lines
+```J``` Joins two lines removing indent
 
 
 ### k
