@@ -433,8 +433,6 @@ s is how you do find and replace, so let's just say it is all of the important.
 
 ```X``` this will delete a character before the cursor. Same as ```dh```
 
-```:12,42d x``` This will delete lines 12,42 into register x
-
 
 ### y
 
