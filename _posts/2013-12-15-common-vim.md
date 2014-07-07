@@ -122,23 +122,23 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ### g
 
-```gx``` opens url under your cursor in a browser
+```gx``` Go to url under your cursor in a browser
 
-```gf``` opens file that is under your cursor in the current window
+```gf``` Go open file under your cursor in the current window
 
-```g;``` jumps to the last place you edited text
+```g;``` Go to the last place you edited text
 
-```g,``` jumps forward in the change list.
+```g,``` Go forward in the change list.
 
-```4g,``` jumps forward 4 spots on the change list.
+```4g,``` Go forward 4 spots on the change list.
 
 ```gg=G``` or ```1G=G``` format the entire file
 
 ```gn``` Grab the next match from last search and visually select it
 
-```gi``` Jump into insert mode at the end of the last insert you did
+```gi``` Go into insert mode at the end of the last insert you did
 
-```ge``` Move to the end of the previous word
+```ge``` Go to the end of the previous word
 
 ```gp``` Pastes just like p but leave the cursor after the pasted text
 
