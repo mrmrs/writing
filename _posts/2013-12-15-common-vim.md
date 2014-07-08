@@ -222,15 +222,19 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 m is for marking spots (which you can think of as bookmarks in your files). It does not do anything by itself.
 
+Jumping to a mark can be done in 2 ways. With \` (backtick): The cursor is positioned at the mark. Or with ' (single quote): The cursor is positioned on the first non-blank character in the line of the mark.
+
 ```mk``` mark spot as k.
 
-```'k``` return the cursor to the spot you marked as "k".
+``` `k``` return the cursor to the spot you marked as "k".
 
-```d'k``` delete from the cursor's position to the spot you marked as "k".
+```'k``` return the cursor to the start of the line you marked as "k".
 
-```c'k``` change from the cursor's position to the spot you marked as "k".
+```d'k``` delete from the cursor's position to the start of the line you marked as "k".
 
-```y'k``` yank/copy from the cursor's position to the spot you marked as "k".
+```c'k``` change from the cursor's position to the start of the line you marked as "k".
+
+```y`k``` yank/copy from the cursor's position to the spot you marked as "k".
 
 
 ### n
