@@ -464,9 +464,9 @@ y stands for copy, I mean yank. It doesn't do anything by itself. It is very sim
 
 ### z
 
-```z<CR>``` Redraws the screen so that your cursor line is at the top of the window.
+```z<CR>``` Redraws the screen so that your cursor line is at the top of the window. Same as ```zt```.
 
-```z-``` Redraws the screen so that your cursor line is at the bottom of the window.
+```z-``` Redraws the screen so that your cursor line is at the bottom of the window. Same as ```zb```.
 
 ```zz``` Redraws the screen so that your cursor line is at the middle of the window.
 
