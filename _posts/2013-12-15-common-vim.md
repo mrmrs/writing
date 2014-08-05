@@ -22,7 +22,7 @@ layout: post
 
 ### c
 
-c stands for "change" will not do anything on its on, but acts as a modifier to other commands. Here are some common commands handy for editing front end code.
+c stands for "change" will not do anything on its own, but acts as a modifier to other commands. Here are some common commands handy for editing front end code.
 
 ```cw``` cw stands for change word. This will delete the word your cursor is over and enter into insert mode.
 
@@ -156,7 +156,7 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```:%g/pattern/norm @q``` Run macro q on all lines in a file that match a pattern.
 
-```:%g/^\d/norm yyGp``` This searches for all lines of a file that start with a digit as the first character. It then coppies the line and pastes it at the bottom of the file.
+```:%g/^\d/norm yyGp``` This searches for all lines of a file that start with a digit as the first character. It then copies the line and pastes it at the bottom of the file.
 
 ```:%g/^$/norm dd``` Delete all blank lines in a file.
 
@@ -237,7 +237,7 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 
 ```n``` moves forward to next match of a search pattern.
 
-```N``` moves to backwards to previous match of a search pattern.
+```N``` moves backwards to previous match of a search pattern.
 
 ```gn``` search forward for the last used search pattern.
 
@@ -269,7 +269,7 @@ Paste is a pretty big deal when you are dealing with code. So p should be one of
 
 ```xp``` this will swap two characters. Technically it just deletes the character under your cursor, then pastes it back in. This is the equivalent of ```dlp```.
 
-```"*p``` Pastes in text from your system clipboard>.
+```"*p``` Pastes in text from your system clipboard.
 
 ```"2p``` This will paste in text from the second register. You will use this all of the time. Most useful when you delete something you want to paste, then delete something else. Move to the place where you want to paste text, hit p and go "doh". Just remember ```"2p```.
 
