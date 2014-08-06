@@ -177,6 +177,8 @@ f is for finding things so it doesn't do anything on it's own. It will jump to t
 
 ```:h i_CTRL-R``` Opens vim help to documentation on pressing control and r while in insert mode.
 
+```H``` Move cursor to first (highest) line in window.
+
 
 ### i
 
@@ -231,6 +233,8 @@ m is for marking spots (which you can think of as bookmarks in your files). It d
 ```c'k``` change from the cursor's position to the spot you marked as "k".
 
 ```y'k``` yank/copy from the cursor's position to the spot you marked as "k".
+
+```M``` Move cursor to middle of window.
 
 
 ### n
