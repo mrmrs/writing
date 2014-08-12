@@ -109,7 +109,7 @@ The best way to read the docs is to actually navigate around them inside vim. Yo
 
   This also works for visual mode like ```:h v_CTRL-a```
 
-  Finally, the vim help is hyperlinked and can be navigated like a webpage.  When your cursor is on a highlighted bit of text, you can type ```ctrl-]``` (control and the closeing square bracket) to navigate the help page being linked.  ```ctrl-T``` will navigate you back.  To try it, do ```:help visual``` to view the help for "visual mode".  Move your cursor to the highlighted string ```:edit``` and hit ```ctrl-]```.  You should now be on the help for the ```:edit``` command.  Hitting ```ctrl-T``` will bring you back.
+  Finally, the vim help is hyperlinked and can be navigated like a webpage.  When your cursor is on a highlighted bit of text, you can type ```ctrl-]``` (control and the closing square bracket) to navigate the help page being linked.  ```ctrl-T``` will navigate you back.  To try it, do ```:help visual``` to view the help for "visual mode".  Move your cursor to the highlighted string ```:edit``` and hit ```ctrl-]```.  You should now be on the help for the ```:edit``` command.  Hitting ```ctrl-T``` will bring you back.
 
   When I was beginning to learn the initial keybindings I would often quiz myself by going through the alphabet and seeing if I could define what each key would do both at lower and uppercase. If I couldn't recall it I would dive into help with :h g or something similar. Eventually after making it through the alphabet, I picked up what ```CTRL-[a-z]``` did while I was in normal mode. It was an easy way for me to continually test myself on what I had learned previously. If it took three days to get past the letter a, so be it.
 
