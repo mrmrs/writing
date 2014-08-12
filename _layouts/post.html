@@ -2,10 +2,10 @@
 <body>
   {% include _google_analytics.html %}
   {% include _header.html %}
-  <article class="pam pal-ns">
-    <header class="readable mx-wi7 center ptl">
-      <time class="sans-serif lh-title tracked db tc-ns mbl mbx-ns mtm smallest caps gray" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time>
-      <h1 class="f2 f3-ns f2-m f2-l fw1 thin sans-serif mbn">
+  <article class="pas pam-ns">
+    <header class="mw7 center ptl mbl">
+      <time class="f6 sans-serif lh-title db mbm mbl-ns mtm ttu" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time>
+      <h1 class="f1 f1-m f1-l mbn ttu">
         {{page.title}}
       </h1>
       {% if page.subtitle %}
@@ -15,7 +15,7 @@
       {% endif %}
     </header>
     <!-- This is where post content lives -->
-    <div class="f3 f3-ns f3-m f3-l mx-wi7 center lh-copy post-content">
+    <div class="f3 f3-ns f3-m f3-l mw7 center lh-copy post-content">
       {{content}}
     </div>
     <!-- end of post content -->
