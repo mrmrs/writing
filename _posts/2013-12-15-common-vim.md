@@ -32,7 +32,7 @@ c stands for "change" will not do anything on its own, but acts as a modifier to
 
 ```ct"``` Change text til the quotes.
 
-```2ct"``` Delete text from cursor up til the 2nd quote in a line.
+```2ct"``` Change text from cursor up til the 2nd quote in a line.
 
 ```cF"``` Change from cursor backwards finding and including the previous quote.
 
