@@ -12,7 +12,7 @@ Mobile-first CSS has to do with how you architect your code and media-queries.It
 
 I often times step into codebases that have max-width media queries that target mobile devices. Something to the tune of:
 
-```
+<pre><code>
 .post-title {
   font-size: 48px;
 }
@@ -22,7 +22,7 @@ I often times step into codebases that have max-width media queries that target 
     font-size: 24px; 
   }
 } 
-```
+</code></pre>
 
 When I first started writing media-queries I basically did this all over the place. I was used to developing for the desktop. 
 So I used media queries to override my desktop styles. 
@@ -38,13 +38,14 @@ When applying this thinking to how we write media queries, we could say a device
 When a devices web browser parses your css, it doesn't parse the code within media queries that don't apply to it. 
 
 I.E devices that have a screen-width smaller than 64em will not parse anything inside this block:
-```
+<pre><code>
 @media (min-width: 64em) { 
 
    /* Some CSS here */
    
 }
-```
+</code></pre>
+
 In other words **all css that isn't inside a media query will get parsed by your mobile-devices no-matter what**. So you should use that to target the smallest devices with your default styles and override from there as your content demands it. 
 
 Anecdotally since I started developing my css mobile-first,
