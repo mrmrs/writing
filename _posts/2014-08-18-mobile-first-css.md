@@ -11,7 +11,7 @@ Mobile-first CSS has to do with how you architect your code and media queries.It
 
 I often times step into codebases that have max-width media queries that target mobile devices. Something to the tune of:
 
-<pre class="phm pbm pbl-ns phl-ns"><code class="f6 f4-ns">
+<pre class="phm pbm pbl-ns phl-ns"><code class="f5 f4-ns">
 .post-title {
   font-size: 48px;
 }
@@ -34,7 +34,7 @@ there is a great line that helped shape the way I think about authoring css:
 
 <blockquote class="f2 f1-ns bl b--near-white pll mln lh-copy">
   Rulesets should only ever inherit and add to previous ones, never undo.
-  <a class="db f6 mtm" href="http://csswizardry.com/2012/11/code-smells-in-css">- Harry Roberts</a>
+  <a class="db f5 mtm" href="http://csswizardry.com/2012/11/code-smells-in-css">- Harry Roberts</a>
 </blockquote>
 
 When applying this thinking to how we architect our media queries, we could say a device shouldn't parse multiple definitions of the same ruleset if it doesn't have to. 
@@ -44,7 +44,7 @@ When a devices web browser parses your css, it doesn't parse the code within med
 I.E devices that have a screen-width smaller than 64em will not parse anything inside this block:
 
 <pre class="phm pbm pbl-ns phl-ns">
-<code class="f6 f4-ns">
+<code class="f5 f4-ns">
 @media (min-width: 64em) { 
    /* Some CSS here */
 }
