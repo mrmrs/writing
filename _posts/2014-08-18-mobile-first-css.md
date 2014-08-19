@@ -59,9 +59,8 @@ Anecdotally since I started developing my css mobile-first, I build
 fully responsive interfaces much more quickly as opposed to when I start at large
 screen-sizes and work backwards from there. I find that I don't have to 'fix'
 my desktop view as my mobile-first css works as a desktop interface. I do override my mobile
-styles to enhance the design at larger screensizes...but I never feel like I'm fixing broken things. 
-This was a big change in mental approact for me.
-
+styles to enhance a design at larger screensizes...but I never feel like I'm fixing broken things.
+This was a big shift in my mental approach for authoring css.
 
 Another by-product of making the switch to mobile-first css, was lighter-weight css files. 
 Personally I think smaller files are rad because there is less to read and the less you have to read the more time you have to look at cat gifs. 
