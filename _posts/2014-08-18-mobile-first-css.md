@@ -27,13 +27,17 @@ When I first started using media queries - this was a constant pattern in my cod
 first and I loved the convenience of being able to 'fix' my desktop design for mobile.
 
 Something didn't feel right though. And I started to wonder.
-This 'pattern' doesn't really make sense does it?
-In Harry Roberts' wonderfully written 'code smells in css' http://csswizardry.com/2012/11/code-smells-in-css/
-he has a great line that helped shape the way I think about authoring css:
+Is this pattern really an anti-pattern?
 
-"Rulesets should only ever inherit and add to previous ones, never undo."
+In Harry Roberts' wonderfully written ['code smells in css'](http://csswizardry.com/2012/11/code-smells-in-css/)
+there is a great line that helped shape the way I think about authoring css:
 
-When applying this thinking to how we write media queries, we could say a device shouldn't have to parse multiple definitions of the same ruleset if it doesn't have to. 
+<blockquote class="f2 f1-ns bl b--near-white pll mln lh-copy">
+  Rulesets should only ever inherit and add to previous ones, never undo.
+  <a class="db f6 mtm" href="http://csswizardry.com/2012/11/code-smells-in-css">- Harry Roberts</a>
+</blockquote>
+
+When applying this thinking to how we architect our media queries, we could say a device shouldn't parse multiple definitions of the same ruleset if it doesn't have to. 
 
 When a devices web browser parses your css, it doesn't parse the code within media queries that don't apply to it. 
 
