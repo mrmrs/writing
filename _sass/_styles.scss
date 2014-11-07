@@ -2,7 +2,8 @@ code {
   background: #eee;
   font-size: 16px;
   padding: .25rem .5rem;
-  white-space: nowrap;
+  white-space: normal;
+  word-wrap:break-word;
   margin-right: .5rem;
 }
 

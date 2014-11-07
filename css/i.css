@@ -7941,7 +7941,7 @@ a {
 
   .mn-wi-fill-l {
     min-width: fill-available; } }
-/* normalize.css v2.1.2 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -9807,28 +9807,28 @@ table {
   color: gainsboro; }
 
 .lightgray {
-  color: lightgrey; }
+  color: lightgray; }
 
 .silver {
   color: silver; }
 
 .darkgray {
-  color: darkgrey; }
+  color: darkgray; }
 
 .gray {
   color: gray; }
 
 .dimgray {
-  color: dimgrey; }
+  color: dimgray; }
 
 .lightslategray {
-  color: lightslategrey; }
+  color: lightslategray; }
 
 .slategray {
-  color: slategrey; }
+  color: slategray; }
 
 .darkslategray {
-  color: darkslategrey; }
+  color: darkslategray; }
 
 .black {
   color: black; }
@@ -10228,28 +10228,28 @@ table {
   background-color: gainsboro; }
 
 .bg-lightgray {
-  background-color: lightgrey; }
+  background-color: lightgray; }
 
 .bg-silver {
   background-color: silver; }
 
 .bg-darkgray {
-  background-color: darkgrey; }
+  background-color: darkgray; }
 
 .bg-gray {
   background-color: gray; }
 
 .bg-dimgray {
-  background-color: dimgrey; }
+  background-color: dimgray; }
 
 .bg-lightslategray {
-  background-color: lightslategrey; }
+  background-color: lightslategray; }
 
 .bg-slategray {
-  background-color: slategrey; }
+  background-color: slategray; }
 
 .bg-darkslategray {
-  background-color: darkslategrey; }
+  background-color: darkslategray; }
 
 .bg-black {
   background-color: black; }
@@ -14142,7 +14142,8 @@ code {
   background: #eee;
   font-size: 16px;
   padding: .25rem .5rem;
-  white-space: nowrap;
+  white-space: normal;
+  word-wrap: break-word;
   margin-right: .5rem; }
 
 h1, h2, h3, h4, h5, h6 {
