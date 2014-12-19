@@ -1,17 +1,21 @@
 ---
-title: "skullwaste"
+title: "skullcat"
 layout: default
 ---
 
 <header class="pam pal-m phx-l mtm mtl-ns mbn">
-  <p class="f2 mega-ns mbx pvx-ns">Thoughts on vim, css, grids, &amp; typing code.</p>
-  <h1 class="sans-serif fw1 f6 f5-ns ttu mega-tracked mbn">Articles</h1>
+  <p class="f2 f1-ns mbx pvx-ns">
+    Thoughts on vim, css, grids, &amp; typing code.
+  </p>
+  <h1 class="sans-serif fw1 f5 ttu mega-tracked mbn">
+    Articles
+  </h1>
 </header>
 <ul class="list pln mtn mbn">
   {% for post in paginator.posts %}
   <li class="pln bb b--light-gray">
     <a href="{{post.url}}" title="{{post.title}}" class="db pvl phm pal-m phx-l pvl-l f3 f1-ns f2-m f2-l link blk hov">
-      <span class="f6 db mid-gray pbxs">{{ post.date | date: "%-d %B %Y" }}</span>
+      <span class="f5 db mid-gray pbxs">{{ post.date | date: "%-d %B %Y" }}</span>
       {{ post.title }}
       <span class="fr">»</span>
     </a>

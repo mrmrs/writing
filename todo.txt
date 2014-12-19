@@ -1,0 +1,89 @@
+# Setup
+
+Dev setup
+
+Stack
+HTML5
+SASS / REWORK
+JS
+
+Vim
+  - Fugitive
+  - Vundle
+  - Gundo
+  - CTRL-P
+  - Ultisnips
+  - Ag.vim
+  - HTML5
+IA Writer
+It's simple and syncs to my phone & ipad.
+
+Unix tools
+w3m
+ag
+tree
+curl
+xargs
+
+Git
+
+Chrome
+Canary
+Safari
+Sometimes Firefox
+
+Moom
+
+Gulp
+Autoprefixer
+Sass (libsass version - not ruby)
+Browser-sync
+Gulp-size
+csslint
+minify-css
+gulp-uncss
+
+iPad mini
+iPhone 5
+iPhone 6
+Magic Mouse
+Two Thunderbolt Displays
+15" Macbook Retina
+Apple keyboard
+
+Screenflow
+
+Photoshop
+Illustrator
+
+## Phone apps
+
+Afterlight
+
+## Things in the cloud
+gh-pages
+beanstalk + s3
+mediatemple
+
+## Books
+
+Elements of Typographic Style
+How to Make Sense of any Mess
+Grid System
+On writing well
+
+## Music
+
+Hardware
+MPD32 (2)
+Launchpad Novation
+Ableton Push
+HS80M
+
+Ableton Live 9
+Razor
+Max for Live
+
+## Camera
+Canon 5d mark iii
+DJI Phantom 2 + GoPro Hero 4 Black
