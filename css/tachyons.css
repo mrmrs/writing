@@ -333,7 +333,7 @@ html, body {
 /*
   Box Sizing
 */
-div, article, section, main, footer, header, form, fieldset, pre, code, p, input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
+div, article, section, main, footer, header, form, fieldset, pre, code, p, input[type="text"], input[type="tel"], input[type="email"], input[type="password"], .box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -1163,7 +1163,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
     float: right;
     display: inline; }
   .fn-ns {
-    float: none; } }
+    float: none !important; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .fl-m {
@@ -1693,13 +1693,16 @@ a:active {
   text-decoration: underline; }
 
 .link-gray {
-  color: #555; }
+  color: #777 !important; }
 
 .link-gray:link {
-  color: #555; }
+  color: #777 !important; }
 
 .link-gray:visited {
-  color: #555; }
+  color: #777 !important; }
+
+.link-gray:hover {
+  color: #555 !important; }
 
 /*
 
@@ -5318,9 +5321,6 @@ body, .serif {
 pre {
   background: #f1f1f1;
   border-radius: 0.25em; }
-
-footer a:link {
-  color: #333; }
 
 .header-link:link {
   color: white;

@@ -42,6 +42,7 @@ a:active  { color: #333333!important; }
 .underline-hover:hover { text-decoration: underline; }
 
 
-.link-gray { color: #555; }
-.link-gray:link { color: #555; }
-.link-gray:visited { color: #555; }
+.link-gray { color: #777!important; }
+.link-gray:link { color: #777!important; }
+.link-gray:visited { color: #777!important; }
+.link-gray:hover { color: #555!important;}
