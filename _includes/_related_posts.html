@@ -1,16 +1,22 @@
-<article class="mtl phm pbm ptl bt b--light-gray bb related-posts">
-  <div class="mw7 center">
-    <h1 class="sans-serif ttu tracked f5">Similar</h1>
+<article class="mtl phm phl-m phx-l bt b--light-gray bb related-posts">
+  <div class="mvl">
+    <h1 class="sans-serif ttu tracked f5 pas">Similar</h1>
     <ul class="list pln">
       {% for post in site.related_posts limit: 5 %}
       <li class="pln">
-        <a href="{{ post.url }}" class="db pvs f4 sans-serif" title="{{post.title}}">
-          <!--<span>{{ post.date | date_to_long_string }}</span>-->
+        <a href="{{ post.url }}" class="db pas f4 sans-serif" title="{{post.title}}">
           {{ post.title }}
           <span>›</span>
         </a>
       </li>
       {% endfor %}
+      <li class="pln">
+        <a href="{{ site.url }}" class="db pas f4 sans-serif" title="Full Archives">
+          Full Archives
+          <span>›</span>
+        </a>
+
+      </li>
     </ul>
   </div>
 </article>
