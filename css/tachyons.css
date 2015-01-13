@@ -1190,14 +1190,11 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
    Font Family Groups
 
 */
-body, .sans-serif {
+body, .sans-serif, h1, h2, h3, h4, h5, h6 {
   font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
 
 .open-sans {
   font-family: "Open sans", sans-serif; }
-
-.serif {
-  font-family: "Calisto MT", georgia, serif; }
 
 .code, code {
   font-family: Consolas, monaco, monospace; }
@@ -1213,6 +1210,9 @@ body, .sans-serif {
 
 .serif-times {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+
+h3, h4, h5, h6 {
+  font-weight: 300; }
 
 @font-face {
   font-family: 'Merriweather';
@@ -5314,18 +5314,47 @@ footer a:link {
   color: #333; }
 
 .header-link:link {
+  color: white;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out; }
+
+.header-link:visited {
+  color: white;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out; }
 
 .header-link:hover {
-  background-color: #f3f3f3;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
   -webkit-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in; }
 
 .header-link:active {
-  background-color: #eeeeee;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.4);
   -webkit-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in; }
+
+.header-link:focus {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in; }
+
+.header-link:link .link-child {
+  color: white; }
+
+.header-link:visited .link-child {
+  color: white; }
+
+.header-link:hover .link-child {
+  color: rgba(0, 0, 0, 0.8); }
+
+.header-link:active .link-child {
+  color: rgba(0, 0, 0, 0.8); }
+
+.header-link:focus .link-child {
+  color: rgba(0, 0, 0, 0.8); }
 
 .header-link:link svg {
   fill: #222 !important;
