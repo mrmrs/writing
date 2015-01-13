@@ -1642,6 +1642,25 @@ img {
    LINKS
 
 */
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out; }
+
+a:link {
+  color: #0e8cbb !important; }
+
+a:visited {
+  color: #0e8cbb !important; }
+
+a:hover {
+  color: #a94dba !important;
+  -webkit-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in; }
+
+a:active {
+  color: #333333 !important; }
+
 .link {
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in;
@@ -1672,6 +1691,15 @@ img {
 
 .underline-hover:hover {
   text-decoration: underline; }
+
+.link-gray {
+  color: #555; }
+
+.link-gray:link {
+  color: #555; }
+
+.link-gray:visited {
+  color: #555; }
 
 /*
 
@@ -5290,25 +5318,6 @@ body, .serif {
 pre {
   background: #f1f1f1;
   border-radius: 0.25em; }
-
-a {
-  text-decoration: none;
-  -webkit-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out; }
-
-a:link {
-  color: #0e8cbb !important; }
-
-a:visited {
-  color: #0e8cbb !important; }
-
-a:hover {
-  color: #a94dba !important;
-  -webkit-transition: color 0.25s ease-in;
-  transition: color 0.25s ease-in; }
-
-a:active {
-  color: #333333 !important; }
 
 footer a:link {
   color: #333; }

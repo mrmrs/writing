@@ -11,17 +11,6 @@ pre {
   background: #f1f1f1;
   border-radius:.25em;
 }
-a {
-  text-decoration: none;
-  transition: color .2s ease-out;
-}
-a:link    { color: #0e8cbb!important; }
-a:visited { color: #0e8cbb!important;}
-a:hover   {
-  color: #a94dba!important;
-  transition: color .25s ease-in;
-}
-a:active  { color: #333333!important; }
 footer a:link { color: #333; }
 
 .header-link:link { color: white; transition: background-color .2s ease-out; }
