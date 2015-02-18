@@ -44,7 +44,7 @@ Haha yeah I should explain that. Text editing, is just a bunch of common discree
 
 ### What is this vim you speak of?
 
-Vim is a text editor that is available on all unix systems (as well as someothers). If you are on a Linux or Mac box right now, vim is already installed on your machine. Its ubiquity is one of the many reasons I like vim. I can step into any unix environment and have a familiar text editing environment.
+Vim is a text editor that is available on all unix systems (as well as some others). If you are on a Linux or Mac box right now, vim is already installed on your machine. Its ubiquity is one of the many reasons I like vim. I can step into any unix environment and have a familiar text editing environment.
 
 ### Wait why are we talking about editing text at all? We just want to design stuff.
 
