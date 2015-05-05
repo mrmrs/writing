@@ -24,11 +24,19 @@ layout: post
 
 c stands for "change" will not do anything on its own, but acts as a modifier to other commands. Here are some common commands handy for editing front end code.
 
-```cw``` cw stands for change word. This will delete the word your cursor is over and enter into insert mode.
+```cw``` cw stands for change word. This will delete the word your cursor is over and enter into insert mode. Note that if you are not on the first character of the word it will only change from where your cursor is until the end of the word. This might seem annoying at first but is actually an amazing feature once you understand movements.
+
+```cit``` Change all text in between a set of tags i.e <bar>foo</bar> will delete foo and put you insert mode.
 
 ```ci(``` Change all text in between a set of parenthesis.
 
 ```ci"``` If your cursor is in between a set of quotes, this will delete everything inside those quotes and drop you into insert mode.
+
+```cat``` Change all text in around a set of tags i.e delete all of <bar>foo</bar> and enter into insert mode.
+
+```ca(``` Change all text in around a set of parenthesis.
+
+```ca"``` If your cursor is on or in between a set of quotes, this will delete those quotes and drop you into insert mode.
 
 ```ct"``` Change text til the quotes.
 
@@ -55,7 +63,7 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```D``` Delete from cursor until the end of the line. Same as ```d$```.
 
-```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode.
+```dw``` Delete the word your cursor is on. Difference between this and cw is that you do not enter into insert mode and it will delete the trailing white space.
 
 ```2dw``` This will delete the word your cursor is on as well as the next one. You can replace 2 with any number.
 
@@ -65,9 +73,17 @@ CTRL-c In Normal mode, any pending command is aborted. Also aborts current searc
 
 ```2df"``` Delete from cursor to find the 2nd quote mark. This is inclusive so it will delete the second quote. This is a handy command for deleting attributes in html if your cursor is on the first letter of the attribute.
 
-```di"``` Delete everything inside of these quotes.
+```di"``` Delete everything inside of a set of quotes quotes.
 
-```da"``` Delete everything with quotes wrapped around (including the quotes).
+```di(``` Delete everything inside of a set of parantheses.
+
+```dit``` Delete everything inside of a set of tags (like html markup for instance).
+
+```dat``` Delete all text around a set of tags i.e. delete all of <bar>foo</bar> and enter into insert mode.
+
+```da(``` Delete all text around a set of parenthesis.
+
+```da"``` Delete contents inbetween quotes as well as the quotes themselves.
 
 ```<C-d>``` Scroll half page (in this case "d" is a mnemonic for "down").
 
