@@ -1,6 +1,6 @@
 ---
 title: "What are Classes for?"
-subtitle: "Classifying visual styles. Not Traversing the DOM."
+subtitle: "Classifying visual styles. Not traversing the DOM."
 layout: post
 ---
 
