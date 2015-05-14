@@ -10,11 +10,11 @@ When it comes to CSS sometimes I wonder if we forget what the word class means.
 
 *Dictonary Definitions*
 
-### Class
+**Class**
 *verb: assign or regard as belonging to a particular category*
 *noun: a set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality*.
 
-### Classification
+**Classification**
 *the action or process of classifying something according to shared qualities or characteristics.*
 
 --------------------------
