@@ -10,11 +10,11 @@ author: "mrmrs"
 url: "http://xn--h4hg.ws"
 #url: "http://localhost:3000"
 
-port: 3000
+#port: 3000
 
 exclude: [node_modules]
 # Pagination variable for how many posts to show in a list
-paginate: 20
+paginate: 15
 
 # Style of permalinks
 permalink: pretty
