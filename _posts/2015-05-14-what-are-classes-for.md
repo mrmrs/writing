@@ -42,8 +42,8 @@ When I decide to group two or more properties together in a class I think, "Well
 
 Properties that could be potentially grouped together:
 
-* font-size and line height
-* text-transform and letter spacing
+* font-size and line-height
+* text-transform and letter-spacing
 * background-color and color
 * display and vertical-align
 * position and top, bottom, left, right values. Maybe with a z-index thrown in. Maybe.
