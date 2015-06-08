@@ -3,13 +3,16 @@ title: "How to line-height"
 layout: post
 ---
 
-> Glossary:
-> line-height is a css property
->
-> lead [rhyming with red] Originally a strip of soft metal used
-> for vertical spacing between lines of type. Now meaning the
-> vertical distance from the baseline of one line to the baseline of the next. Also
-> called *leading*.
+ #### Glossary:
+
+ <p><b>line-height</b> is a css property</p>
+
+ <p><b>lead</b> <i>[rhyming with red]:</i> <br>
+   Originally a strip of soft metal used
+   for vertical spacing between lines of type. Now meaning the
+   vertical distance from the baseline of one line to the baseline of the next. Also
+   called <b>leading</b>.
+ </p>
 
 When you declare a line-height in css it never needs to be used with a unit.
 
@@ -19,7 +22,8 @@ a percentage i.e ```line-height: 140%``` or using em ```line-height: 1.4em```
 
 A website generally only needs 3 or 4 line height values.
 
-1. ```Solid:  line-height: 1 ```
+<h2 class="book f4">Solid  <code class="f5">line-height: 1</code></h2>
+
 When a line-height has a 1:1 ratio to the size of the type (line-height: 1) this is
 known as setting type solid. Most typefaces set at solid are unreadable - so this
 should be avoided in most cases.
@@ -30,7 +34,7 @@ solid background. For example a piece of text next to an image where we want
 the top of the typographic element to be perfectly aligned at the top with the
 image.
 
-2. ```Larger font sizes for titles: line-height: 1.2 to 1.3;  ```
+<h2 class="book f4">Larger font sizes for titles <code class="f5"> line-height: 1.2 to 1.3</code></h2>
 Titles require less leading than body copy. You generally want something around 1.2-1.3.
 
 3. ```Body copy: line-height: 1.5 to 1.75; ```
