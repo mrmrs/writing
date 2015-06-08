@@ -1191,11 +1191,8 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
    Font Family Groups
 
 */
-body, .sans-serif, h1, h2, h3, h4, h5, h6 {
+.sans-serif, h1, h2, h3, h4, h5, h6 {
   font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
-
-.open-sans {
-  font-family: "Open sans", sans-serif; }
 
 .code, code {
   font-family: Consolas, monaco, monospace; }
@@ -1210,7 +1207,7 @@ body, .sans-serif, h1, h2, h3, h4, h5, h6 {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
 
 .serif-times {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+  font-family: Times, Baskerville, Georgia, serif; }
 
 h3, h4, h5, h6 {
   font-weight: 300; }
@@ -5328,7 +5325,7 @@ Add custom styles here.
 
  */
 body, .serif {
-  font-family: TimesNewRoman, "Times New Roman", times, serif; }
+  font-family: times, serif; }
 
 pre {
   background: #f1f1f1;
