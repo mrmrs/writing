@@ -11,7 +11,7 @@ layout: default
 <ul class="list pln mtn mbn">
   {% for post in paginator.posts %}
   <li class="pln bb b--light-gray">
-    <a href="{{post.url}}" title="{{post.title}}" class="db pvl phm pal-m phx-l pvl-l f3 f1-ns f2-m f2-l link blk hov">
+    <a href="{{post.url}}" title="{{post.title}}" class="db pvl phm pal-m phx-l pvl-l f3 f1-ns f2-m f2-l link blk hov center mw6">
       <span class="f5 db mid-gray pbxs">{{ post.date | date: "%-d %B %Y" }}</span>
       {{ post.title }}
       <span class="fr">»</span>
