@@ -978,7 +978,8 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 
 .code {
   white-space: pre;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: Consolas, monospace; }
 
 /*
 
@@ -5318,7 +5319,7 @@ Add custom styles here.
 
  */
 body, .serif {
-  font-family: "Merriweather", georgia, serif; }
+  font-family: TimesNewRoman, "Times New Roman", times, serif; }
 
 pre {
   background: #f1f1f1;
