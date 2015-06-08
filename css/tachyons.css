@@ -1191,9 +1191,6 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
    Font Family Groups
 
 */
-.sans-serif, h1, h2, h3, h4, h5, h6 {
-  font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
-
 .code, code {
   font-family: Consolas, monaco, monospace; }
 
