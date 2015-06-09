@@ -1191,6 +1191,9 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
    Font Family Groups
 
 */
+.sans-serif {
+  font-family: "Avenir Next", Avenir, Roboto, "Franklin Gothic Medium", "Century Gothic", sans-serif; }
+
 .code, code {
   font-family: Consolas, monaco, monospace; }
 
@@ -1643,10 +1646,10 @@ a {
   transition: color 0.2s ease-out; }
 
 a:link {
-  color: #0e8cbb !important; }
+  color: #222 !important; }
 
 a:visited {
-  color: #0e8cbb !important; }
+  color: #222 !important; }
 
 a:hover {
   color: #a94dba !important;
@@ -1662,22 +1665,17 @@ a:active {
   transition: color 0.15s ease-in; }
 
 .link:link, .link:visited {
-  color: #2D243B;
+  color: #222;
   -webkit-transition: color 0.15s ease-in;
   transition: color 0.15s ease-in; }
 
-.link:hover {
-  color: #999999;
+.link:hover, .link:focus {
+  color: #ff33cc;
   -webkit-transition: color 0.15s ease-in;
   transition: color 0.15s ease-in; }
 
 .link:active {
-  color: #C4E3E0;
-  -webkit-transition: color 0.15s ease-in;
-  transition: color 0.15s ease-in; }
-
-.link:focus {
-  color: #2D243B;
+  color: #ff66ee;
   -webkit-transition: color 0.15s ease-in;
   transition: color 0.15s ease-in; }
 
