@@ -7,8 +7,8 @@ a {
   text-decoration: none;
   transition: color .2s ease-out;
 }
-a:link    { color: #0e8cbb!important; }
-a:visited { color: #0e8cbb!important;}
+a:link    { color: #222!important; }
+a:visited { color: #222!important;}
 a:hover   {
   color: #a94dba!important;
   transition: color .25s ease-in;
@@ -22,19 +22,16 @@ a:active  { color: #333333!important; }
 
 .link:link,
 .link:visited {
-  color: #2D243B;
+  color: #222;
   transition: color .15s ease-in;
 }
-.link:hover   {
-  color: #999999;
+.link:hover,
+.link:focus   {
+  color: #ff33cc;
   transition: color .15s ease-in;
 }
 .link:active  {
-  color: #C4E3E0;
-  transition: color .15s ease-in;
-}
-.link:focus   {
-  color: #2D243B;
+  color: #ff66ee;
   transition: color .15s ease-in;
 }
 
