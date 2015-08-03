@@ -14,7 +14,7 @@ url: "http://xn--h4hg.ws"
 
 exclude: [node_modules]
 # Pagination variable for how many posts to show in a list
-paginate: 15
+paginate: 50
 
 # Style of permalinks
 permalink: pretty
