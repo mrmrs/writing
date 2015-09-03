@@ -5,60 +5,72 @@ layout: post
 
 <p>
   In 2011 Microsoft asked their customers to stop using IE6. Which, for the
-  uninformed, is a browser they created all by themselves.  But Microsoft isn't
-  Chevrolet. And unlike a car, you can't recall a browser. Basically all you
-  can do is ask for people to stop using it with your fingers crossed while
-  smiling a big dumb smile and asking people to buy a newer version of the same
-  thing you already sold them.
+  uninformed, is the sixth version of a web browser they created all by themselves. They built it, presumably, so
+  that people could do stuff on the world wide web. This, is a marvelous thing!
+  It let's people read text, look at cat gifs, watch
+  videos, fill out text inputs, select radio buttons, and submit forms.
+  Basically all the same stuff we use the internet for now.
 </p>
 <p>
-  Meanwhile - in 2014, enterprise companies are still signing contracts to ensure that their software will still support IE6.
-  These deals are signed because a company decides that upgrading their OS / browser version is more costly
-  than keeping things as they currently are. Maybe they have some custom software that relies on a particular browser version.
-  And that software runs most of their business, solves their current problems and would be costly to upgrade.
-  This is real life.
+  In 2015, enterprise software companies are still signing
+  contracts to ensure that their software will support various versions of IE that
+  Microsoft may or may not support themselves.  These deals are signed because
+  a company decides that upgrading their OS / browser version is more costly
+  than keeping things as they currently are. Maybe they have some custom
+  software that relies on a particular browser version.  That software might run
+  their business, solve their current problems, and would be costly to
+  upgrade.
 </p>
 <p>
-  There are a few assumptions behind restricting the amount of devices / browsers / platforms
-  to support when you are designing, developing, and maintaining software:
+  I have been paid, by companies of various sizes, to sit in meetings, so I can
+  participate in conversations, debating which browsers our product should or should not
+  support.
+</p>
+<p>
+  There are a few assumptions about the benefits of restricting the amount of devices,
+  browsers, and platforms to support when you are designing, developing, and
+  maintaining software:
 </p>
 <ol class="pln">
-  <li>By limiting how many contexts you are building and designing for you can build more features with greater speed. This seems good.</li>
+  <li>By limiting how many contexts you are building and designing for, you can build more features with greater speed. This seems good.</li>
   <li>By targeting the most widely used browsers and devices you will make the most amount money with the least amount of effort. This also seems good.</li>
-  <li>You can build cooler things if you don't have to support old technology. This seems fabulous.</li>
+  <li>You can build cooler/better/awesomer things if you don't have to support old technology. This seems absolutely fabulous.</li>
   <li>1% of people isn't enough to worry about. This seems horrible if you happen to be in that 1%.</li>
 </ol>
 <p>
-  Wait, let's pause for a second. This might be where you want to chime in about
-  "evergreen" browsers. And how they just update themselves to the latest version.
-  If you think evergreen browsers are the answer, maybe you haven't been paying
-  attention. I have three evergreen browsers installed on my computer right now.
-  And there are apps that I have to use for work that only work on 33.3% of those browsers.
-  Evergreen browsers have not solved this fundamental problem of making a business decision centered around choosing which
-  browsers to support when building new features for your web app. Most likely,
-  browsers themselves won't solve this problem any time soon.
+  Let's pause for a second. This might be where you want to chime in about
+  "evergreen" browsers. They just update themselves to the latest version so
+  the problem is solved! We don't have legacy browsers to support anymore! They
+  will automatically disappear!  Yet, I have three evergreen browsers installed
+  on my computer.  And there are apps that I am required to use for my job that
+  only work on one of those three browsers.  Evergreen browsers have not solved
+  this fundamental problem of making a business decision centered around
+  choosing which browsers to support when building new features for your web
+  app. Most likely, browsers themselves won't solve this problem any time soon.
   Historical data suggests that as time goes on, there will be more and more
-  browsers. And more and more devices to run all of these browsers on. Which means that there will be an increasing amount of
-  contextual differences.
+  browsers. And more and more devices to run all of these browsers on. Which
+  means that there will be an increasing amount of contextual differences to
+  account for.
 </p>
-
 <p>
   Hooray.
 </p>
 <p>
   It doesn't matter what your stance on browser support is. Whether you want to
-  think about it or not, the truth is - your decision affects people using your product.
+  think about it or not, the truth is, your decision affects people that are
+  trying to use your product.
 </p>
 <p>
-  Can you think of a time when you needed technology to solve a problem for you.
-  In a timely manner. And you just wanted stuff to work. But it didn't. Because of decisions other people made.
-  Decisions that were out of your control as a user.
+  Can you think of a time when you needed technology to solve a problem for
+  you.  In a timely manner. And you just wanted stuff to work. But it didn't.
+  Because of decisions other people made.  Decisions that were out of your
+  control as a user.
 </p>
 <p>
-  Was it frustrating?
-  Did you just assume you had an inferior browser and device and the software problem was your fault?
-  Was knowing that the company saved design and development time and chose to support a limited majority comforting?
-  Would you wish these feelings upon anyone else?
+  Was it frustrating?  Did you just assume you had an inferior browser and
+  device and the software problem was your fault?  Was knowing that the company
+  saved design and development time and chose to support a limited majority
+  comforting?  Would you wish these feelings upon anyone else?
 </p>
 
 <p>
@@ -68,35 +80,45 @@ layout: post
   Was it so you could save yourself time and frustration at the expense of others time and frustration?
 </p>
 <p>
-  Maybe you don't care about people's time or their feelings. Maybe you just care about money. And active users.
-  I get that. You're running a business afterall. You have to make tough business decisions so you can make the big business bucks.
-  So you prepare for a meeting to talk about which browsers your company will support. You look at your current google analytics.
-  You notice there are a few browsers that make up around ~1% of your traffic. 1% sounds low.
+  Maybe you don't care about people's time or their feelings. Maybe you just
+  care about money. And active users.  I get that. You're running a business
+  afterall. You have to make tough business decisions so you can make the big
+  business bucks.  So you prepare for a meeting to talk about which browsers
+  your company will support. You look at your current google analytics.  You
+  notice there are a few browsers that make up around ~1% of your traffic. 1%
+  sounds low.
 </p>
 <p>
-  There are a few important things to consider here.
-  Browser metrics are self-fulfilling prophecies. If your website doesn't work on IE, you aren't going to get a lot of repeat
-  IE users. Analytics data rewards what you support and penalizes what you don't.
-  This will allow your developers and designers to justify that their current methods with analytics that show - there are browsers that don't matter. And they don't want to spend time supporting them.
+  There are a few important things to consider here.  Browser metrics are
+  self-fulfilling prophecies. If your website doesn't work on IE, you aren't
+  going to get a lot of repeat IE users. Analytics data rewards what you
+  support and penalizes what you don't.  This will allow your developers and
+  designers to justify that their current methods with analytics that show -
+  there are browsers that don't matter. And they don't want to spend time
+  supporting them.
 </p>
 <p>
-  The second thing to consider is how percentages work.
-  1% sounds small. .5% sounds so small you shouldn't even think about thinking about it.
-  But if you run a business and care about how many people are using your product these are not small numbers.
-  As of 2015 there are more than 7 billion people on Earth. Now, not all of these people have access to the internet.
-  But 1% of 1 billion is 10 million people.  It doesn't matter what size your company is. 10 million potential users is a lot.
-  While internet usage is rapidly increasing - only ~40% of the population currently has access. So out of 2.8 billion people if 1% are
-  using an unsupported browser - you are chopping 28 million potential users off the block before you get started.
+  The second thing to consider is how percentages work.  1% sounds small. .5%
+  sounds so small you shouldn't even think about thinking about it.  But if you
+  run a business and care about how many people are using your product these
+  are not small numbers.  As of 2015 there are more than 7 billion people on
+  Earth. Now, not all of these people have access to the internet.  But 1% of 1
+  billion is 10 million people.  It doesn't matter what size your company is.
+  10 million potential users is a lot.  While internet usage is rapidly
+  increasing - only ~40% of the population currently has access. So out of 2.8
+  billion people if 1% are using an unsupported browser - you are chopping 28
+  million potential users off the block before you get started.
 </p>
 <p>
   This could potentially be bad for your bottom line.
 </p>
 <p>
-  I should give the disclaimer that not every website I build works on every browser and every
-  device 100% bugfree with 0 errors.  It's a difficult if not impossible thing to do!
-  But it's the standard I hold myself to. Because I'm interested in impossible and difficult tasks.
-  I won't bend on my mission to make the web as open and useful for as many
-  people as possible.  And even if you are willing to compromise this standard,
-  rest assured I'll still love you.  But I'll ask you to try and not forget, about all the people,
-  sitting on the other side of the screen.
+  I should give the disclaimer that not every website I build works on every
+  browser and every device 100% bugfree with 0 errors.  It's a difficult if not
+  impossible thing to do!  But it's the standard I hold myself to. Because I'm
+  interested in impossible and difficult tasks.  I won't bend on my mission to
+  make the web as open and useful for as many people as possible.  And even if
+  you are willing to compromise this standard, rest assured I'll still love
+  you.  But I'll ask you to try and not forget, about all the people, sitting
+  on the other side of the screen.
 </p>
