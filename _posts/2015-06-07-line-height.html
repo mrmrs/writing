@@ -18,14 +18,14 @@ layout: post
   When you declare line-height in css you don't need to declare a unit.
 </p>
 <p>
-  The line-height property defaults to being relative to the font-size. So a unitless line-height is equivalent to declaring
-  a percentage i.e:<br>
-  <code class="f5 pvxs phm mvxs" style="background:#baecff;">line-height: 140%</code> <br>
-  or an em<br>
-  <code class="f5 pvxs phm mvxs" style="background:#baecff;">line-height: 1.4em</code>
+  <a href="http://www.w3.org/wiki/CSS/Properties/line-height" title="CSS line-height spec">The line-height property defaults to being a multiplier relative to the font-size.</a> So a unitless line-height is equivalent to declaring
+  the font-size times the number specified for line-height. i.e:<br>
+  <code class="f5 pvxs phm mvxs" style="background:#baecff;">line-height: 14</code> is equivalent to 14x the current font-size <br>
+  or the em equivalent<br>
+  <code class="f5 pvxs phm mvxs" style="background:#baecff;">line-height: 14em</code>
 </p>
 <p>
-  Since you don't need either. I say just leave it off. But whatever you do, don't use pixels. Ever.
+  Since you don't need to provide a unit for line-height, I say just leave it off. Whatever you do, don't use pixels or percents. Ever. They are far too variable and abstract to determine the end result.
 </p>
 <p>
   Regardless of whether or not you are writing a book, or making a website -
@@ -47,34 +47,35 @@ layout: post
 </p>
 
 <h2 class="mbn">Larger font sizes for titles </h2>
-<code class="f5 pvxs mvxs phm" style="background:#baecff;">line-height: 1.2 to 1.3</code>
+<code class="f5 pvxs mvxs phm" style="background:#baecff;">line-height: 1.2</code>
 <p>Titles require less leading than body copy. You generally want something around 1.2-1.3.</p>
 
 <h2 class="mbn">Body copy</h2>
-<code class="f5 pvxs mvxs phm" style="background:#baecff;">line-height: 1.5 to 1.75</code>
+<code class="f5 pvxs mvxs phm" style="background:#baecff;">line-height: 1.6</code>
 <blockquote class="pln mln">
   <p>
-   Many people with cognitive disabilities have trouble tracking lines of text
+   "Many people with cognitive disabilities have trouble tracking lines of text
    when a block of text is single spaced. Providing spacing between 1.5 to 2
    allows them to start a new line more easily once they have finished the
-   previous one.
-   - w3
+   previous one."
  </p>
+ <footer>
+   <cite><a href="http://www.w3.org/TR/WCAG20-TECHS/C21.html">W3C</a></cite>
+ </footer>
 </blockquote>
 
 <p>
   I generally set copy to 1.6 to aid in readibility. But this becomes a matter
-  of taste between this defined range and is not generally an issue of
-  readability.
+  of taste as any number set for line-height between this defined range will improve readability.
 </p>
 
 <h2>Improper uses of line-height</h2>
 
-<p>Often times you see line-height applied with a pixel values as a unit for one of the following reasons</p>
+<p>Often times you see line-height applied with a pixel value as a unit for one of the following reasons:</p>
 
 <ul>
-  <li>Affecting/setting the height of an element</li>
-  <li>Vertically centering text within an element</li>
+  <li>To affect/set the height of an element.</li>
+  <li>To vertically center text within an element.</li>
 </ul>
 
 <p>
@@ -84,15 +85,15 @@ layout: post
 
 <p>
   Using line-height to vertically center things is very brittle and only works
-  when there is one line of text.  E.g if you have a font-size of 24px and you
+  when there is one line of text. E.g if you have a font-size of 24px and you
   set line-height to 48px to vertically center the text, if the copy wraps it
   will have 200% leading which will most likely look very awkward and should thus
-  be avoided
+  be avoided.
 </p>
 <p>
   Vertically centering elements should be done by setting vertical-align on an
-  element set to display: table-cell that is contained within an element set to
-  display: table.  This is a pattern I will document with coding examples. The
+  element that is set to display: table-cell. This element should be a child element of an element set to
+  display: table. This is a pattern I will document with coding examples. The
   benefit being it works in more contexts and can be used to vertically center
   text elements against media objects across all breakpoints.
 </p>
