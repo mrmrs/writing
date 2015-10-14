@@ -3,7 +3,7 @@
   <ul class="list">
     {% for post in site.posts limit: 25 %}
     <li>
-      <a href="{{ post.url }}" title="{{post.title}}">
+      <a href="{{ site.url }}{{ post.url }}" title="{{post.title}}">
         <time datetime="{{post.date}}">{{ post.date | date_to_long_string }}</time>
         {{ post.title }}
       </a>
