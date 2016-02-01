@@ -25,7 +25,7 @@ permalink: pretty
 # /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
 
 # UnComment once you have pygments installed. Used for code syntax highlighting.
-highlighter: pygments
+#highlighter: pygments
 #
 
 future: false
