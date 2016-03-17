@@ -1,37 +1,38 @@
 {% include _head.html %}
-<body class="system-sans-serif">
-  {% include _header_post.html %}
-  <article class="pam">
-    <header class="mw6 center ptl mbl">
-      <time class="small lh-title ttu sans-serif db mbm mbl-ns mtm" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time>
-      <h1 class="f4 f3-ns thin lh-copy mbn ttu tl">
+<body style="font-family: georgia; ">
+  <article class="ph3 ph6-ns pt3 pt6-ns pb4">
+    <header>
+      <time class="f6 gray" datetime="{{page.date}}">{{page.date | date: "%d %B %Y"}}</time>
+      <h1 class="f6 ttu tracked">
         {{page.title}}
       </h1>
       {% if page.subtitle %}
-      <h2 class="f4 thin">
+      <h2>
         {{page.subtitle}}
       </h2>
       {% endif %}
     </header>
     <!-- This is where post content lives -->
-    <div class="f3 mw6 center lh-copy post-content">
+    <div>
       {{content}}
     </div>
     <!-- end of post content -->
+    <div class="mt3">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="mrmrs_" data-size="large">Tweet</a>
+    </div>
   </article>
-  <div class="pas">
-      <p class="mw6 center mtx ptx tc sans-serif bt b--near-white">
+  <div class="dn ph3 ph6-ns">
+      <p class="f5">
         Find something wrong?<br>
-        <a href="https://github.com/mrmrs/x--x/tree/gh-pages" title="Fork this on Github" class="txtlnk">
+        <a class="dim near-black" href="https://github.com/mrmrs/writing/tree/gh-pages" title="Fork this on Github">
           Send a pull request
         </a>
         or
-        <a href="https://github.com/mrmrs/x--x/issues" title="Open an issue" class="txtlnk">
+        <a class="dim near-black" href="https://github.com/mrmrs/writing/issues" title="Open an issue">
           open an issue on Github
         </a>
       </p>
-<div class="tc mtl">
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="mrmrs_" data-size="large">Tweet</a>
+<div>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
     </div>

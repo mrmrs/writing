@@ -1,22 +1,19 @@
-<article class="mtl phm bt b--light-gray bb related-posts">
-  <div class="mvl mw6 center">
-    <h1 class="sans-serif ttu tracked f5 pas">Similar</h1>
-    <ul class="list pln">
+<article class="mt4 ph3 ph6-ns pv4 bt b--light-gray bb">
+    <h1 class="ttu tracked f6">Similar</h1>
+    <ul class="list pl0">
       {% for post in site.related_posts limit: 5 %}
-      <li class="pln">
-        <a href="{{ site.url }}/{{ post.url }}" class="db pas f4 sans-serif" title="{{post.title}}">
+      <li class="pl0">
+        <a href="{{ site.url }}/{{ post.url }}" class="link dim near-black db f4 pv2" title="{{post.title}}">
           {{ post.title }}
           <span>›</span>
         </a>
       </li>
       {% endfor %}
-      <li class="pln">
-        <a href="{{ site.url }}" class="db pas f4 sans-serif" title="Full Archives">
+      <li class="pl0">
+        <a href="{{ site.url }}" class="link dim near-black db f5 pv2" title="Full Archives">
           Full Archives
           <span>›</span>
         </a>
-
       </li>
     </ul>
-  </div>
 </article>
