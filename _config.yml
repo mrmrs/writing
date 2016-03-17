@@ -28,4 +28,6 @@ permalink: pretty
 #highlighter: pygments
 #
 
+gems: [jekyll-paginate]
+
 future: false
