@@ -3,7 +3,7 @@ title: "Design Systems"
 layout: post
 ---
 
-<blockquote class="mhn phn mbl">
+<blockquote class="mh0 ph0 mb0">
   <p class="i">
     "Just as in nature systems of order govern the growth and structure of animate
     and inanimate matter, so human activity itself has, since the earliest time,
@@ -12,9 +12,9 @@ layout: post
     The desire to bring order to the bewildering confusion of appearances reflects
     a deep human need."
   </p>
-  <p class="f4 gray"><b class="book">Josef Muller-Brockmann</b> - Grid Systems</p>
+  <p class="f4"><b class="fw4">Josef Muller-Brockmann</b> - Grid Systems</p>
 </blockquote>
-<blockquote class="mhn phn mbl">
+<blockquote class="mh0 ph0 mb4">
   <p class="i">
     "IMMACULATE typography is certainly the most brittle of all the arts. To create
     a whole from many petrified, disconnected and given parts, to make this whole
@@ -33,12 +33,12 @@ layout: post
     the arrogant disdain for all convention."
   </p>
   <footer>
-    <p class="f4 gray"><b class="book">Jan Tschichold</b> -  The Form of the Book</p>
+    <p class="f4 mid-gray"><b class="fw4">Jan Tschichold</b> -  The Form of the Book</p>
   </footer>
 </blockquote>
 
 
-<h2 class="f4 ttu tracked mtl">Form &amp; Variance</h2>
+<h2 class="f4 ttu tracked mt4">Form &amp; Variance</h2>
 <p>
   The web is fluid. This should be considered when designing screens that are
   to be rendered by browsers. Last month people visited bluebottlecoffee.com using
@@ -49,7 +49,7 @@ layout: post
   them to be performant? How do you account for the unknown?
 </p>
 
-<h2 class="f4 ttu tracked mtl">Accounting for the Unknown</h2>
+<h2 class="f4 ttu tracked mt4">Accounting for the Unknown</h2>
 <p>
   Besides designing for an ever growing number of screensizes and resolutions we
   must also account for the settings a user picks for their browser. One of these
@@ -61,7 +61,7 @@ layout: post
   and interfaces to be harmonious with each other in the faces of so many unknowns?
 </p>
 
-<h2 class="f4 ttu tracked mtl">Proportions</h2>
+<h2 class="f4 ttu tracked mt4">Proportions</h2>
 <p>
   Using relative sizing units - we can ensure that measurements will remain
   proportional no matter what font-size a user has chosen. An explicit pixel
@@ -71,7 +71,7 @@ layout: post
   the raw materials that make up the web.
 </p>
 
-<h2 class="f4 ttu tracked mtl">Alignment</h2>
+<h2 class="f4 ttu tracked mt4">Alignment</h2>
 <p>
   The reality of front-end development is that people of varying skill
   levels will inherently touch your front-end code. This is not a bad thing, but
@@ -87,7 +87,7 @@ layout: post
   just magically line up without time lost to debugging or re-inventing the wheel.
 </p>
 
-<h2 class="f4 ttu tracked mtl">It's just text</h2>
+<h2 class="f4 ttu tracked mt4">It's just text</h2>
 <p>
   The web, is mostly text. People have been studying
   typography for centuries and we would be smart to leverage the findings of
@@ -96,7 +96,7 @@ layout: post
   scales and attention to proportion is considered to be the start of a sound
   approach. Consider this exerpt from Tschichold's "Form of the Book":
 </p>
-<blockquote class="phn mhn">
+<blockquote class="ph0 mh0">
 <p class="i">
   The geometrically definable irrational page proportions like 1:1.618 (Golden
   Section), 1: V^2, 1: V^3, 1: V^5, 1:1.538, and the simple rational
@@ -126,15 +126,19 @@ layout: post
   "The aesthetics of this architecture lie in the beauty of its proportions and the materials used."
 </p>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/6/63/Katsura_Imperial_Villa_in_Spring.JPG" class="db">
-<img src="http://www.archpaper.com/uploads/image/katsura_villa_00.jpg" class="db mtxs">
+<div class="f3 measure">
+  <img src="https://upload.wikimedia.org/wikipedia/en/6/63/Katsura_Imperial_Villa_in_Spring.JPG" class="w-100">
+  <img src="http://www.archpaper.com/uploads/image/katsura_villa_00.jpg" class="w-100 mt1">
+  <span class="ttu tracked gray f6"> Katsura Villa </span>
+</div>
+
 <p>
   A scale comprised of <b>5, 10, 20, 25, 30 etc. cannot be represented by a ratio</b>. They are ticks on a
   numberline not seen anywhere else in nature, print, architecture or music
   when studying cohesive design systems.
 </p>
 
-<h2 class="f4 ttu tracked mtl">Why use 16 as a base?</h2>
+<h2 class="f4 ttu tracked mt4">Why use 16 as a base?</h2>
 <p>
   The default font-size for most browsers is 16px and this is no accident.  This
   is a font-size comparable to type in a book. While printed type is often
@@ -159,76 +163,76 @@ layout: post
   to our advantage. It should be noted that these numbers are often times
   indivisible by 5 and only divisible by 10 50% of the time.
 </p>
-<table border="0" cellspacing="5" cellpadding="5" class="f5 wi-100">
+<table border="0" cellspacing="5" cellpadding="5" class="f5 w-100">
   <tr>
-    <th class="tl book">Name</th>
-    <th class="tl book">x (px)</th>
-    <th class="tl book">y (px)</th>
-    <th class="tl book">x:y x×y</th>
-    <th class="tl book">(Mpx)</th>
+    <th class="tl fw4">Name</th>
+    <th class="tl fw4">x (px)</th>
+    <th class="tl fw4">y (px)</th>
+    <th class="tl fw4">x:y x×y</th>
+    <th class="tl fw4">(Mpx)</th>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WXGA</td>
-    <td class="bb b--light-gray">1152</td>
-    <td class="bb b--light-gray">768</td>
-    <td class="bb b--light-gray">3:2</td>
-    <td class="bb b--light-gray">0.884</td>
+    <td class="pv1 bb b--light-gray">WXGA</td>
+    <td class="pv1 bb b--light-gray">1152</td>
+    <td class="pv1 bb b--light-gray">768</td>
+    <td class="pv1 bb b--light-gray">3:2</td>
+    <td class="pv1 bb b--light-gray">0.884</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WXGA</td>
-    <td class="bb b--light-gray">1280</td>
-    <td class="bb b--light-gray">768</td>
-    <td class="bb b--light-gray">5:3</td>
-    <td class="bb b--light-gray">0.983</td>
+    <td class="pv1 bb b--light-gray">WXGA</td>
+    <td class="pv1 bb b--light-gray">1280</td>
+    <td class="pv1 bb b--light-gray">768</td>
+    <td class="pv1 bb b--light-gray">5:3</td>
+    <td class="pv1 bb b--light-gray">0.983</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WXGA</td>
-    <td class="bb b--light-gray">1280</td>
-    <td class="bb b--light-gray">800</td>
-    <td class="bb b--light-gray">16:10</td>
-    <td class="bb b--light-gray">1.024</td>
+    <td class="pv1 bb b--light-gray">WXGA</td>
+    <td class="pv1 bb b--light-gray">1280</td>
+    <td class="pv1 bb b--light-gray">800</td>
+    <td class="pv1 bb b--light-gray">16:10</td>
+    <td class="pv1 bb b--light-gray">1.024</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WXGA</td>
-    <td class="bb b--light-gray">1360</td>
-    <td class="bb b--light-gray">768</td>
-    <td class="bb b--light-gray">~16:9</td>
-    <td class="bb b--light-gray">1.044</td>
+    <td class="pv1 bb b--light-gray">WXGA</td>
+    <td class="pv1 bb b--light-gray">1360</td>
+    <td class="pv1 bb b--light-gray">768</td>
+    <td class="pv1 bb b--light-gray">~16:9</td>
+    <td class="pv1 bb b--light-gray">1.044</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">FWXGA</td>
-    <td class="bb b--light-gray">1366</td>
-    <td class="bb b--light-gray">768</td>
-    <td class="bb b--light-gray">~16:9</td>
-    <td class="bb b--light-gray">1.049</td>
+    <td class="pv1 bb b--light-gray">FWXGA</td>
+    <td class="pv1 bb b--light-gray">1366</td>
+    <td class="pv1 bb b--light-gray">768</td>
+    <td class="pv1 bb b--light-gray">~16:9</td>
+    <td class="pv1 bb b--light-gray">1.049</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">XGA+</td>
-    <td class="bb b--light-gray">1152</td>
-    <td class="bb b--light-gray">864</td>
-    <td class="bb b--light-gray">4:3</td>
-    <td class="bb b--light-gray">0.995</td>
+    <td class="pv1 bb b--light-gray">XGA+</td>
+    <td class="pv1 bb b--light-gray">1152</td>
+    <td class="pv1 bb b--light-gray">864</td>
+    <td class="pv1 bb b--light-gray">4:3</td>
+    <td class="pv1 bb b--light-gray">0.995</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WXGA+</td>
-    <td class="bb b--light-gray">1440</td>
-    <td class="bb b--light-gray">900</td>
-    <td class="bb b--light-gray">16:10</td>
-    <td class="bb b--light-gray">1.296</td>
+    <td class="pv1 bb b--light-gray">WXGA+</td>
+    <td class="pv1 bb b--light-gray">1440</td>
+    <td class="pv1 bb b--light-gray">900</td>
+    <td class="pv1 bb b--light-gray">16:10</td>
+    <td class="pv1 bb b--light-gray">1.296</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">WSXGA</td>
-    <td class="bb b--light-gray">1440</td>
-    <td class="bb b--light-gray">960</td>
-    <td class="bb b--light-gray">3:2</td>
-    <td class="bb b--light-gray">1.382</td>
+    <td class="pv1 bb b--light-gray">WSXGA</td>
+    <td class="pv1 bb b--light-gray">1440</td>
+    <td class="pv1 bb b--light-gray">960</td>
+    <td class="pv1 bb b--light-gray">3:2</td>
+    <td class="pv1 bb b--light-gray">1.382</td>
   </tr>
   <tr>
-    <td class="bb b--light-gray">SXGA</td>
-    <td class="bb b--light-gray">1280</td>
-    <td class="bb b--light-gray">1024</td>
-    <td class="bb b--light-gray">5:4</td>
-    <td class="bb b--light-gray">1.310</td>
+    <td class="pv1 bb b--light-gray">SXGA</td>
+    <td class="pv1 bb b--light-gray">1280</td>
+    <td class="pv1 bb b--light-gray">1024</td>
+    <td class="pv1 bb b--light-gray">5:4</td>
+    <td class="pv1 bb b--light-gray">1.310</td>
   </tr>
 </table>
 
@@ -240,7 +244,7 @@ layout: post
   sisters of design.
 </p>
 
-<h2 class="f4 ttu tracked mtl">Inclusive Design</h2>
+<h2 class="f4 ttu tracked mt4">Inclusive Design</h2>
 <p>
   It's easy to fall into the trap of designing for one context. If you have working legs, you
   are not likely to notice that a building has been constructed with a long staircase that is
@@ -270,11 +274,11 @@ layout: post
   need to zoom in just to read text. So let's not make people do it.
 </p>
 <h2 class="f4 ttu tracked">Bibliography / Further Reading</h2>
-<ul class="list mln pln">
-  <li><a class="link dim" href="http://alistapart.com/article/more-meaningful-typography"> Modular Scales </a></li>
-  <li><a class="link dim" href="http://www.frankchimero.com/writing/what-screens-want/"> What Screens Want</a> </li>
+<ul class="list ml0 pl0">
+  <li><a class="link dim" href="http://alistapart.com/article/more-meaningful-typography">Modular Scales </a></li>
+  <li><a class="link dim" href="http://www.frankchimero.com/writing/what-screens-want/">What Screens Want</a> </li>
   <li><a class="link dim" href="http://www.frankchimero.com/writing/the-webs-grain/">The Web's Grain</a></li>
   <li><a class="link dim" href="http://www.amazon.com/The-Form-Book-Morality-Typography/dp/0881791164">The Form of the Book</a></li>
   <li><a class="link dim" href="https://ia.net/know-how/100e2r 100%">  Easy-2-Read Standard</a></li>
-  <li><a class="link dim" href="http://jxnblk.com/writing/posts/mathematical-web-typography/"> Mathematical web typography </a></li>
+  <li><a class="link dim" href="http://jxnblk.com/writing/posts/mathematical-web-typography/">Mathematical web typography </a></li>
 </ul>
