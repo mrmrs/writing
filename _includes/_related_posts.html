@@ -3,7 +3,7 @@
     <ul class="list pl0">
       {% for post in site.related_posts limit: 5 %}
       <li class="pl0">
-        <a href="{{ site.url }}/{{ post.url }}" class="link dim near-black db f4 pv2" title="{{post.title}}">
+        <a href="{{ site.url }}{{ post.url }}" class="link dim near-black db f4 pv2" title="{{post.title}}">
           {{ post.title }}
           <span>›</span>
         </a>
