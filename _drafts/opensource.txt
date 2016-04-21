@@ -1,0 +1,27 @@
+Open source is weird.
+
+The first time I had a job developing software full-time I was 24 years old.
+I was largely self-taught. Code was mostly a mystery to me.
+
+On one of my first days at my new job I asked the guy next to me what he was doing.
+
+"Submitting a bug fix to jquery"
+
+At that point in my life - I assumed any publicly released code was more or less perfect.
+The image I had in my head for people who built something like jquery was essentially a group
+of wizards that weren't actually human. I can't express to you how much it blew my mind
+that this guy was submitting a "patch" that would "fix a bug he found."
+
+I calmly turned back to my computer and thought to my self "I'm so in over my head."
+
+Over the next few months we chatted at great length about open-source. When I say "we chatted"
+I mostly mean I asked him questions and he answered them. One day he told me that it was a goal
+of his to maintain an important open-source project within three years time. This sounded pretty
+cool to me. So I made a similar goal: Be making contributions to an open-source project by the time I was 27.
+
+...
+
+Three years later I was working at a new company. We hired a new engineer - and upon arrival he invited us
+all out to drinks.
+
+

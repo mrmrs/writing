@@ -1,0 +1,48 @@
+---
+title: "Developing UI"
+layout: post
+---
+
+<h2>UI development as a first-class citizen</h2>
+
+<p>The single hardest part of front-end development at any scale is making changes to code and understanding all of the resulting visual and behavioral effects that will occur across the application.</p>
+
+<p>Several years ago I worked on a print and email product where our main directive was to ship 0 bugs. While simultaneously shipping features as quickly as possible. On the web mean time to fix failure is generally more valuable than mean time between failure. This makes sense. Often times you can fix a bug on a website before many people will see it. In the world of print and email though you only get one chance. You can’t unmail an electronic or print document.</p>
+
+<p>Over 3.5 years I ended up shipping two small prose based errors to production. One was caught before we mailed it, one was not. Instead of saying “Track your progress” the text said “Rack your progress” Not perfect but better than my record on the web for sure.</p>
+
+<p>It wasn’t an accident I was able to do this. I benefited from working with engineers that treated this problem of bug free development as their number one priority. They treated me as a first-class citizen. I was able to sit in meetings and explain problems I had - and people tried to build tools to help me solve them.</p>
+
+<p>This is how we worked. The idea is quite simple, yet I have yet to see this pattern exist in web development.</p>
+
+<h3>Upfront process</h3>
+
+<p>When you build a component, tests should be written that expose each state a component can be in. This test should generate a static html file and a corresponding image for every discrete state a component can be in.</p>
+
+<h3>What is a component?</h3>
+
+<p>Everything is a component. A link is a component. A text input with a label is a component. A modal is a component. A page is a component. Components can be composed of other components.</p>
+
+<p>The test that generates all states of a component should be written before visual ui implementation is begun. This allows the front-end engineer to see all states simultaneously as they work. This has an <em>enormous effect</em> on both the development velocity of new components and the ability to refactor or modify existing components.</p>
+
+<p>For example: If a user can click on a button and reveal
+new content within the interface - then there should be a test that generates this discrete state. If different accounts render different text to within a component this should be reflected in a test for the component.</p>
+
+<p>When a component has fully undergone undergone and passed visual QA], you can save the generated assets as a canonical set of images and html files.</p>
+
+<h3>Refactoring</h3>
+
+<p>When you refactor or modify a component you can then run the existing tests and diff the new assets against the ones that have passed QA (imageMagick is great for this). You can then return a list of html files and images that represent visually broken interfaces. This will speed up the ability to refactor existing interfaces without rigorous manual testing. This type of QA is often time consuming and brittle. Many times it doesn’t get done at all. Because who has time?</p>
+
+<h3>Side Effects</h3>
+
+<p>This development method will also help new members of a dev team get a comprehensive overview for all the states an interface can
+be in. This feature is also immensely beneficial for designers who are trying to observe the various states of a component that they might be tasked to redesign. Visualizing all the discrete states an application can be in will make your design systems better. This in essence is the most pure form of a ‘living style guide’ and will help your design team develop a cohesive and modular design system.</p>
+
+<p>We can live in this world! The technology exists. We just need to be intentional. If you’re a backend engineer or programmer this is my plea for help. Grab the closest designer or front-end developer and just talk to them. Ask them what slows them down the most. Spend time observing how they work as you might recognize problems in their workflow that they don’t. Front-end developers like myself often lack the agency to fix their own problems and so we just accept the reality that everything is horrible. This doesn’t have to be the case. Everything doesn’t have to be horrible. I was fortunate to work with <a href="http://twitter.com/davetron5000">some</a> <a href="https://twitter.com/geoff2k">amazing</a> <a href="http://twitter.com/jeffkole">people</a> who showed me how great things can be for a designer. They decided to treat front-end development as a first class citizen. I think you should too.</p>
+
+<p>Let’s work together. Let’s push the web forward.</p>
+
+<p>Further reading:</p>
+
+<p><a href="http://rauchg.com/2015/pure-ui/">Pure UI</a></p>
