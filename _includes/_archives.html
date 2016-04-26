@@ -2,7 +2,7 @@
   <h1>Archives</h1>
   <ul class="list ph0 mh0 lh-copy">
     {% for post in site.posts limit: 25 %}
-    <li>
+    <li class="mb3">
       <a href="{{ site.url }}{{ post.url }}" title="{{post.title}}" class="link dim black">
         <time datetime="{{post.date}}" class="db f6 gray">{{ post.date | date_to_long_string }}</time>
         {{ post.title }}
