@@ -4,7 +4,7 @@
     {% for post in site.posts limit: 25 %}
     <li>
       <a href="{{ site.url }}{{ post.url }}" title="{{post.title}}" class="link dim black">
-        <time datetime="{{post.date}}">{{ post.date | date_to_long_string }}</time>
+        <time datetime="{{post.date}}" class="db f6 gray">{{ post.date | date_to_long_string }}</time>
         {{ post.title }}
       </a>
     </li>
