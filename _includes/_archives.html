@@ -1,9 +1,9 @@
-<article>
+<article class="ph3 ph6-ns">
   <h1>Archives</h1>
   <ul class="list">
     {% for post in site.posts limit: 25 %}
     <li>
-      <a href="{{ site.url }}{{ post.url }}" title="{{post.title}}">
+      <a href="{{ site.url }}{{ post.url }}" title="{{post.title}}" class="link dim black">
         <time datetime="{{post.date}}">{{ post.date | date_to_long_string }}</time>
         {{ post.title }}
       </a>
