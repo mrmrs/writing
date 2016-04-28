@@ -1,0 +1,47 @@
+# No ultimate difference
+
+One day a designer visited Master HyperTextCascade, and inquired, “Master, how will my designs be different when I have mastered code?”
+
+Master HyperTextCascade answered, “Before code: identify problem, research, test, ship, iterate, solve problem. After code: identify problem, research, test, ship, iterate, solve problem.”
+
+## No greatest tool
+
+One night there was a storm, and Master HyperTextCascade's house collapsed. The next morning she began to build it again using her old tools. Her novice came to help her, and they built for a while and were making good progress. As they worded, the novice began to tell the Master of his latest accomplishments.
+
+"Master, I have developed a wonderful react application to show my new portfolio. It shows my last few dribbble posts, a link to my latest blog post, my most popular tweet from the week, and it even shows what I am listening to on iTunes right now. It is a thing of beauty and I am very proud. Coding is the best way to design things!"
+
+Master HyperTextCascade did not reply. Thinking he had unwittingly angered her, the novice fell silent and continued working.
+
+The novice finished aligning two beams and had positioned a nail ready for beating into the  wood, but found the hammer was out of reach.
+
+"Would you pass me the hammer, master?"
+
+Master HyperTextCascade handed the novice a saw.
+
+At once, the novice was enlightened.
+
+## Mastery of Code
+
+A student enquired of Master HyperTextCascade. "When will I know I have mastered CSS?"
+
+Master HyperTextCascade answered, "When you stop writing it."
+
+## The Code elegy
+
+A young man begged an audience with Master HyperTextCascade to read her his latest work, an elegy to the glories of code. With tearful eyes he read out his heartfelt words, pouring his sould into his veneration for marking up text and writing style sheets.
+
+The master sat and listened to the poet for a while. After the tenth verse, she held up her hand. "Please, no more. Your poem is awful."
+
+The young man was very angry.
+
+"But Master, surefly you of all people can best appreciate the poem, you who know the great beauty of designing with code. How can you be so dismissive? I even made this poem into a website using Ember and Bootstrap!"
+
+"You coded it," said the Master. "But your measure is too wide, your line-height too tight. Your sense of proportion and scale is wrong. Your website is not responsive. You use magic numbers and multiples of 5. You have designed a very bad webpage using very good tools. You are not a good designer, and using code will not make you one."
+
+"But code is beautiful," protested the designer. "It is a worty subect for an elegy."
+
+"Code is not permanent. HTML is not permanent, CSS is not permanent, JS is not permanent. Designing is permanent. You narrow your sights, you grow attached, and hence you do not grasp the true value of coding. You must leave. Come back when you have mastered writing."
+
+The poet left, deeply ashamed. He never returned."
+
+

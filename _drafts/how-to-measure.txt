@@ -1,0 +1,8 @@
+Measure is an oft-neglected yet important part of typography on the web.
+
+Even for someone who constantly ponders matters of readability and legibility,
+it is difficult to determine whether something can be read with ease, but the
+average reader will rebel at once when the type is too small or otherwise
+irritates the eye; both are signs of a certain illegibility already.
+
+

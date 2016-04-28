@@ -1,27 +1,56 @@
-Open source is weird.
+Open source.
 
-The first time I had a job developing software full-time I was 24 years old.
-I was largely self-taught. Code was mostly a mystery to me.
+The first time I got a job developing software full-time I was 24 years old.  I
+had learned how to write html and css by asking a couple of friends a bunch of
+questions, reading some books they gave me, and playing around at night and on
+weekends.  Code was mostly a mystery to me.
 
-On one of my first days at my new job I asked the guy next to me what he was doing.
+Most people at my new company came in around 9, but one guy and I normally got
+their a bit early and would grab coffee at the 7-11 across the street before
+diving into the day.  It was my first week and during one of these sessions I
+asked the guy next to me what he was up to that morning.
 
-"Submitting a bug fix to jquery"
+"I found a bug in jquery last night, so I was going to submit a patch to fix
+it. Then back to working on the scheduler."
 
-At that point in my life - I assumed any publicly released code was more or less perfect.
-The image I had in my head for people who built something like jquery was essentially a group
-of wizards that weren't actually human. I can't express to you how much it blew my mind
-that this guy was submitting a "patch" that would "fix a bug he found."
+At that point in my life - I assumed any publicly released code was perfect,
+beautiful, and free of bugs or errors.  The image I had in my head for people
+who built something like jquery was essentially a group of wizards that weren't
+actually human. I can't express how much it melted my brain that this guy
+sitting next to me was submitting a "patch" that would "fix a bug he found."
 
-I calmly turned back to my computer and thought to my self "I'm so in over my head."
+"I'm so in over my head."
 
-Over the next few months we chatted at great length about open-source. When I say "we chatted"
-I mostly mean I asked him questions and he answered them. One day he told me that it was a goal
-of his to maintain an important open-source project within three years time. This sounded pretty
-cool to me. So I made a similar goal: Be making contributions to an open-source project by the time I was 27.
+Over the next few months we chatted at great length about open-source. When I
+say "we chatted" I mostly mean I asked him questions and he answered them. One
+day he told me that it was a goal of his to maintain an important open-source
+project within three years time. This sounded pretty cool to me. So I made a
+similar goal: Be making contributions to an open-source project by the time I
+was 27.
 
 ...
 
-Three years later I was working at a new company. We hired a new engineer - and upon arrival he invited us
-all out to drinks.
+Three years later I was working at a different company. We hired a new engineer
+- and upon arrival he invited us all out to drinks. I was familiar with his
+open source work and told him I was very jealous and had wanted to 'get into
+open source' for a while.
+
+"What do you want to do?"
+
+I told him about my skillset and he said "oh yeah there are tons of things you
+could do. I'll put you in touch with some people."
+
+Soon after that talk I got an email about making a logo for sqoop. An open
+source thing about databases. Mind you I know nothing about databases. But I did
+understand how to make a logo. I stayed up late for a few nights and put a
+bunch of ideas together. The guy that I was working with picked out one that he
+liked and it officially became my first foray into contributing to open source.
+
+...
+
+
+
+
+
 
 
