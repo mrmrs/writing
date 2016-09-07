@@ -7,17 +7,18 @@ layout: post
   Here is the complete list of tools I use when I design in the browser using css and html.
 </p>
 
-<h1 class="f5 f4-ns lh-title mb0 ttu tl">
-  <a class="link dim" class="link" href="http://tachyons.io">Tachyons</a>
+<h1 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl">
+  <a class="link dim black underline" class="link" href="http://tachyons.io">Tachyons</a>
 </h1>
 <p class="mt0 lh-copy measure">
   I try to write as little css as possible at this point. Tachyons
   is normally my base for putting something together. It handles most of what I need,
-  is easy for me to extend and weighs less than 11kb.
+  is easy for me to extend and weighs less than 11kb. I generally strip out
+  things that aren't needed for a project to get the weight down even more.
 </p>
 
 <h3 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl">
-  <a class="link" href="https://github.com/postcss/postcss">Postcss</a>
+  <a class="link black dim underline" href="https://github.com/postcss/postcss">Postcss</a>
 </h3>
 <p class="mt0 lh-copy measure">For processing and manipulating CSS files.</p>
 <p class="mb0 measure fw4">I use the following modules:</p>
@@ -30,11 +31,28 @@ layout: post
 </ul>
 
 <h3 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl">
-  <a class="link" href="http://www.browsersync.io">Browser-sync</a>
+  <a class="link black dim underline" href="https://github.com/jxnblk/react-cxs">React-cxs</a>
+</h3>
+<p class="mt0 lh-copy measure">
+  This is my favorite way to manage styles. Encapsulating your styles in js
+  will help reduce debugging time and you only have to ship the css you need
+  for a view which can be a huge performance boost.
+</p>
+<p class="mb0 measure fw4">I use the following modules:</p>
+<ul class="list pl0 ml0">
+  <li><a class="link dim underline black" href="https://github.com/postcss/autoprefixer">autoprefixer</a></li>
+  <li><a class="link dim underline black" href="https://github.com/andyjansson/postcss-conditionals">postcss-conditionals</a></li>
+  <li><a class="link dim underline black" href="https://github.com/postcss/postcss-custom-media">postcss-custom-media</a></li>
+  <li><a class="link dim underline black" href="https://github.com/postcss/postcss-custom-properties">postcss-custom-properties</a></li>
+  <li><a class="link dim underline black" href="https://github.com/postcss/postcss-import">postcss-import</a></li>
+</ul>
+
+<h3 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl">
+  <a class="link link dim underline black" href="http://www.browsersync.io">Browser-sync</a>
 </h3>
 <p class="mt0 lh-copy measure">For auto-updating the browser after changing code.</p>
 <h3 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl">
-  <a title="NPM" class="link black dim" href="http://npmjs.org">NPM/Node</a>
+  <a title="NPM" class="link black dim underline" href="http://npmjs.org">NPM/Node</a>
 </h3>
 <p class="mt0 lh-copy measure">For managing build flow and dependencies.</p>
 <h3 class="f5 f4-ns thin lh-title mb0 ttu tl">
@@ -45,17 +63,17 @@ layout: post
   chrome, and firefox as well as mobile iOS and chrome.
 </p>
 
-<h1 class="f5 f4-ns thin lh-title mb0 ttu tl">
-  Vim</h1>
-<p class="mtn lh-copy measure">For writing HTML/CSS.</p>
+<h3 class="f5 f4-ns thin lh-title mb0 ttu tracked tl">
+  Vim</h3>
+<p class="mt0 lh-copy measure">For writing HTML/CSS/JS.</p>
 
-<h1 class="f5 f4-ns thin lh-title mb0 ttu tl">
+<h1 class="f5 f4-ns thin lh-title mb0 ttu tracked tl">
   <a title="css stats - heuristic stats about your styles" class="link dim" href="https://www.npmjs.com/package/cssstats">CSSSTATS</a></h1>
-<p class="mtn lh-copy measure">For visualizing various stats about the css I'm writing.</p>
+<p class="mt0 lh-copy measure">For visualizing various stats about the css I'm writing.</p>
 
 
-<h1 class="f5 f4-ns thin lh-title mb0 ttu tl"> Pen &amp; Paper</h1>
-<p class="mtn lh-copy measure">
+<h1 class="f5 f4-ns fw4 lh-title mb0 ttu tracked tl"> Pen &amp; Paper</h1>
+<p class="mt0 lh-copy measure">
   I still use pen &amp; to write down notes and sketch out design ideas. When
   I'm building a complex component I generally write down a list of things I
   know about the component and a list of things I don't know for sure.
