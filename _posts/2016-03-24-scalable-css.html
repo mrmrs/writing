@@ -1,5 +1,5 @@
 ---
-title: "CSS and Scalability"
+title: "Css and Scalability"
 layout: post
 ---
 
@@ -7,11 +7,11 @@ layout: post
   Several years ago I got curious about how css worked at scale. When I first
   started out, there weren’t nearly as many learning resources as there are
   now. There were a few books that my friends lent me and a couple of decent blog posts.
-  But CSS was still pretty new and most people hadn't started to think deeply or learn hard lessons about
+  But css was still pretty new and most people hadn't started to think deeply or learn hard lessons about
   concepts of maintainability when working with teams on large web apps.
 </p>
 <p>
-  CSS zen garden was a highly influential demo 'back in the day.'
+  Css zen garden was a highly influential demo 'back in the day.'
   Most of my colleagues and I thought
   this did a perfect job at illustrating the power of the cascade. You could
   drastically alter a site's visual design without touching even a bit of html.
@@ -24,28 +24,27 @@ layout: post
   most terrifying thing about css and can cripple an organizations ability to iterate on their product.
 </p>
 <blockquote class="ph0 mh0">
-  <p class="i mb3">
-    Two CSS properties walk into a bar.<br><br>
+  <p class="i mb2">
+    Two css properties walk into a bar.<br>
     A barstool in a completely different bar falls over.
   </p>
-  <p class="mt0">
-    <a class="f5 link dim black underline" href="https://twitter.com/thomasfuchs/status/493790680397803521" title="Thomas Fuchs on Twitter">
+  <cite class="mt0 fs-normal">
+    <a class="f4 link dim black underline" href="https://twitter.com/thomasfuchs/status/493790680397803521" title="Thomas Fuchs on Twitter">
       - @thomasfuchs
     </a>
-</p>
+</cite>
 </blockquote>
 <p>
   After countless implementations of css
   systems that broke down and became difficult to maintain as apps and teams
   grew larger...I've found I want little to no part of the cascade's 'features.'
-
 </p>
 <p>
   I used to joke that the worst part about front-end development was that the other people solving your problems
   were front-end developers.
   But in the past few years a lot of very smart people have been thinking more about
-  CSS and this has lead to some fascinating discussions around how to build
-  ‘scalable’ ui and how that relates to CSS. When I first started to think about
+  css and this has lead to some fascinating discussions around how to build
+  ‘scalable’ ui and how that relates to css. When I first started to think about
   scalability I naturally started to read every blog post and watch every tech
   talk I could get my hands on. There are a number of suggested 'best practices'
   around how sass/less/stylus etc. will help you build maintainable css. How
@@ -184,49 +183,51 @@ I kept reading and stumbled across this:</p>
     float: left;
 }</code></pre>
 <p>
-CSS is interesting because unlike other types of code, you are most likely to
-find the most recent code towards the bottom of the file. Reading a css file
-from start to finish will often times reveal in chronological order how a
-defined system breaks down.
+  Css is interesting because unlike other types of code, you are most likely to
+  find the most recent code towards the bottom of the file. Reading a css file
+  from start to finish will often times reveal in chronological order how a
+  defined system breaks down.
 </p>
 <p>
-In the above examples we see things breaking down to increasingly longer
-selectors that have more and more weight that were only setting one property to
-one value: float: left.
+  In the above examples we see things breaking down to increasingly longer
+  selectors that have more and more weight that were only setting one property to
+  one value: float: left.
 </p>
 <p>
-Mind you, there are only three options for float. Contrary to one of the code
-examples above, there is no float center. Just left, right, and none.
+  Mind you, there are only three options for float. Contrary to one of the code
+  examples above, there is no float center. Just left, right, and none.
 </p>
-
 <p>
   Reading the css made me think about a lot of things. One thing I couldn’t get
   out of my head was - why all this work to change one thing? Why write all
   that code to just float something left?
 </p>
 <p>
-To me, this is a reflection of the mental model most people are in when they
-are writing front-end code. They are generally trying to change one or two
-things in an interface and that’s it. And when you are in this mode of
-development you want to limit the amount of things you break - while also
-making the change that is being asked for in some jira ticket that got assigned
-to you.
+  To me, this is a reflection of the mental model most people are in when they
+  are writing front-end code. They are generally trying to change one or two
+  things in an interface and that’s it. And when you are in this mode of
+  development you want to limit the amount of things you break - while also
+  making the change that is being asked for in some jira ticket that got assigned
+  to you.
 </p>
 <p>
-I also started to think about communication and how it moves in multiple
-directions. If I’m reading html, I want to know what the css is going to do. If
-I’m reading css I want to know what will happen if I apply it to a block of
-html. In a great system there is a two way street of information. If you look
-at the CSS, you can tell what will happen. If you look at the html, you  know
-what the code will do.
+  I also started to think about communication and how it moves in multiple
+  directions. If I’m reading html, I want to know what the css is going to do. If
+  I’m reading css I want to know what will happen if I apply it to a block of
+  html. In a great system there is a two way street of information. If you look
+  at the css, you can tell what will happen. If you look at the html, you  know
+  what the code will do.
 </p>
 <p>
-But most front-end systems are not great. You have what I refer to as one-way streets of information. If I am looking at a block of html and I can’t find ALL of the css that will visually affect how it renders in under 5 seconds, I feel that system is failing. So if I ran into the above example:
+  But most front-end systems are not great. You have what I refer to as one-way
+  streets of information. If I am looking at a block of html and I can’t find
+  ALL of the css that will visually affect how it renders in under 5 seconds, I
+  feel that system is failing. So if I ran into the above example:
+</p>
 <code >
   .container-inner.promo-status
 </code>
-<br>
-
+<p>
   That means I would have to find elements that had both of those classes (but
   not limited to) on an element. But by looking at this block of css I also
   have no idea if it has been redefined elsewhere. So I must grep through the
@@ -247,8 +248,8 @@ But most front-end systems are not great. You have what I refer to as one-way st
 <p>
   I’d presume that this would make an element have red text. I was
   traditionally told this is a horrible name for a class. But I quite like it.
-  The only way I’d think it was bad is if it set the color property to purple,
-  blue, or any other color that wasn’t red. Or if it was redefined a few times
+  The only way I’d think it was bad is if it set the color property to: purple,
+  blue, or any other color that wasn’t red. Or if it was mutated a few times
   to a few different shades of red. But more on that later.
 </p>
 
@@ -320,7 +321,7 @@ great at css. Their css is anything but innovative. After reading all of the
 css and going through bits of crying, head-scratching, and laughing out loud -
 I determined that this problem must only exist at Salesforce. Surely awesome
 companies like Medium, GitHub, Adobe, and Pinterest didn’t have this problem.
-They’ve hired some of the most amazing CSS developers I’ve ever met. They must
+They’ve hired some of the most amazing css developers I’ve ever met. They must
 have figured out how to scale css.
 </p>
 <p>
@@ -397,7 +398,7 @@ line. From start to finish. I wanted to see what everyone’s reality really was
 <p>
   This is where we come to the crux of the problem I have with any system that
   requires you to map visual styles to components in your css. Content semantics
-  have NOTHING TO DO WITH VISUAL STYLES. When I used to build things with legos I
+  have <b class="fw4 ttu">nothing to do with visual styles</b>. When I used to build things with legos I
   never thought ‘oh this is a piece for an engine block’ I thought ‘oh cool this
   is a 1x4 blue lego and I can do anything I want with it’. It didn't matter if I
   was building an underwater aquanauts base or an airplane - I knew exactly how
