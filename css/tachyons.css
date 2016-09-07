@@ -1996,6 +1996,7 @@ code, pre code { font-size: 14px; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ p, ul, ol { font-size: 1.5rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .cover-m { background-size: cover; }
@@ -2682,8 +2683,5 @@ code, pre code { font-size: 14px; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
-}
-@media screen and (min-width: 48em) {
- p, ul { font-size: 1.5rem; }
 }
 
