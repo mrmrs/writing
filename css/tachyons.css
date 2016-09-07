@@ -1570,17 +1570,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .z-unset { z-index: unset; }
 /*
 
-  STYLES
+STYLES
 
-  Add custom styles here.
+Add custom styles here.
 
-*/
+ */
 #carbonads { opacity: 1; -webkit-transition: opacity .1s linear; transition: opacity .1s linear; margin-right: auto; margin-left: auto; max-width: 20em; margin-bottom: 2em; border: 1px solid rgba( 255, 255, 255, .2 ); overflow: hidden; padding: .25em; }
 #carbonads a { text-decoration: none; color: rgba( 255, 255, 255, .7 ); font-size: 14px; }
 #carbonads .carbon-img { float: left; width: 45%; }
 #carbonads .carbon-img img { max-width: 100%; display: block; }
 #carbonads .carbon-text { box-sizing: border-box; float: left; padding-top: .5em; padding-right: .25em; width: 55%; }
 #carbonads:hover, #carbonads:focus { opacity: .5; -webkit-transition: opacity .2s linear; transition: opacity .2s linear; }
+html { font-family: Athelas, Georgia, serif; }
+p { max-width: 28em; line-height: 1.5; font-size: 1rem; font-weight: 200; margin-bottom: 2em; }
+code, pre code { font-size: 14px; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
@@ -2679,5 +2682,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
+}
+@media screen and (min-width: 48em) {
+ p, ul { font-size: 1.5rem; }
 }
 
