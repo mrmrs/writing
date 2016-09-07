@@ -19,13 +19,22 @@
     "url": "https://github.com/mrmrs/x--x/issues"
   },
   "devDependencies": {
-    "browser-sync": "^1.1.1",
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^4.2.0",
+    "tachyons-cli": "^1.0.3",
+    "tachyons-modules": "^1.1.8",
+    "watch": "^0.19.2"
   },
   "contributors": [
     { "name": "adam morse", "email": "hi@mrmrs.cc" }
   ],
   "scripts": {
-    "start": "gulp",
-    "prod": "gulp minify-css"
+    "start": "npm run build:watch",
+    "mutations": "immutable-css _src/tachyons.css --strict",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons _src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons _src/tachyons.css -m > css/tachyons.min.css",
+    "build:watch": "watch 'npm run build' ./src/"
   }
 }
