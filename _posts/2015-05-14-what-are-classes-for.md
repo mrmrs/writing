@@ -28,11 +28,13 @@ The threshold for this is pretty low. Lower than most of the classes in producti
 If you are a programmer building an interface for a user to checkout, you
 wouldn't have a class that:
 
-* Parses the mailing address to make sure it's valid
-* and triggers a transactional email to be sent
-* and also adds all the items up for final price
-* and also converts their currency to USD if it's an international order
-* and also...
+<ul class="list pl0 mt0">
+  <li>Parses the mailing address to make sure it's valid</li>
+  <li>and triggers a transactional email to be sent</li>
+  <li>and also adds all the items up for final price</li>
+  <li>and also converts their currency to USD if it's an international order</li>
+  <li>and also...</li>
+</ul>
 
 Hopefully you get my point.
 
@@ -51,21 +53,24 @@ will change." In practice, I've found this isn't a lot of things.
 
 Properties that could be potentially grouped together:
 
-* font-size and line-height
-* text-transform and letter-spacing
-* background-color and color
-* display and vertical-align
-* position and top, bottom, left, right values. Maybe with a z-index thrown in. Maybe.
-* box-sizing and width
-* white-space, overflow, and text-overflow
+<ul class="list pl0 mt0">
+  <li>font-size and line-height</li>
+  <li>text-transform and letter-spacing</li>
+  <li>background-color and color</li>
+  <li>display and vertical-align</li>
+  <li>position and top, bottom, left, right values. Maybe with a z-index thrown in. Maybe.</li>
+  <li>box-sizing and width</li>
+  <li>white-space, overflow, and text-overflow</li>
+</ul>
 
 Properties that probably don't belong in the same class:
-
-* colors and height
-* padding and text-transform
-* width and margin
-* cursor, width, top, and float
-* border-left, margin, width, and background
+<ul class="list pl0 mt0">
+  <li>colors and height</li>
+  <li>padding and text-transform</li>
+  <li>width and margin</li>
+  <li>cursor, width, top, and float</li>
+  <li>border-left, margin, width, and background</li>
+</ul>
 
 These examples are from CSS classes in production CSS. From several large and
 well-known websites. These are orthogonal visual styles that don't make sense
