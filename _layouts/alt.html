@@ -1,0 +1,29 @@
+{% include _head.html %}
+<body>
+  <article>
+    {{content}}
+    <!-- end of post content -->
+    <div class="mt3">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="mrmrs_" data-size="large">Tweet</a>
+    </div>
+  </article>
+  <div class="dn ph3 ph6-ns">
+      <p class="f5">
+        Find something wrong?<br>
+        <a class="dim near-black" href="https://github.com/mrmrs/writing/tree/gh-pages" title="Fork this on Github">
+          Send a pull request
+        </a>
+        or
+        <a class="dim near-black" href="https://github.com/mrmrs/writing/issues" title="Open an issue">
+          open an issue on Github
+        </a>
+      </p>
+<div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+    </div>
+  {% include _related_posts.html %}
+  {% include _footer.html %}
+  {% include _google_analytics.html %}
+</body>
+</html>
