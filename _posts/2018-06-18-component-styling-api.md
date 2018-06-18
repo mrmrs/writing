@@ -4,7 +4,7 @@ subtitle: "Thinking About Design Systems at 10,000 Feet"
 layout: post
 ---
 
-<i>This is a write up of work in progress talk I gave at the Web London meetup last year.</i>
+<i>This is a write up of work in progress talk I gave at the <a href="http://webdeldn.rocks">WebdeLDN meetup</a> last year.</i>
 
 # Component Styling API
 
