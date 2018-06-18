@@ -55,6 +55,7 @@ like to see this at 10,000 feet?*
 What do you think you could learn by analyzing this data? What kind of tools could you build with it?
 
 Some possibilities that come to mind for me:
+<div class='mw6'>
 - Can analyze values and look for trends
 - Find most common property value rules for given components with common class names
 - Identify pattern outliers
@@ -70,6 +71,7 @@ Some possibilities that come to mind for me:
   loop of common values can be helpful when trying to standardize an
   existing palette, or creating a feedback loop moving forward to see if you
   are becoming more or less consistent.
+</div>
 
 [Harley Turan](https://twitter.com/hturan), scraped a bunch of data and did exactly this. Here is a collection of color 
 palettes pulled from multiple sites that belong to the same company visualized from 2009 through 2017.
@@ -271,17 +273,14 @@ z-index
 zoom
 ```
 
-Some people [jxnblk](http://jxnblk.com) have told me that Component Styling API is a
-horrible name for this concept and he's likely correct. Regardless, I think the
-following descriptions, from a website called wikipedia, are interesting to
-consider.
+Some people have told me that Component Styling API is a horrible name for this
+concept and they're likely correct. But I haven't come up with a better name
+yet, so please let me know if you've got some ideas. I do think the following
+descriptions, from a website called wikipedia, are interesting to consider.
 
 *API: Application programming interface*
-
 > "In general terms, it is a set of clearly defined methods of communication between various software components."
-
 > "By abstracting the underlying implementation and only exposing objects or actions the developer needs, an API simplifies programming."
-
 > "Thus, the design of an API attempts to provide only the tools a user would expect."
 
 [https://en.wikipedia.org/wiki/Application_programming_interface](https://en.wikipedia.org/wiki/Application_programming_interface)
