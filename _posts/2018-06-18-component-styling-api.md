@@ -531,7 +531,7 @@ created & provided by the one and only Harley Turan).
 https://examples-pofntyovxa.now.sh
 
 *Let's step back and think at ten thousand feet again.*
-
+<div class='mw6'>
 - We can show how many options a design system can generate. This can be
   helpful because some people feel they might be constrained by working with
   defined scales. This can help show how varied their visual designs can still
@@ -552,6 +552,7 @@ https://examples-pofntyovxa.now.sh
   - "Show me all of the buttons." 
   - "Show me all of the orange buttons." 
   - "Show me all of the buttons that have inaccessible color combinations."
+</div>
 
 This is an exciting reality to live in. We can more quickly generate lots of design
 options to test with real users. We can shorten the feedback loop around discovering
