@@ -55,7 +55,6 @@ like to see this at 10,000 feet?*
 What do you think you could learn by analyzing this data? What kind of tools could you build with it?
 
 Some possibilities that come to mind for me:
-<div class='mw6'>
 - Can analyze values and look for trends
 - Find most common property value rules for given components with common class names
 - Identify pattern outliers
@@ -71,7 +70,6 @@ Some possibilities that come to mind for me:
   loop of common values can be helpful when trying to standardize an
   existing palette, or creating a feedback loop moving forward to see if you
   are becoming more or less consistent.
-</div>
 
 [Harley Turan](https://twitter.com/hturan), scraped a bunch of data and did exactly this. Here is a collection of color 
 palettes pulled from multiple sites that belong to the same company visualized from 2009 through 2017.
@@ -531,7 +529,6 @@ created & provided by the one and only Harley Turan).
 https://examples-pofntyovxa.now.sh
 
 *Let's step back and think at ten thousand feet again.*
-<div class='mw6'>
 - We can show how many options a design system can generate. This can be
   helpful because some people feel they might be constrained by working with
   defined scales. This can help show how varied their visual designs can still
@@ -552,7 +549,6 @@ https://examples-pofntyovxa.now.sh
   - "Show me all of the buttons." 
   - "Show me all of the orange buttons." 
   - "Show me all of the buttons that have inaccessible color combinations."
-</div>
 
 This is an exciting reality to live in. We can more quickly generate lots of design
 options to test with real users. We can shorten the feedback loop around discovering
