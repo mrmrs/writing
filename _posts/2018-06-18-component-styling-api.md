@@ -520,13 +520,13 @@ state a given component can be in.
 A simple config file like this generates thousands and thousands of button designs.
 Here is an example of generating avatars and buttons.
 
-https://examples-jchwaftrgo.now.sh
+[https://examples-jchwaftrgo.now.sh](https://examples-jchwaftrgo.now.sh)
 
 Or we can make this a finite state machine and animate between the options. You
 know, if you don't like scrolling for days and days and days. (Again, animation
 created & provided by the one and only Harley Turan).
 
-https://examples-pofntyovxa.now.sh
+[https://examples-pofntyovxa.now.sh](https://examples-pofntyovxa.now.sh)
 
 *Let's step back and think at ten thousand feet again.*
 - We can show how many options a design system can generate. This can be
