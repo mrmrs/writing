@@ -559,3 +559,5 @@ of status meetings.
 
 But at the very least this concept is exciting to me because I'm very lazy and
 I don't want to design buttons anymore.
+
+[Code examples on GitHub](https://github.com/mrmrs/component-api-talk)
