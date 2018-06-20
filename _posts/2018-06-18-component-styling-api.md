@@ -16,16 +16,17 @@ I was driving in Sunday morning traffic one time. I was on my way from San
 Francisco to a flea market. The GPS in my car told me there was an exit coming
 up I should take and that I should get into one of the two lanes on the right.
 About a dozen blinkers turned on at the exact same time and cars started to
-merge into the right two lanes. From 10k feet up i bet that looks pretty wild.
-You hear an automated voice. All cars put on their blinker at the same time to
-break off from the highway to head to the same destination. 
+merge into the right two lanes. From 10,000 feet up, I bet that looks pretty wild.
+
+You hear an automated voice announce a set of directions. All the independent drivers put on their blinker at the same time to
+break off from the highway. Unknowingly moving as part of a larger system.
 
 
 *Two completely different view points*
 <img src='https://github.com/mrmrs/component-api-talk/blob/master/slides/fff.jpg?raw=true' />
 <img src='https://github.com/mrmrs/component-api-talk/blob/master/slides/ggg.jpg?raw=true' />
 
-I'm here to talk about Design systems, Css, Js and of course Css in Js.
+I'm here to talk about: design systems, Css, Js, and of course Css in Js.
 And what does that look like if we as a community try to think at 10,000 feet?
 
 When I say 10,000 feet I don't just mean think abstractly. I mean actually do
