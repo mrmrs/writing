@@ -16373,7 +16373,8 @@ function Home() {
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
     display: "grid",
-    p: [3],
+    px: 3,
+    py: [3, 4, 5],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10

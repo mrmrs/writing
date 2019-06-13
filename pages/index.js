@@ -7,7 +7,7 @@ import  Container  from '../components/Container'
 function Home() {
   return (
     <Container>
-    <div display='grid' p={[3]}>
+    <div display='grid' px={3} py={[3,4,5]}>
       <BlockLink title="Component Styling API" href='component-styling-api'>
         Component Styling API
       </BlockLink>
