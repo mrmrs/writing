@@ -2,10 +2,12 @@
 import jsx from '../jsx'
 import  Link  from 'next/link'
 import  BlockLink  from '../components/BlockLink'
+import  Container  from '../components/Container'
 
 function Home() {
   return (
-    <div display='grid' p={[4,5]}>
+    <Container>
+    <div display='grid' p={[3]}>
       <BlockLink title="Component Styling API" href='component-styling-api'>
         Component Styling API
       </BlockLink>
@@ -81,6 +83,7 @@ function Home() {
         What is Css for
       </BlockLink>
     </div>
+    </Container>
   )
 }
 

@@ -3359,7 +3359,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
 
@@ -3431,7 +3431,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.AmpModeContext = React.createContext({});
 
@@ -3461,7 +3461,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.HeadManagerContext = React.createContext(null);
 
@@ -3491,7 +3491,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next-server/dist/lib/side-effect.js"));
 
@@ -3665,7 +3665,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
 
 var isServer = typeof window === 'undefined';
 
@@ -3810,7 +3810,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var head_1 = __importDefault(__webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js"));
 
@@ -3906,7 +3906,7 @@ var styles = {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
+/***/ "./node_modules/react/index.js?5712":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \*******************************************************************************************/

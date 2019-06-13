@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/styled */ "./node_modules/@emotion/styled/dist/styled.browser.esm.js");
 /* harmony import */ var _styled_system_should_forward_prop__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @styled-system/should-forward-prop */ "./node_modules/@styled-system/should-forward-prop/index.js");
@@ -86,6 +86,61 @@ BlockLink.defaultProps = {
     __self: this
   }), children));
 });
+
+/***/ }),
+
+/***/ "./components/Container.js":
+/*!*********************************!*\
+  !*** ./components/Container.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../theme */ "./theme.js");
+/* harmony import */ var _elements_Div__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/Div */ "./elements/Div.js");
+
+
+var _jsxFileName = "/Users/mrmrs/p/writing-current/components/Container.js";
+
+
+
+
+var Container = function Container(_ref) {
+  var innerBg = _ref.innerBg,
+      innerWidth = _ref.innerWidth,
+      props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["innerBg", "innerWidth"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_elements_Div__WEBPACK_IMPORTED_MODULE_4__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_elements_Div__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    mx: "auto",
+    maxWidth: innerWidth,
+    bg: innerBg,
+    px: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.children));
+};
+
+Container.defaultProps = {
+  innerWidth: _theme__WEBPACK_IMPORTED_MODULE_3__["default"].containerWidth ? _theme__WEBPACK_IMPORTED_MODULE_3__["default"].containerWidth : '36em',
+  fontSize: 3,
+  innerBg: "transparent"
+};
+/* harmony default export */ __webpack_exports__["default"] = (Container);
 
 /***/ }),
 
@@ -2482,7 +2537,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jsx", function() { return jsx; });
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _elements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./elements */ "./elements/index.js");
 
@@ -3543,7 +3598,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Global", function() { return Global; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyframes", function() { return keyframes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ClassNames", function() { return ClassNames; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _emotion_cache__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/cache */ "./node_modules/@emotion/cache/dist/cache.browser.esm.js");
 /* harmony import */ var _emotion_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/utils */ "./node_modules/@emotion/utils/dist/utils.browser.esm.js");
@@ -4500,7 +4555,7 @@ function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js");
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/is-prop-valid */ "./node_modules/@emotion/styled-base/node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js");
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.browser.esm.js");
@@ -9389,7 +9444,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.RequestContext = React.createContext(null);
 
@@ -9419,7 +9474,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.RouterContext = React.createContext(null);
 
@@ -10403,7 +10458,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
 
-var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
@@ -10638,7 +10693,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 /* global window */
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var router_1 = __importDefault(__webpack_require__(/*! next-server/dist/lib/router/router */ "./node_modules/next-server/dist/lib/router/router.js"));
 
@@ -10832,7 +10887,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
@@ -13090,7 +13145,18 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
+/***/ "./node_modules/react/index.js?1a86":
+/*!*******************************************************************************************!*\
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react/index.js?5712":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \*******************************************************************************************/
@@ -16282,12 +16348,13 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js?1a86");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../jsx */ "./jsx.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_BlockLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/BlockLink */ "./components/BlockLink.js");
+/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Container */ "./components/Container.js");
 var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/index.js";
 
 
@@ -16296,13 +16363,20 @@ var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/index.js";
 
 
 
+
 function Home() {
-  return Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
-    display: "grid",
-    p: [4, 5],
+  return Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
+    },
+    __self: this
+  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
+    display: "grid",
+    p: [3],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16310,7 +16384,7 @@ function Home() {
     href: "component-styling-api",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }, "Component Styling API"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16318,7 +16392,7 @@ function Home() {
     href: "the-veil-of-ignorance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }, "The Veil of Ignorance"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16326,7 +16400,7 @@ function Home() {
     href: "scalable-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }, "Css and Scalability"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16334,7 +16408,7 @@ function Home() {
     href: "too-many-tools",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, "Too Many Tools And Frameworks"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16342,7 +16416,7 @@ function Home() {
     href: "design-systems",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }, "Design Systems"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16350,7 +16424,7 @@ function Home() {
     href: "developing-ui",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     },
     __self: this
   }, "Developing UI"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16358,7 +16432,7 @@ function Home() {
     href: "dogma",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   }, "Growing up with Dogma"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16366,7 +16440,7 @@ function Home() {
     href: "webfonts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   }, "Webfonts"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -16374,22 +16448,10 @@ function Home() {
     href: "getting-critiqued",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }, "Getting Critiqued"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
@@ -16419,98 +16481,110 @@ function Home() {
       lineNumber: 43
     },
     __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "learning-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, "Learning Css"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "line-height",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, "How to Line-height"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "what-are-classes-for",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }, "What are Classes for?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "advice-on-change",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }, "The Best Advice on Changing Things"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "living-with-jxnblk",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   }, "Living with Jxnblk"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "mobile-first-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }, "Mobile-first Css"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "good-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, "What is good Css?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "vim-workflows",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 67
     },
     __self: this
   }, "Vim Workflows"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "how-to-learn-vim",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 70
     },
     __self: this
   }, "How to Learn Vim"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "common-vim",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 73
     },
     __self: this
   }, "Common Vim"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "vim-as-a-design-tool",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, "Vim as a Design Tool"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "essential-vim-plugins",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: this
   }, "Essential Vim Plugins"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "what-is-css-for",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
-  }, "What is Css for"));
+  }, "What is Css for")));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -16587,6 +16661,17 @@ var theme = {
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Findex.js!./");
 
+
+/***/ }),
+
+/***/ "dll-reference dll_7aff549c98b978433226":
+/*!*******************************************!*\
+  !*** external "dll_7aff549c98b978433226" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = dll_7aff549c98b978433226;
 
 /***/ }),
 

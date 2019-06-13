@@ -4693,7 +4693,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.DataManagerContext = React.createContext(null);
 
@@ -4781,7 +4781,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.HeadManagerContext = React.createContext(null);
 
@@ -4811,7 +4811,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js")); // @ts-ignore for some reason the React types don't like this, but it's correct.
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712")); // @ts-ignore for some reason the React types don't like this, but it's correct.
 
 
 exports.LoadableContext = React.createContext(null);
@@ -4882,7 +4882,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var loadable_context_1 = __webpack_require__(/*! ./loadable-context */ "./node_modules/next-server/dist/lib/loadable-context.js");
 
@@ -5288,7 +5288,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.RequestContext = React.createContext(null);
 
@@ -5318,7 +5318,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 exports.RouterContext = React.createContext(null);
 
@@ -6851,7 +6851,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var ErrorBoundary =
 /*#__PURE__*/
@@ -8175,7 +8175,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
 
@@ -8928,7 +8928,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 /* global window */
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var router_1 = __importDefault(__webpack_require__(/*! next-server/dist/lib/router/router */ "./node_modules/next-server/dist/lib/router/router.js"));
 
@@ -9232,7 +9232,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
@@ -11229,7 +11229,7 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
+/***/ "./node_modules/react/index.js?5712":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \*******************************************************************************************/
