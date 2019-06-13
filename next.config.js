@@ -2,11 +2,11 @@ const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/
 })
 
-const isProduction = process.env.NODE_ENV === 'production';
+const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  assetPrefix: isProduction ? '/writing' : '',
+  assetPrefix: !debug? 'writing' : '',
   outDir: 'docs',
   exportPathMap: function() {
       return {
@@ -14,6 +14,6 @@ module.exports = withMDX({
       };
   },
   publicRuntimeConfig: {
-    linkPrefix: isProduction ? '/writing' : ''
+    linkPrefix: !debug? 'writing' : ''
   }
 })

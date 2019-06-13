@@ -19,6 +19,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export && mv out docs && touch docs/.nojekyll"
+    "deploy": "rm -rf docs && rm -rf node_modules/.cache && next build && next export && mv out docs && touch docs/.nojekyll && git add . && git commit -m 'update'"
   }
 }
