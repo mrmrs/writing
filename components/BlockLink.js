@@ -67,7 +67,7 @@ BlockLink.defaultProps = {
 }
 
 export default ({ children, href, as = href, ...props }) => (
-  <Link href={href} as={`${linkPrefix}/${as}`}>
+  <Link href={href} as={process.env.BACKEND_URL + href}>
     <BlockLink {...props}>{children}</BlockLink>
   </Link>
 )
