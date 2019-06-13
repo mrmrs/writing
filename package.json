@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@mdx-js/loader": "^1.0.20",
+    "@next/mdx": "^8.1.0",
+    "@styled-system/should-forward-prop": "^1.0.0",
+    "emotion-theming": "^10.0.10",
+    "next": "^8.1.0",
+    "next-ga": "^2.3.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "styled-system": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch docs/.nojekyll"
+  }
+}
