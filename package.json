@@ -1,6 +1,6 @@
 {
   "name": "x--x",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Blog about css, design, unix, and vim",
   "main": "index.html",
   "repository": {
@@ -27,7 +27,10 @@
     "watch": "^0.19.2"
   },
   "contributors": [
-    { "name": "adam morse", "email": "hi@mrmrs.cc" }
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    }
   ],
   "scripts": {
     "start": "npm run build:watch",
