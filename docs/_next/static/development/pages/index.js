@@ -72,7 +72,7 @@ BlockLink.defaultProps = {
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: href,
-    as: "".concat(linkPrefix).concat(as),
+    as: "".concat(linkPrefix, "/").concat(as),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
