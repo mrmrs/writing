@@ -12,6 +12,10 @@ module.exports = withMDX({
       return {
         '/': { page: '/' },
         '/dogma': { page: '/dogma' },
+        '/component-styling-api': { page: '/component-styling-api' },
+        '/the-veil-of-ignorance': { page: '/the-veil-of-ignorance' },
+        '/scalable-css': { page: '/scalable-css' },
+        '/too-many-tools': { page: '/too-many-tools' },
       };
   },
   publicRuntimeConfig: {
