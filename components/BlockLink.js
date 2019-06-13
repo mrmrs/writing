@@ -1,7 +1,11 @@
 import styled from "@emotion/styled"
 import shouldForwardProp from "@styled-system/should-forward-prop"
 import Link from "next/link"
+import getConfig from 'next-server/config';
+const { publicRuntimeConfig } = getConfig();
 import theme from "../theme"
+
+const linkPrefix = publicRuntimeConfig.linkPrefix
 
 import {
   space,
@@ -62,8 +66,8 @@ BlockLink.defaultProps = {
   py: 2,
 }
 
-export default ({ children, href, ...props }) => (
-  <Link href={href}>
+export default ({ children, href, as = href, ...props }) => (
+  <Link href={href} as={`${linkPrefix}${as}`}>
     <BlockLink {...props}>{children}</BlockLink>
   </Link>
 )

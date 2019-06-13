@@ -3489,7 +3489,7 @@ next-ga@^2.3.4:
     debug "^4.0.0"
     react-ga "^2.5.3"
 
-next-server@8.1.0:
+next-server@8.1.0, next-server@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.1.0.tgz#50a9f248ede69fb33d83aa5274ec6c66f421556e"
   integrity sha512-CUFIQ2qeJr6GDt2mOYBjbPmTP02delRn9O5tihJkS8kSMIH2oFyEJXdwgp9A1J7XqiALBjnq6HnUL0MjeGQs0Q==

@@ -8,6 +8,7 @@
     "emotion-theming": "^10.0.10",
     "next": "^8.1.0",
     "next-ga": "^2.3.4",
+    "next-server": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
@@ -18,6 +19,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "mv out docs && touch docs/.nojekyll"
+    "deploy": "next build && next export && mv out docs && touch docs/.nojekyll"
   }
 }
