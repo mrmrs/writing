@@ -6,7 +6,7 @@ const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  assetPrefix: !debug? 'writing' : '',
+  assetPrefix: !debug? '/writing' : '',
   outDir: 'docs',
   exportPathMap: function() {
       return {
@@ -14,6 +14,6 @@ module.exports = withMDX({
       };
   },
   publicRuntimeConfig: {
-    linkPrefix: !debug? 'writing' : ''
+    linkPrefix: !debug? '/writing' : ''
   }
 })
