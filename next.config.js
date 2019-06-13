@@ -11,11 +11,14 @@ module.exports = withMDX({
   exportPathMap: function() {
       return {
         '/': { page: '/' },
-        '/dogma': { page: '/dogma' },
         '/component-styling-api': { page: '/component-styling-api' },
         '/the-veil-of-ignorance': { page: '/the-veil-of-ignorance' },
         '/scalable-css': { page: '/scalable-css' },
-        '/too-many-tools': { page: '/too-many-tools' },
+        '/design-systems': { page: '/design-systems' },
+        '/developing-ui': { page: '/developing-ui' },
+        '/dogma': { page: '/dogma' },
+        '/webfonts': { page: '/webfonts' },
+        '/getting-critiqued': { page: '/getting-critiqued' },
       };
   },
   publicRuntimeConfig: {
