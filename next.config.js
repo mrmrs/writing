@@ -10,7 +10,8 @@ module.exports = withMDX({
   outDir: 'docs',
   exportPathMap: function() {
       return {
-        '/': { page: '/' }
+        '/': { page: '/' },
+        '/dogma': { page: '/dogma' },
       };
   },
   publicRuntimeConfig: {
