@@ -4,7 +4,7 @@ const withMDX = require('@next/mdx')({
 
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  distDir: 'docs',
+  outDir: 'docs',
   exportPathMap: function() {
       return {
         '/': { page: '/' }

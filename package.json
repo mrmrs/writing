@@ -18,6 +18,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch docs/.nojekyll"
+    "deploy": "mv out docs && touch docs/.nojekyll"
   }
 }
