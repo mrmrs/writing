@@ -6421,20 +6421,20 @@ setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.mdx!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.mdx ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.md!./":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.md ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/chaos-design", function() {
-      var page = __webpack_require__(/*! ./pages/chaos-design.mdx */ "./pages/chaos-design.mdx")
+      var page = __webpack_require__(/*! ./pages/chaos-design.md */ "./pages/chaos-design.md")
       if(true) {
-        module.hot.accept(/*! ./pages/chaos-design.mdx */ "./pages/chaos-design.mdx", function() {
+        module.hot.accept(/*! ./pages/chaos-design.md */ "./pages/chaos-design.md", function() {
           if(!next.router.components["/chaos-design"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/chaos-design.mdx */ "./pages/chaos-design.mdx")
+          var updatedPage = __webpack_require__(/*! ./pages/chaos-design.md */ "./pages/chaos-design.md")
           next.router.update("/chaos-design", updatedPage.default || updatedPage)
         })
       }
@@ -8182,10 +8182,10 @@ module.exports = [
 
 /***/ }),
 
-/***/ "./pages/chaos-design.mdx":
-/*!********************************!*\
-  !*** ./pages/chaos-design.mdx ***!
-  \********************************/
+/***/ "./pages/chaos-design.md":
+/*!*******************************!*\
+  !*** ./pages/chaos-design.md ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8203,7 +8203,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_PostHeader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/PostHeader */ "./components/PostHeader.js");
 
 
-var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/chaos-design.mdx";
+var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/chaos-design.md";
 
 /* @jsx mdx */
 
@@ -11629,13 +11629,13 @@ var theme = {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.mdx ***!
-  \**********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.md ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.mdx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.mdx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.md! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fchaos-design&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Fchaos-design.md!./");
 
 
 /***/ }),
