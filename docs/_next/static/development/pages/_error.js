@@ -3359,7 +3359,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
 
@@ -3431,7 +3431,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 exports.AmpModeContext = React.createContext({});
 
@@ -3461,7 +3461,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 exports.HeadManagerContext = React.createContext(null);
 
@@ -3491,7 +3491,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next-server/dist/lib/side-effect.js"));
 
@@ -3665,7 +3665,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js?5712");
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var isServer = typeof window === 'undefined';
 
@@ -3810,7 +3810,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js?5712"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var head_1 = __importDefault(__webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js"));
 
@@ -3906,25 +3906,25 @@ var styles = {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js?5712":
+/***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
 
 /***/ }),
 
-/***/ "dll-reference dll_afa7b25a60452594c240":
+/***/ "dll-reference dll_7aff549c98b978433226":
 /*!*******************************************!*\
-  !*** external "dll_afa7b25a60452594c240" ***!
+  !*** external "dll_7aff549c98b978433226" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_afa7b25a60452594c240;
+module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 

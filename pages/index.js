@@ -8,6 +8,9 @@ function Home() {
   return (
     <Container>
     <div display='grid' px={3} py={[3,4,5]}>
+      <BlockLink title="Chaos Design" href='chaos-design'>
+        Chaos Design
+      </BlockLink>
       <BlockLink title="Component Styling API" href='component-styling-api'>
         Component Styling API
       </BlockLink>

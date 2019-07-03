@@ -29,7 +29,7 @@ const Img = styled('img', { shouldForwardProp })(
 )
 
 Img.defaultProps = {
-  width: 1,
+  width: '100%',
   display: 'block',
   maxWidth: '100%',
   border: '0 none transparent'
