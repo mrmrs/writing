@@ -10086,7 +10086,7 @@ function MDXContent(_ref) {
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
-    src: "https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mp4",
+    src: "https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mov",
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
@@ -10100,7 +10100,7 @@ function MDXContent(_ref) {
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
-    href: "https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mp4",
+    href: "https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mov",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 358
