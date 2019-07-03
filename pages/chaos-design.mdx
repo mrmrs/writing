@@ -358,7 +358,7 @@ What if your screen didn’t render anything for 4 hours and the only way to int
 
 What if our interfaces were thrown into color blind mode simulating one of the ways 12% of the population perceives color for a day at a time? Would we design higher contrast interfaces that didn't rely on people perceiving green to know something is “good” or “positive”?
 
-![Component rendered at various modes of color blindness. Above an analytics chart. Below intuit.com](https://paper-attachments.dropbox.com/s_F91A9291AB9883EE068002C808019E782E09D72B7911A147AED4D0F8AF3DEED9_1560194508580_Screen+Shot+2019-06-05+at+11.08.41+AM.png)
+![](https://paper-attachments.dropbox.com/s_F91A9291AB9883EE068002C808019E782E09D72B7911A147AED4D0F8AF3DEED9_1560194508580_Screen+Shot+2019-06-05+at+11.08.41+AM.png)
 
 What if for random 1 to 2 hour intervals your display only showed the mobile version - or what it looked like on a large display? Or both at the same time. Would our components be more responsive? Would they be more suited for the ergonomics of each device size?
 
@@ -375,6 +375,14 @@ What if for random 1 to 2 hour intervals your display only showed the mobile ver
 What if for 1 day a week your interface only showed text in French? On average French is 20-30% longer than English. Would our interfaces be less likely to break with variable content?
 
 What if for random 1 to 2 hour intervals your interface only showed right to left text? Would our interfaces be more global?
+
+
+<video controls width='100%'>
+  <source src="https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mp4" type="video/mp4" />
+  <p>Your browser doesn't support HTML5 video. Here is
+     a <a href="https://mrmrs-videos.s3.amazonaws.com/chaos-environment.mp4">link to the video</a> instead.</p>
+</video>
+<P fontSize={1} mt={0} py={1}>Demo of component development environment at Cloudflare</P>
 
 We could even drive all of the probabilities for our chaos design system by data collected in the real world. Instead of spending 80% of your time designing on a hi resolution 27” screen, maybe the screen size your component renders to could match the frequency of real world usage. 
 
@@ -618,133 +626,5 @@ If you’re an ad agency - maybe web performance is important but maybe not the 
 
 I hope you'll join me in figuring out how to automate some of this work so we can build more resilient systems that fail less often. Someday I hope people get to use interfaces that always work, all of the time, no matter what. Maybe someday.
 
-
-
-
-
-
-
-
-
-<Flex display='none'>
-
-
-Extra bits
-
-Demo of flipping through various design modes
-
-
-https://www.dropbox.com/s/eh51qw5ujp4e3gt/xxxx.mp4?dl=0
-
-
-
-
-https://www.dropbox.com/s/nsz7nczsu8yfrrd/IMG_4612.mov?dl=0
-
-
-Interface proof of concept transitions between two things at various levels of granularity
-
-White paper on removing css with taking images, removing declarations, then removing code if screenshot isn't different 
-
-https://sarahlim.com/assets/papers/ply-src.pdf
-
-http://slides.com/soylentqueen/ply-chi-src#/
-
-
-LEARNING USER PREFERENCES VIA REINFORCEMENT LEARNING WITH SPATIAL INTERFACE VALUING
-https://arxiv.org/pdf/1902.00719.pdf
-https://www.researchgate.net/profile/Peter_Bentley/publication/243684679_Generic_Evolutionary_Design_of_Solid_Objects_using_a_Genetic_Algorithm/links/0deec526aa8a59cd61000000/Generic-Evolutionary-Design-of-Solid-Objects-using-a-Genetic-Algorithm.pdf
-
-https://philarchive.org/archive/PENSJF-2
-
-
-
-
-Visual example todo 
-
-**Concept of visual difference score** 
-
-Black text on white background 400 weight
-Black text on white background 800 weight
-Dark gray text on light gray background 400 weight padding 6
-
-
-"Libraries of the Future" records the result of a two-year inquiry into the applicability of some of the newer techniques for handling information to what goes at present by the name of library work — i.e., the operations connected with assembling information in recorded form and of organizing and making it available for use. - Foreward
-
-“the systems will extend farther into the process of generating, organizing, and using knowledge.” pg 6
-
-
-“It is the mental image of the immediate response, visible on the oscilloscope, through which the computer acknowledges the command and reports the consequences of carrying it out —in which the computer acknowledges the question and presents an answer.”
-
-“8. Adjust itself to the level of sophistication of theindividual user, providing terse, streamlined modes forexperienced users working in their fields of expertness,and functioning as a teaching machine to guide and im-
-prove the efforts of neophytes.”
-
-Wikipedia
-In software development, a given software system's ability to [tolerate failures](https://en.wikipedia.org/wiki/Fault_tolerance) while still ensuring adequate [quality of service](https://en.wikipedia.org/wiki/Quality_of_Service)—often generalized as *resiliency*—is typically specified as a requirement.
-
-
-https://en.wikipedia.org/wiki/Chaos_engineering
-
-
-The designer’s goal is to let the user adequately shape the context model with as little manipulation as possible. Assuming that graphic design, history, and the environment have been taken as far as they will go, there are a few techniques that can lessen the impact of the remaining interaction:
-
-- Graphical manipulation domains present the context model in an appropriate, informative setting.
-- Relative navigation lets the user *correct* the model, not *construct* it.
-- Tight feedback loops let the user stop manipulating when she’s close enough.
-
-Magic Ink - Bret Victor
-
-
-McLuhan’s claim that the printing press was the dominant force that transformed the hermeneutic Middle Ages into our scientific society shouldn’t be taken too lightly - especially because the main point is that the press didn’t do it just by making books more vailable, it did it by changing the thought patterns of those who learned to read.
-
-One Approach is to realize that no single mentality offers a complete answer to the entire range of thinking and problem solving. 
-
-enactive: know where you are, manipulate
-iconic: recognize, compare, configure, concrete
-symbolic: tie together long chains of reasoning abstract
-
-Alan Kay
-
-https://lamport.azurewebsites.net/tla/high-level-view.html
-
-Using TLA+ teaches you that math is inherently more expressive than programming languages because it can describe a value without having to describe how the value is computed.  For example, it can describe the greatest common divisor (GCD) of two numbers as the largest positive integer that divides both numbers.  This makes it possible to write a model for a specific purpose, abstracting away irrelevant details such as how to calculate the GCD.
-
-
-Logic Programming
-
-…the emphasis is on specifyingwhat needs to be done rather than exactly how to do it.
-
-Pure logic programming is the approach of doing nothing more than making statements about the problem (and desired solutions). This is done by stating a set of axioms which describe the problem and the attributes required of something for it to be considered a solution. The ideal of logic programming is that there should be an infrastructure which can take the raw axioms and use them to find or check solutions.
-
-I've often wondered what inboarding would be like if a companies ceo had to create an account and get to non empty state once a day. How would that inform how important onboarding is?
-
-Do you have a way to push a button right now and generate the whole flow from start to finish across channels? Is there a diagram that's an accurate representation of all states? Why not? 
-
-
-
-- **People understand what they can see.** If a programmer cannot see what a program is doing, she can't understand it. - Bret victor 
-
-
-Future of interface design
-
-So I’ve talked about how hard it is to be good here. But here’s the thing - this is the least amount of stuff we are ever going to need to worry about. Interfaces are going to get more and more complex. I like to think I have a good imagination. But I cannot imagine that people will sit at a desk and look at a monitor as their way to interface with computing devices. I just can’t see it. 
-
-Maybe we’ll be integrating displays into our eyes. My best guess is it we will see augmented reality usage grow the most. Will interface design largely be world building? Will we interact with computers by moving our body in expressive ways? 
-[ Zach Lieberman installation ] 
-
-But I think our problem space is about to grow drastically. And we need better feedback loops to handle the oncoming chaos.  I hope you’ll help me build some. 
-
-
-Linguistic relativity. Do new programming languages open up new ways of thinking? What will be the effects of a generation of people growing up with react? 
-
- But when we hide real states our users will see from executives, we lose the chance to create a partner to help us invest in things to solve these problems.
-
-But what if it wasn't this way? What if you could seamlessly step into working within one of these 'modes' and see an N up display of whatever you want? Drilling into something that requires focus, zooming out to view high level patterns and spot bugs. 
-
-N-up displays have a lot of advantages and I think we’ll see them emerge more within our tooling.
-
-But again how will this evolve? Can we keep track of how we are solving problems so we aren't re-inventing wheels across teams, orgs, and companies? 
-
-</Flex>
 </Container>
 
