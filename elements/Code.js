@@ -22,10 +22,14 @@ const Code = styled('code', { shouldForwardProp })(
   borderRadius,
   {
     boxSizing: "border-box",
-    fontFamily: "monospace, monospace"
+    fontFamily: "monospace, monospace",
+    maxWidth: '100%',
+    overflowX: 'scroll',
   }
 )
 
-Code.defaultProps = {}
+Code.defaultProps = {
+  fontSize: [0, 1]
+}
 
 export default Code

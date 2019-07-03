@@ -10,6 +10,7 @@ import paragraph from '../elements/P'
 import OrderedList from '../elements/Ol'
 import ListItem from '../elements/Li'
 import Image from '../elements/Img'
+import Code from '../elements/Code'
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -30,6 +31,7 @@ class MyApp extends App {
       ol: OrderedList,
       li: ListItem,
       img: Image,
+      code: Code,
     }
 
 

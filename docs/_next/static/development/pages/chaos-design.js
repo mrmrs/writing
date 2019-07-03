@@ -421,9 +421,13 @@ var Code = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])('code
   shouldForwardProp: _styled_system_should_forward_prop__WEBPACK_IMPORTED_MODULE_1___default.a
 })(styled_system__WEBPACK_IMPORTED_MODULE_2__["space"], styled_system__WEBPACK_IMPORTED_MODULE_2__["width"], styled_system__WEBPACK_IMPORTED_MODULE_2__["display"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontSize"], styled_system__WEBPACK_IMPORTED_MODULE_2__["color"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borders"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderColor"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderRadius"], {
   boxSizing: "border-box",
-  fontFamily: "monospace, monospace"
+  fontFamily: "monospace, monospace",
+  maxWidth: '100%',
+  overflowX: 'scroll'
 });
-Code.defaultProps = {};
+Code.defaultProps = {
+  fontSize: [0, 1]
+};
 /* harmony default export */ __webpack_exports__["default"] = (Code);
 
 /***/ }),
@@ -8228,6 +8232,7 @@ var makeShortcode = function makeShortcode(name) {
   };
 };
 
+var Div = makeShortcode("Div");
 var layoutProps = {};
 var MDXLayout = "wrapper";
 function MDXContent(_ref) {
@@ -10332,10 +10337,21 @@ function MDXContent(_ref) {
       lineNumber: 407
     },
     __self: this
-  }, "And what if this was an API that others could consume? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
+  }, "And what if this was an API that others could consume? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(Div, {
+    style: {
+      maxWidth: '100%',
+      overflowX: 'scroll'
+    },
+    mdxType: "Div",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 408
+    },
+    __self: this
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 412
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10343,13 +10359,13 @@ function MDXContent(_ref) {
   }, {}, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408
+      lineNumber: 412
     },
     __self: this
-  }), "{\n    \"combos\":256319,\n    \"votes\":256630,\n    \"votes_per_combo\":0.9987881385652496,\n    \"up_votes\":130529,\n    \"down_votes\":126101,\n    \"latest_20\": [{\n      \"id\":256496,\n      \"color_one\":\"#555ef9\",\n      \"color_two\":\"#f3fde6\",\n      \"created_at\":\"2019-06-10T15:49:37.058Z\",\n      \"updated_at\":\"2019-06-10T15:49:37.058Z\",\n      \"contrast\": \"8.41\"\n    }]\n}\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }), "{\n    \"combos\":256319,\n    \"votes\":256630,\n    \"votes_per_combo\":0.9987881385652496,\n    \"up_votes\":130529,\n    \"down_votes\":126101,\n    \"latest_20\": [{\n      \"id\":256496,\n      \"color_one\":\"#555ef9\",\n      \"color_two\":\"#f3fde6\",\n      \"created_at\":\"2019-06-10T15:49:37.058Z\",\n      \"updated_at\":\"2019-06-10T15:49:37.058Z\",\n      \"contrast\": \"8.41\"\n    }]\n}\n"))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 424
+      lineNumber: 429
     },
     __self: this
   }, "You could connect these types of apis to any design tool to improve feedback loops within color pickers or color palette generators. ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10359,19 +10375,19 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 424
+      lineNumber: 429
     },
     __self: this
   }), "Read more about the API here")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 427
+      lineNumber: 432
     },
     __self: this
   }, "Living on the Edge"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428
+      lineNumber: 433
     },
     __self: this
   }, "Edge computing is opening up a lot of new paths for us to affect interfaces. At Cloudflare we\u2019ve got a product called Workers that allows you to write javascript at the edge. On the design team, we\u2019re interested in how we can make it easier to augment the view layer. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("video", {
@@ -10379,7 +10395,7 @@ function MDXContent(_ref) {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 429
+      lineNumber: 434
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
@@ -10387,38 +10403,38 @@ function MDXContent(_ref) {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 430
+      lineNumber: 435
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 431
+      lineNumber: 436
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/workers.mov",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432
+      lineNumber: 437
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 434
+      lineNumber: 439
     },
     __self: this
   }, "When we load the site into this tool, we extract all the colors in the html and css, and show them along the top, alowing them to be customised and previewed.\nWhen you press deploy, we deploy a new worker script with new mappings \u2014 \"change #efefef to #cc23ef\""), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436
+      lineNumber: 441
     },
     __self: this
   }, "We wouldn\u2019t have to limit this to just color. We make any changes to themes and have our designs normalized against scales. Imagine the potential for a brand update - where you can just have all of the nearest colors updated automatically across all of your properties? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 437
+      lineNumber: 442
     },
     __self: this
   }, "You could imagine the ability to start augmenting your web page in interesting ways. In 3d design and photography you affect the color, not just by changing the color of the materials and surfaces, but by applying light from multiple directions with different types of filters. You could affect the theme of your interface based on the calulation of current time and where the light source would be. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("video", {
@@ -10426,7 +10442,7 @@ function MDXContent(_ref) {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 438
+      lineNumber: 443
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
@@ -10434,26 +10450,26 @@ function MDXContent(_ref) {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 439
+      lineNumber: 444
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 440
+      lineNumber: 445
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/kapture.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 441
+      lineNumber: 446
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443
+      lineNumber: 448
     },
     __self: this
   }, "Demo courtesty of ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10463,19 +10479,19 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443
+      lineNumber: 448
     },
     __self: this
   }), "@winkervsbecks"), " "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446
+      lineNumber: 451
     },
     __self: this
   }, "What else can we learn together? What other types of information can we make available to each other and contribute to our collective knowledge? These aren\u2019t trade secrets. It\u2019s not a zero sum game. We share information now! But we do it at a small scale with slow feedback loops. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447
+      lineNumber: 452
     },
     __self: this
   }, "Besides just two colors - what can we learn about how different visual properties relate to each other? This is part of why ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10485,7 +10501,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447
+      lineNumber: 452
     },
     __self: this
   }), "John Otander"), " started to build ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10495,13 +10511,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 449
+      lineNumber: 454
     },
     __self: this
   }), "Components AI")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452
+      lineNumber: 457
     },
     __self: this
   }, "What can we actually track over time about how values and combinations of properties relate to each other? For us it's a natural extension of ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10511,13 +10527,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452
+      lineNumber: 457
     },
     __self: this
   }), "Random A11y")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455
+      lineNumber: 460
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10528,13 +10544,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455
+      lineNumber: 460
     },
     __self: this
   }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459
+      lineNumber: 464
     },
     __self: this
   }, "The above is a long list of properties in css. But it\u2019s not that long if you are a computer. On top of that - many of these properties are not needed when styling an element. When I\u2019m styling a button, I don\u2019t expect to use volume. Or page-break. Or a number of other properties. ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10544,7 +10560,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459
+      lineNumber: 464
     },
     __self: this
   }), "So what if we documented what we know so far about styling components. And created open templates for common components?"), "\nWhere design now becomes configuring an obvious set of properties, instead of needing to guess and declare. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("video", {
@@ -10552,7 +10568,7 @@ function MDXContent(_ref) {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 463
+      lineNumber: 468
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
@@ -10560,26 +10576,26 @@ function MDXContent(_ref) {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464
+      lineNumber: 469
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 465
+      lineNumber: 470
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/avatars2.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 466
+      lineNumber: 471
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 468
+      lineNumber: 473
     },
     __self: this
   }, "The goal is not to eliminate options, it\u2019s to narrow focus on the essential, allowing for expansion and exploration if necessary. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("video", {
@@ -10587,7 +10603,7 @@ function MDXContent(_ref) {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 469
+      lineNumber: 474
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
@@ -10595,32 +10611,32 @@ function MDXContent(_ref) {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 470
+      lineNumber: 475
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 471
+      lineNumber: 476
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/components-gradients.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472
+      lineNumber: 477
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474
+      lineNumber: 479
     },
     __self: this
   }, "This idea of defining a component API has benefits extending beyond just these types of interfaces. Can we leverage teaching a computer what a button looks like in creative ways? Imagine having a design query language where you could ask to see all of the unique table styles in your app. Or all of the error states. Currently to do these types of audits, it takes a lot of rote work - and is likely to be outdated the week after it's finished."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 475
+      lineNumber: 480
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10631,7 +10647,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 475
+      lineNumber: 480
     },
     __self: this
   })), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10641,7 +10657,7 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 479
+      lineNumber: 484
     },
     __self: this
   }, "Collection of buttons from a single company")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("video", {
@@ -10649,7 +10665,7 @@ function MDXContent(_ref) {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 480
+      lineNumber: 485
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("source", {
@@ -10657,20 +10673,20 @@ function MDXContent(_ref) {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481
+      lineNumber: 486
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 482
+      lineNumber: 487
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/visual-diff.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 483
+      lineNumber: 488
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10680,31 +10696,31 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 485
+      lineNumber: 490
     },
     __self: this
   }, "Interface from sliding through scales constructed from scraped css"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 486
+      lineNumber: 491
     },
     __self: this
   }, "What if you controlled inputs for a generative component design tool by deciding if you wanted to use the most popular or the least used values? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 487
+      lineNumber: 492
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488
+      lineNumber: 493
     },
     __self: this
   }, "Continuing to look elsewhere"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489
+      lineNumber: 494
     },
     __self: this
   }, "If we take a look at what people are doing with machine learning, it\u2019s hard to ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10714,33 +10730,33 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489
+      lineNumber: 494
     },
     __self: this
   }), "not be intrigued by reinforcement learning"), "."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492
+      lineNumber: 497
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
     parentName: "p",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492
+      lineNumber: 497
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("em", {
     parentName: "strong",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492
+      lineNumber: 497
     },
     __self: this
   }, "REINFORCEMENT LEARNING IS TRIAL AND ERROR AT A VAST SCALE"))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 493
+      lineNumber: 498
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10751,7 +10767,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 493
+      lineNumber: 498
     },
     __self: this
   })), "\nFrom ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10761,19 +10777,19 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 497
+      lineNumber: 502
     },
     __self: this
   }), "How to teach AI to play Games: Deep Reinforcement Learning")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 500
+      lineNumber: 505
     },
     __self: this
   }, "There are people trying to train computers on how to beat video games.  And they are getting pretty good. Which is probably worth a whole talk in itself. Now training computers to beat video games seems like a pretty obvious thing the first time you see it. The first time I saw a demo of it in practice though - this is the image that flashed in my head. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501
+      lineNumber: 506
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10784,7 +10800,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501
+      lineNumber: 506
     },
     __self: this
   })), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10794,13 +10810,13 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 505
+      lineNumber: 510
     },
     __self: this
   }, "Screenshot of Lighthouse, a popular auditing tool for sites")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506
+      lineNumber: 511
     },
     __self: this
   }, "What\u2019s our workflow when we when we are trying to optimize something on the web? Running a lighthouse audit takes ~10-60 seconds to run. We check to see if the numbers have gone up or down. We make some adjustments. We re-run the lighthouse audit. And we check to see if the numbers go up or down. Now you might be using something else to audit your code. But the workflow is probably similar. This workflow is ripe for distractions. Computers don\u2019t need to stop to check their email. Or reply to a ping in chat. This is the type of work that I just have a feeling computers are better suited for. Figuring out implementation details. Here we have a desired outcome. Four 100s. ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10810,38 +10826,38 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506
+      lineNumber: 511
     },
     __self: this
   }), "There\u2019s compelling work being done right now that is going to make this type of work even easier for a computer to do."), " "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 509
+      lineNumber: 514
     },
     __self: this
   }, "Now this is emerging work now - but imagine where we\u2019ll be in 101 years! "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 510
+      lineNumber: 515
     },
     __self: this
   }, "So what will the life of an interface designer be like in the year 2120? or 2121 even? A nice round 300 years after Babbage first had the idea of calculations being executed by steam. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("blockquote", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 511
+      lineNumber: 516
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     parentName: "blockquote",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512
+      lineNumber: 517
     },
     __self: this
   }, "\u201C\u2026back/neck/wrist strain will live in the past because I\u2019ll be designing in a dimly lit room, in an inversion chair using mostly voice and gestural cues to control design software.\u201D - Lauren LoPrete")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 514
+      lineNumber: 519
     },
     __self: this
   }, "The first time I saw this video, it felt like a paradigm shift in my head. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("iframe", {
@@ -10853,13 +10869,13 @@ function MDXContent(_ref) {
     allowfullscreen: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 515
+      lineNumber: 520
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 516
+      lineNumber: 521
     },
     __self: this
   }, "It\u2019s from a study referenced in last years article titled\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10869,13 +10885,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 517
+      lineNumber: 522
     },
     __self: this
   }), "The Surprising Creativity of Digital Evolution: A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 520
+      lineNumber: 525
     },
     __self: this
   }, "In it the constraint is that the grip has been disabled, but the crane is still able to grab ahold of the ball and move it between any two points. Will we learn to apply this type of optimization learning to interface design? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("iframe", {
@@ -10887,25 +10903,25 @@ function MDXContent(_ref) {
     allowfullscreen: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 521
+      lineNumber: 526
     },
     __self: this
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 522
+      lineNumber: 527
     },
     __self: this
   }, "My mind wonders at the creative solutions computers might come up with to get a website to be fully responsive, performant, and accessible. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 523
+      lineNumber: 528
     },
     __self: this
   }, "Project Dreamcatcher is a generative design project at Autodesk. They\u2019ve started to incorporate some of that technology into other products and the industrial design industry is already seeing real world results. This is a tool that people use overhead, so weight is a primary concern. But they also have a constraint that it can\u2019t be any weaker. With this problem and constraint, they were able to use generative design to shave off 3 pounds. That\u2019s a 60% reduction in weight. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 524
+      lineNumber: 529
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10916,7 +10932,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 524
+      lineNumber: 529
     },
     __self: this
   })), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10926,50 +10942,50 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 528
+      lineNumber: 533
     },
     __self: this
   }, "Redesigned component")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("blockquote", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 529
+      lineNumber: 534
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     parentName: "blockquote",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 530
+      lineNumber: 535
     },
     __self: this
   }, " IT\u2019S NOT BRUTE FORCE ENGINEERING. IT\u2019S ELEGANT. YOU DEFINE A PROBLEM AND YOU GET A SOLUTION SET UNLIKE ANYTHING YOU\u2019D PREDICT.  - Frank DeSantis, Vice President of the Breakthrough Innovation")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532
+      lineNumber: 537
     },
     __self: this
   }, "How could we develop a language where we design interfaces by defining contraints and desired outcomes? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 533
+      lineNumber: 538
     },
     __self: this
   }, "Future of interface design"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 534
+      lineNumber: 539
     },
     __self: this
   }, "So I\u2019ve talked about how hard it is to be good here. But here\u2019s the thing - this is the least amount of stuff we are ever going to need to worry about. Interfaces are going to get more and more complex. The likelihood of people sitting at a desk in front of two 27\u201D monitors is incomprehensible to me. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 535
+      lineNumber: 540
     },
     __self: this
   }, "Like the third phase in print, I think much of our work will be augmented by the user. We see small scale emerging hints at this with dark mode options, theming controls at os level. A new media query for what avatar shape users prefer. We open up these small options because no matter which one you choose the interface designers think it\u2019s good. But these are incredibly small sets of options if we were to calculate how many fully usable designs the user could pick from. The more we understand how things relate to each other - we can offer up more options with great confidence. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 536
+      lineNumber: 541
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10980,7 +10996,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 536
+      lineNumber: 541
     },
     __self: this
   })), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10990,20 +11006,20 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 540
+      lineNumber: 545
     },
     __self: this
   }, "There are 128 combinations of color based theming options from curated values")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Flex__WEBPACK_IMPORTED_MODULE_5__["default"], {
     mdxType: "Flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 541
+      lineNumber: 546
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 542
+      lineNumber: 547
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11014,13 +11030,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 542
+      lineNumber: 547
     },
     __self: this
   }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546
+      lineNumber: 551
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11031,13 +11047,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546
+      lineNumber: 551
     },
     __self: this
   }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 550
+      lineNumber: 555
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11048,13 +11064,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 550
+      lineNumber: 555
     },
     __self: this
   })))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 555
+      lineNumber: 560
     },
     __self: this
   }, " My best guess is it ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11064,19 +11080,19 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 555
+      lineNumber: 560
     },
     __self: this
   }), "we will see augmented reality usage grow"), " the most in the immediate future. As AR and VR become more prevalent,\nwill interface design largely be world building? ;"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 559
+      lineNumber: 564
     },
     __self: this
   }, "Will we interact with computers and machines by moving our body in expressive ways to manipulate our  virtual environment? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560
+      lineNumber: 565
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11087,7 +11103,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560
+      lineNumber: 565
     },
     __self: this
   })), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_elements_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -11097,13 +11113,13 @@ function MDXContent(_ref) {
     mdxType: "P",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 564
+      lineNumber: 569
     },
     __self: this
   }, "Breath of the Wild")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 565
+      lineNumber: 570
     },
     __self: this
   }, "Regardless of what the future brings, our problem space is growing every single day. And we need better feedback loops to handle the increasing amount of chaos. I\u2019m pretty sure robots won't be taking away our jobs. But I do think they will take away\nsome of our current work. I\u2019m excited about that future though. I imagine we will spend more and more time ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11113,19 +11129,19 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 566
+      lineNumber: 571
     },
     __self: this
   }), "defining a desired output with what our constraints are"), ". "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 569
+      lineNumber: 574
     },
     __self: this
   }, "If you\u2019re an ad agency - maybe web performance is important but maybe not the MOST important thing. Maybe you\u2019re willing to have a 2mb website for the added pay off of high definition visual shine. For many businesses - you don't need anywhere near 1mb to serve up a page that will allow you to communicate with an audience, and potentially, to receive their input as well. So  maybe you're biggest constraints are around your color palette and making sure your site is accessible and localized. Being able to fluidly evaluate and augment content in multiple contexts will allow us to spend more time deciding and less time processing data."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 570
+      lineNumber: 575
     },
     __self: this
   }, "I hope you'll join me in figuring out how to automate some of this work so we can build more resilient systems that fail less often. Someday I hope people get to use interfaces that always work, all of the time, no matter what. Maybe someday."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Flex__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -11133,25 +11149,25 @@ function MDXContent(_ref) {
     mdxType: "Flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 571
+      lineNumber: 576
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 572
+      lineNumber: 577
     },
     __self: this
   }, "Extra bits"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 573
+      lineNumber: 578
     },
     __self: this
   }, "Demo of flipping through various design modes"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 574
+      lineNumber: 579
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11161,13 +11177,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 574
+      lineNumber: 579
     },
     __self: this
   }), "https://www.dropbox.com/s/eh51qw5ujp4e3gt/xxxx.mp4?dl=0")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 577
+      lineNumber: 582
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11177,25 +11193,25 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 577
+      lineNumber: 582
     },
     __self: this
   }), "https://www.dropbox.com/s/nsz7nczsu8yfrrd/IMG_4612.mov?dl=0")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580
+      lineNumber: 585
     },
     __self: this
   }, "Interface proof of concept transitions between two things at various levels of granularity"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 581
+      lineNumber: 586
     },
     __self: this
   }, "White paper on removing css with taking images, removing declarations, then removing code if screenshot isn't different "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 582
+      lineNumber: 587
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11205,13 +11221,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 582
+      lineNumber: 587
     },
     __self: this
   }), "https://sarahlim.com/assets/papers/ply-src.pdf")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 585
+      lineNumber: 590
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11221,13 +11237,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 585
+      lineNumber: 590
     },
     __self: this
   }), "http://slides.com/soylentqueen/ply-chi-src#/")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 588
+      lineNumber: 593
     },
     __self: this
   }, "LEARNING USER PREFERENCES VIA REINFORCEMENT LEARNING WITH SPATIAL INTERFACE VALUING\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11237,7 +11253,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 589
+      lineNumber: 594
     },
     __self: this
   }), "https://arxiv.org/pdf/1902.00719.pdf"), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11247,13 +11263,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 592
+      lineNumber: 597
     },
     __self: this
   }), "https://www.researchgate.net/profile/Peter_Bentley/publication/243684679_Generic_Evolutionary_Design_of_Solid_Objects_using_a_Genetic_Algorithm/links/0deec526aa8a59cd61000000/Generic-Evolutionary-Design-of-Solid-Objects-using-a-Genetic-Algorithm.pdf")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 595
+      lineNumber: 600
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11263,62 +11279,62 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 595
+      lineNumber: 600
     },
     __self: this
   }), "https://philarchive.org/archive/PENSJF-2")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 598
+      lineNumber: 603
     },
     __self: this
   }, "Visual example todo "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 599
+      lineNumber: 604
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
     parentName: "p",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 599
+      lineNumber: 604
     },
     __self: this
   }, "Concept of visual difference score"), " "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 600
+      lineNumber: 605
     },
     __self: this
   }, "Black text on white background 400 weight\nBlack text on white background 800 weight\nDark gray text on light gray background 400 weight padding 6"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 603
+      lineNumber: 608
     },
     __self: this
   }, "\"Libraries of the Future\" records the result of a two-year inquiry into the applicability of some of the newer techniques for handling information to what goes at present by the name of library work \u2014 i.e., the operations connected with assembling information in recorded form and of organizing and making it available for use. - Foreward"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 604
+      lineNumber: 609
     },
     __self: this
   }, "\u201Cthe systems will extend farther into the process of generating, organizing, and using knowledge.\u201D pg 6"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 605
+      lineNumber: 610
     },
     __self: this
   }, "\u201CIt is the mental image of the immediate response, visible on the oscilloscope, through which the computer acknowledges the command and reports the consequences of carrying it out \u2014in which the computer acknowledges the question and presents an answer.\u201D"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 606
+      lineNumber: 611
     },
     __self: this
   }, "\u201C8. Adjust itself to the level of sophistication of theindividual user, providing terse, streamlined modes forexperienced users working in their fields of expertness,and functioning as a teaching machine to guide and im-\nprove the efforts of neophytes.\u201D"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 608
+      lineNumber: 613
     },
     __self: this
   }, "Wikipedia\nIn software development, a given software system's ability to ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11328,7 +11344,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 609
+      lineNumber: 614
     },
     __self: this
   }), "tolerate failures"), " while still ensuring adequate ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11338,20 +11354,20 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 611
+      lineNumber: 616
     },
     __self: this
   }), "quality of service"), "\u2014often generalized as ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("em", {
     parentName: "p",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 613
+      lineNumber: 618
     },
     __self: this
   }, "resiliency"), "\u2014is typically specified as a requirement."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 614
+      lineNumber: 619
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11361,90 +11377,90 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 614
+      lineNumber: 619
     },
     __self: this
   }), "https://en.wikipedia.org/wiki/Chaos_engineering")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 617
+      lineNumber: 622
     },
     __self: this
   }, "The designer\u2019s goal is to let the user adequately shape the context model with as little manipulation as possible. Assuming that graphic design, history, and the environment have been taken as far as they will go, there are a few techniques that can lessen the impact of the remaining interaction:"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 618
+      lineNumber: 623
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 619
+      lineNumber: 624
     },
     __self: this
   }, "Graphical manipulation domains present the context model in an appropriate, informative setting."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 620
+      lineNumber: 625
     },
     __self: this
   }, "Relative navigation lets the user ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("em", {
     parentName: "li",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 620
+      lineNumber: 625
     },
     __self: this
   }, "correct"), " the model, not ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("em", {
     parentName: "li",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 620
+      lineNumber: 625
     },
     __self: this
   }, "construct"), " it."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 621
+      lineNumber: 626
     },
     __self: this
   }, "Tight feedback loops let the user stop manipulating when she\u2019s close enough.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 623
+      lineNumber: 628
     },
     __self: this
   }, "Magic Ink - Bret Victor"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 624
+      lineNumber: 629
     },
     __self: this
   }, "McLuhan\u2019s claim that the printing press was the dominant force that transformed the hermeneutic Middle Ages into our scientific society shouldn\u2019t be taken too lightly - especially because the main point is that the press didn\u2019t do it just by making books more vailable, it did it by changing the thought patterns of those who learned to read."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 625
+      lineNumber: 630
     },
     __self: this
   }, "One Approach is to realize that no single mentality offers a complete answer to the entire range of thinking and problem solving. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 626
+      lineNumber: 631
     },
     __self: this
   }, "enactive: know where you are, manipulate\niconic: recognize, compare, configure, concrete\nsymbolic: tie together long chains of reasoning abstract"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 629
+      lineNumber: 634
     },
     __self: this
   }, "Alan Kay"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 630
+      lineNumber: 635
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -11454,117 +11470,117 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 630
+      lineNumber: 635
     },
     __self: this
   }), "https://lamport.azurewebsites.net/tla/high-level-view.html")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 633
+      lineNumber: 638
     },
     __self: this
   }, "Using TLA+ teaches you that math is inherently more expressive than programming languages because it can describe a value without having to describe how the value is computed.  For example, it can describe the greatest common divisor (GCD) of two numbers as the largest positive integer that divides both numbers.  This makes it possible to write a model for a specific purpose, abstracting away irrelevant details such as how to calculate the GCD."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 634
+      lineNumber: 639
     },
     __self: this
   }, "Logic Programming"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 635
+      lineNumber: 640
     },
     __self: this
   }, "\u2026the emphasis is on specifyingwhat needs to be done rather than exactly how to do it."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 636
+      lineNumber: 641
     },
     __self: this
   }, "Pure logic programming is the approach of doing nothing more than making statements about the problem (and desired solutions). This is done by stating a set of axioms which describe the problem and the attributes required of something for it to be considered a solution. The ideal of logic programming is that there should be an infrastructure which can take the raw axioms and use them to find or check solutions."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 637
+      lineNumber: 642
     },
     __self: this
   }, "I've often wondered what inboarding would be like if a companies ceo had to create an account and get to non empty state once a day. How would that inform how important onboarding is?"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 638
+      lineNumber: 643
     },
     __self: this
   }, "Do you have a way to push a button right now and generate the whole flow from start to finish across channels? Is there a diagram that's an accurate representation of all states? Why not? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 639
+      lineNumber: 644
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 640
+      lineNumber: 645
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
     parentName: "li",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 640
+      lineNumber: 645
     },
     __self: this
   }, "People understand what they can see."), " If a programmer cannot see what a program is doing, she can't understand it. - Bret victor ")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 642
+      lineNumber: 647
     },
     __self: this
   }, "Future of interface design"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 643
+      lineNumber: 648
     },
     __self: this
   }, "So I\u2019ve talked about how hard it is to be good here. But here\u2019s the thing - this is the least amount of stuff we are ever going to need to worry about. Interfaces are going to get more and more complex. I like to think I have a good imagination. But I cannot imagine that people will sit at a desk and look at a monitor as their way to interface with computing devices. I just can\u2019t see it. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 644
+      lineNumber: 649
     },
     __self: this
   }, "Maybe we\u2019ll be integrating displays into our eyes. My best guess is it we will see augmented reality usage grow the most. Will interface design largely be world building? Will we interact with computers by moving our body in expressive ways?\n", "[ Zach Lieberman installation ]", " "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 646
+      lineNumber: 651
     },
     __self: this
   }, "But I think our problem space is about to grow drastically. And we need better feedback loops to handle the oncoming chaos.  I hope you\u2019ll help me build some. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 647
+      lineNumber: 652
     },
     __self: this
   }, "Linguistic relativity. Do new programming languages open up new ways of thinking? What will be the effects of a generation of people growing up with react? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 648
+      lineNumber: 653
     },
     __self: this
   }, " But when we hide real states our users will see from executives, we lose the chance to create a partner to help us invest in things to solve these problems."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 649
+      lineNumber: 654
     },
     __self: this
   }, "But what if it wasn't this way? What if you could seamlessly step into working within one of these 'modes' and see an N up display of whatever you want? Drilling into something that requires focus, zooming out to view high level patterns and spot bugs. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 650
+      lineNumber: 655
     },
     __self: this
   }, "N-up displays have a lot of advantages and I think we\u2019ll see them emerge more within our tooling."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 651
+      lineNumber: 656
     },
     __self: this
   }, "But again how will this evolve? Can we keep track of how we are solving problems so we aren't re-inventing wheels across teams, orgs, and companies? "))));

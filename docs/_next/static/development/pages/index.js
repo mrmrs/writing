@@ -409,9 +409,13 @@ var Code = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])('code
   shouldForwardProp: _styled_system_should_forward_prop__WEBPACK_IMPORTED_MODULE_1___default.a
 })(styled_system__WEBPACK_IMPORTED_MODULE_2__["space"], styled_system__WEBPACK_IMPORTED_MODULE_2__["width"], styled_system__WEBPACK_IMPORTED_MODULE_2__["display"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontSize"], styled_system__WEBPACK_IMPORTED_MODULE_2__["color"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borders"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderColor"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderRadius"], {
   boxSizing: "border-box",
-  fontFamily: "monospace, monospace"
+  fontFamily: "monospace, monospace",
+  maxWidth: '100%',
+  overflowX: 'scroll'
 });
-Code.defaultProps = {};
+Code.defaultProps = {
+  fontSize: [0, 1]
+};
 /* harmony default export */ __webpack_exports__["default"] = (Code);
 
 /***/ }),
@@ -16534,7 +16538,7 @@ var theme = {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmrmrs%2Fp%2Fwriting-current%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************/
@@ -16557,5 +16561,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
