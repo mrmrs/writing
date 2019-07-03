@@ -8432,7 +8432,13 @@ function MDXContent(_ref) {
       lineNumber: 58
     },
     __self: this
-  }, "Now, it turns out this wasn't the first time that Herschel had been involved in manifesting a big idea. 15 years prior in 1821, before he had retreated to South Africa, Herschel found himself sitting around a table in London with a friend, going over some tables of data. As one does with friends.\nNow there were two things in particular and about these tables of data that were troublesome. First off, the numbers were wrong. Secondly, it took people a lot of manual time to produce all of these inaccurate calculations. After finding yet another error, in a moment of pure frustration Herschel\u2019s friend exclaimed"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("blockquote", {
+  }, "Now, it turns out this wasn't the first time that Herschel had been involved in manifesting a big idea. 15 years prior in 1821, before he had retreated to South Africa, Herschel found himself sitting around a table in London with a friend, going over some tables of data. As one does with friends."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Now there were two things in particular and about these tables of data that were troublesome. First off, the numbers were wrong. Secondly, it took people a lot of manual time to produce all of these inaccurate calculations. After finding yet another error, in a moment of pure frustration Herschel\u2019s friend exclaimed"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("blockquote", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
