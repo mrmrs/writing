@@ -8253,7 +8253,7 @@ function MDXContent(_ref) {
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_PostHeader__WEBPACK_IMPORTED_MODULE_7__["default"], {
     title: "Chaos Design: Before the robots take our jobs, can we please get them to help us do some good work?",
     subtitle: "",
-    published: "11-05-2015",
+    published: "03-07-2019",
     mdxType: "PostHeader",
     __source: {
       fileName: _jsxFileName,
