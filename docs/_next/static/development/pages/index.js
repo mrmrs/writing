@@ -694,7 +694,10 @@ var H1 = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])('h1', {
 })(styled_system__WEBPACK_IMPORTED_MODULE_2__["space"], styled_system__WEBPACK_IMPORTED_MODULE_2__["width"], styled_system__WEBPACK_IMPORTED_MODULE_2__["maxWidth"], styled_system__WEBPACK_IMPORTED_MODULE_2__["display"], styled_system__WEBPACK_IMPORTED_MODULE_2__["alignItems"], styled_system__WEBPACK_IMPORTED_MODULE_2__["justifyContent"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontSize"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontWeight"], styled_system__WEBPACK_IMPORTED_MODULE_2__["lineHeight"], styled_system__WEBPACK_IMPORTED_MODULE_2__["textAlign"], styled_system__WEBPACK_IMPORTED_MODULE_2__["textStyle"], styled_system__WEBPACK_IMPORTED_MODULE_2__["color"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borders"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderColor"], {
   boxSizing: 'border-box'
 });
-H1.defaultProps = {};
+H1.defaultProps = {
+  fontSize: [4, 6, 7],
+  lineHeight: 1.25
+};
 /* harmony default export */ __webpack_exports__["default"] = (H1);
 
 /***/ }),
@@ -1362,11 +1365,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var Li = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])('li', {
   shouldForwardProp: _styled_system_should_forward_prop__WEBPACK_IMPORTED_MODULE_1___default.a
-})(styled_system__WEBPACK_IMPORTED_MODULE_2__["space"], styled_system__WEBPACK_IMPORTED_MODULE_2__["width"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontSize"], styled_system__WEBPACK_IMPORTED_MODULE_2__["color"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borders"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderColor"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderRadius"], {
+})(styled_system__WEBPACK_IMPORTED_MODULE_2__["space"], styled_system__WEBPACK_IMPORTED_MODULE_2__["width"], styled_system__WEBPACK_IMPORTED_MODULE_2__["fontSize"], styled_system__WEBPACK_IMPORTED_MODULE_2__["color"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borders"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderColor"], styled_system__WEBPACK_IMPORTED_MODULE_2__["borderRadius"], styled_system__WEBPACK_IMPORTED_MODULE_2__["lineHeight"], {
   boxSizing: 'border-box'
 });
 Li.defaultProps = {
-  pl: 0
+  pl: 0,
+  lineHeight: 1.5,
+  fontSize: [2, 3]
 };
 /* harmony default export */ __webpack_exports__["default"] = (Li);
 
@@ -1448,7 +1453,8 @@ var Ol = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])('ol', {
   boxSizing: 'border-box'
 });
 Ol.defaultProps = {
-  lineHeight: 1.5
+  lineHeight: 1.5,
+  fontSize: 1
 };
 /* harmony default export */ __webpack_exports__["default"] = (Ol);
 

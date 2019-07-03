@@ -55,7 +55,8 @@ const Ol = styled('ol', { shouldForwardProp })(
 )
 
 Ol.defaultProps = {
-  lineHeight: 1.5
+  lineHeight: 1.5,
+  fontSize: 1
 }
 
 export default Ol

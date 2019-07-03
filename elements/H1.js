@@ -37,6 +37,9 @@ const H1 = styled('h1', { shouldForwardProp })(
   },
 )
 
-H1.defaultProps = {}
+H1.defaultProps = {
+  fontSize: [4,6,7],
+  lineHeight: 1.25
+}
 
 export default H1

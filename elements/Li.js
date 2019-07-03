@@ -8,6 +8,7 @@ import {
   borders,
   borderColor,
   borderRadius,
+  lineHeight,
 } from 'styled-system'
 
 const Li = styled('li', { shouldForwardProp })(
@@ -18,6 +19,7 @@ const Li = styled('li', { shouldForwardProp })(
   borders,
   borderColor,
   borderRadius,
+  lineHeight,
   {
     boxSizing: 'border-box',
   },
@@ -25,6 +27,8 @@ const Li = styled('li', { shouldForwardProp })(
 
 Li.defaultProps = {
   pl: 0,
+  lineHeight: 1.5,
+  fontSize: [2, 3],
 }
 
 export default Li

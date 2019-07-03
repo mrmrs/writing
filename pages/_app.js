@@ -7,6 +7,7 @@ import withGA from "next-ga";
 import theme from '../theme'
 
 import paragraph from '../elements/P'
+import H1 from '../elements/H1'
 import OrderedList from '../elements/Ol'
 import ListItem from '../elements/Li'
 import Image from '../elements/Img'
@@ -27,6 +28,7 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
 
     const components = {
+      h1: H1,
       p: paragraph,
       ol: OrderedList,
       li: ListItem,
