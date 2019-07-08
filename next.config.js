@@ -5,7 +5,7 @@ const withMDX = require('@next/mdx')({
 const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  pageExtensions: ['js', 'jsx', 'mdx', 'md'],
   assetPrefix: !debug? '/writing' : '',
   outDir: 'docs',
   exportPathMap: function() {
