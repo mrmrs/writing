@@ -13,6 +13,8 @@ const Flex = ({ ...props }) => {
 Flex.defaultProps = {
   display: 'flex',
   alignItems: 'center',
+  maxWidth: '100%',
+  width: '100%',
 }
 
 export default Flex
