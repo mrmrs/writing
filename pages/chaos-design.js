@@ -587,7 +587,7 @@ As far as I understand it's pretty easy. You just need to make sure you get this
 
 <p>Besides just two colors - what can we learn about how different visual properties relate to each other? This is part of why <a href="https://twitter.com/4lpine">John Otander</a>started to build <a href="https://components.ai">Components AI</a></p>
 
-<p>What can we actually track over time about how values and combinations of properties relate to each other? For us it's a natural extension of <a href="randoma11y.com">Random A11y</a></p>
+<p>What can we actually track over time about how values and combinations of properties relate to each other? For us it's a natural extension of <a href="https://randoma11y.com">Random A11y</a></p>
 
 <img src="https://mrmrs.s3.us-west-2.amazonaws.com/writing/properties.jpg" />
 
