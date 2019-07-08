@@ -308,7 +308,7 @@ Could we use computers to automate this transition from phase 1 to phase 2? In s
 <img src="https://mrmrs.s3.us-west-2.amazonaws.com/writing/disney.jpg" />
 <p fontSize={1} mt={0} py={1}>Walt Disney Concert Hall</p>
 
-<p>Often times when we break an interface we’re breaking the things we can’t visualize during the development process. So what types of tools or processes can be create to augment this flow? </p>
+<p>Often times when we break an interface we’re breaking the things we can’t visualize during the development process. So what types of tools or processes can we create to augment this flow? </p>
 
 
 <blockquote>
