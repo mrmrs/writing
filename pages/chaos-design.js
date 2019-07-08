@@ -496,6 +496,14 @@ As far as I understand it's pretty easy. You just need to make sure you get this
 
 <p>What if instead of spending time designing and building all of these color pickers that are all the same… we tried to make a better color picker.  What types of feedback loops might we actually want in a color picker? </p>
 
+
+<video controls width='100%'>
+  <source src="https://mrmrs-videos.s3.amazonaws.com/colors.mov" type="video/mp4" />
+  <p>Your browser doesn't support HTML5 video. Here is
+     a <a href="https://mrmrs-videos.s3.amazonaws.com/colors.mov">link to the video</a> instead.</p>
+</video>
+    <p><a href="https://kevingutowski.github.io/color.html">Demo of Kevin Gutowskis Contrast & Color Picker</a></p>
+
 <p>We might want to know instantly about contrast. What is the current contrast with black and white for the selected color? As we generally design against a background of white, light gray, dark gray, or black. Even that might be a useful feedback loop.
 </p>
 

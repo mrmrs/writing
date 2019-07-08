@@ -17377,53 +17377,95 @@ function Chaos() {
       lineNumber: 497
     },
     __self: this
-  }, "What if instead of spending time designing and building all of these color pickers that are all the same\u2026 we tried to make a better color picker.  What types of feedback loops might we actually want in a color picker? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+  }, "What if instead of spending time designing and building all of these color pickers that are all the same\u2026 we tried to make a better color picker.  What types of feedback loops might we actually want in a color picker? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
+    controls: true,
+    width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 499
+      lineNumber: 500
     },
     __self: this
-  }, "We might want to know instantly about contrast. What is the current contrast with black and white for the selected color? As we generally design against a background of white, light gray, dark gray, or black. Even that might be a useful feedback loop."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
+    src: "https://mrmrs-videos.s3.amazonaws.com/colors.mov",
+    type: "video/mp4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 501
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 502
     },
     __self: this
+  }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
+    href: "https://mrmrs-videos.s3.amazonaws.com/colors.mov",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 503
+    },
+    __self: this
+  }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 505
+    },
+    __self: this
+  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
+    href: "https://kevingutowski.github.io/color.html",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 505
+    },
+    __self: this
+  }, "Demo of Kevin Gutowskis Contrast & Color Picker")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 507
+    },
+    __self: this
+  }, "We might want to know instantly about contrast. What is the current contrast with black and white for the selected color? As we generally design against a background of white, light gray, dark gray, or black. Even that might be a useful feedback loop."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 510
+    },
+    __self: this
   }, "What about showing what the current colors will look like for people who are color blind?  "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504
+      lineNumber: 512
     },
     __self: this
   }, "If we have a document palette - what if we exposed all the current accessible colors with what\u2019s currently highlighted?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506
+      lineNumber: 514
     },
     __self: this
   }, "If we do select a color - what if other popular colors to pair it with were suggested? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 508
+      lineNumber: 516
     },
     __self: this
   }, "What if the color picker only showed colors that aren\u2019t currently being used on the web."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 510
+      lineNumber: 518
     },
     __self: this
   }, "Given any two colors - we don\u2019t have a vector for determining if it\u2019s aesthetically pleasing. Or what kind of aesthetic it is. But what if we did track that kind of data? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/randoma11y.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 513
+      lineNumber: 521
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 516
+      lineNumber: 524
     },
     __self: this
   }, "This screenshot is from a project called ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
@@ -17431,19 +17473,19 @@ function Chaos() {
     href: "https://randoma11y.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 516
+      lineNumber: 524
     },
     __self: this
   }, "Ranom A11y")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 518
+      lineNumber: 526
     },
     __self: this
   }, "It generates random pairs of accessible colors. And we wondered - what if people were able to vote? Could we train computers to get better at understanding how colors relate to each other? If this is something we can compute - could our UIs be even more dynamic and offload color as a user preference? Is this another way we can give control back to the user?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 520
+      lineNumber: 528
     },
     __self: this
   }, "And what if this was an API that others could consume? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
@@ -17453,116 +17495,116 @@ function Chaos() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 522
+      lineNumber: 530
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 525
+      lineNumber: 533
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 526
+      lineNumber: 534
     },
     __self: this
   }, "\"combos\":256319,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 527
+      lineNumber: 535
     },
     __self: this
   }), "\"votes\":256630,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 528
+      lineNumber: 536
     },
     __self: this
   }), "\"votes_per_combo\":0.9987881385652496,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 529
+      lineNumber: 537
     },
     __self: this
   }), "\"up_votes\":130529,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 530
+      lineNumber: 538
     },
     __self: this
   }), "\"down_votes\":126101,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 531
+      lineNumber: 539
     },
     __self: this
   }), "\"latest_20\": [", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532
+      lineNumber: 540
     },
     __self: this
   }), "\xA0\xA0  \"id\":256496,", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 533
+      lineNumber: 541
     },
     __self: this
   }), "\xA0\xA0  \"color_one\":\"#555ef9\",", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 534
+      lineNumber: 542
     },
     __self: this
   }), "\xA0\xA0  \"color_two\":\"#f3fde6\",", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 535
+      lineNumber: 543
     },
     __self: this
   }), "\xA0\xA0  \"created_at\":\"2019-06-10T15:49:37.058Z\",", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 536
+      lineNumber: 544
     },
     __self: this
   }), "\xA0\xA0  \"updated_at\":\"2019-06-10T15:49:37.058Z\",", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 537
+      lineNumber: 545
     },
     __self: this
   }), "\xA0\xA0  \"contrast\": \"8.41\"", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 538
+      lineNumber: 546
     },
     __self: this
   }), "]"))), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 545
+      lineNumber: 553
     },
     __self: this
   }, "You could connect these types of apis to any design tool to improve feedback loops within color pickers or color palette generators.", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://randoma11y.com/#/api?_k=qsde72",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546
+      lineNumber: 554
     },
     __self: this
   }, "Read more about the API here")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 549
+      lineNumber: 557
     },
     __self: this
   }, "Living on the Edge"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551
+      lineNumber: 559
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
@@ -17570,21 +17612,21 @@ function Chaos() {
     title: "Cloudflare Workers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551
+      lineNumber: 559
     },
     __self: this
   }, "Edge computing"), " is opening up a lot of new paths for us to affect interfaces. At ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://cloudflare.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551
+      lineNumber: 559
     },
     __self: this
   }, "Cloudflare"), " we\u2019ve got a product called ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://workers.cloudflare.com/docs",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551
+      lineNumber: 559
     },
     __self: this
   }, "Workers"), " that allows you to write javascript at the edge. On the design team, we\u2019re interested in how we can make it easier to augment the view layer. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
@@ -17592,7 +17634,7 @@ function Chaos() {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 553
+      lineNumber: 561
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
@@ -17600,44 +17642,44 @@ function Chaos() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 554
+      lineNumber: 562
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 555
+      lineNumber: 563
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/workers.mov",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 556
+      lineNumber: 564
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 559
+      lineNumber: 567
     },
     __self: this
   }, "When we load the site into this tool, we extract all the colors in the html and css, and show them along the top, alowing them to be customised and previewed."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560
+      lineNumber: 568
     },
     __self: this
   }, "When you press deploy, we deploy a new worker script with new mappings \u2014 \"change #efefef to #cc23ef\""), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 562
+      lineNumber: 570
     },
     __self: this
   }, "We wouldn\u2019t have to limit this to just color. We make any changes to themes and have our designs normalized against scales. Imagine the potential for a brand update - where you can just have all of the nearest colors updated automatically across all of your properties? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 567
+      lineNumber: 575
     },
     __self: this
   }, "You could imagine the ability to start augmenting your web page in interesting ways. In 3d design and photography you affect the color, not just by changing the color of the materials and surfaces, but by applying light from multiple directions with different types of filters. You could affect the theme of your interface based on the calulation of current time and where the light source would be. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
@@ -17645,7 +17687,7 @@ function Chaos() {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 569
+      lineNumber: 577
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
@@ -17653,108 +17695,79 @@ function Chaos() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 570
+      lineNumber: 578
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 571
+      lineNumber: 579
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/kapture.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 572
+      lineNumber: 580
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 575
+      lineNumber: 583
     },
     __self: this
   }, "Demo courtesty of ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://twitter.com/winkerVSbecks",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 575
+      lineNumber: 583
     },
     __self: this
   }, "@winkervsbecks")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 578
+      lineNumber: 586
     },
     __self: this
   }, "What else can we learn together? What other types of information can we make available to each other and contribute to our collective knowledge? These aren\u2019t trade secrets. It\u2019s not a zero sum game. We share information now! But we do it at a small scale with slow feedback loops. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580
+      lineNumber: 588
     },
     __self: this
   }, "Besides just two colors - what can we learn about how different visual properties relate to each other? This is part of why ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://twitter.com/4lpine",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580
+      lineNumber: 588
     },
     __self: this
   }, "John Otander"), "started to build ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://components.ai",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580
+      lineNumber: 588
     },
     __self: this
   }, "Components AI")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 582
+      lineNumber: 590
     },
     __self: this
   }, "What can we actually track over time about how values and combinations of properties relate to each other? For us it's a natural extension of ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "randoma11y.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 582
+      lineNumber: 590
     },
     __self: this
   }, "Random A11y")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/properties.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 584
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 586
-    },
-    __self: this
-  }, "The above is a long list of properties in css. But it\u2019s not that long if you are a computer. On top of that - many of these properties are not needed when styling an element. When I\u2019m styling a button, I don\u2019t expect to use volume. Or page-break. Or a number of other properties. ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    to: "/component-styling-api",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 587
-    },
-    __self: this
-  }, "So what if we documented what we know so far about styling components. And created open templates for common components?"), "Where design now becomes configuring an obvious set of properties, instead of needing to guess and declare."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
-    controls: true,
-    width: "100%",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 592
-    },
-    __self: this
-  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
-    src: "https://mrmrs-videos.s3.amazonaws.com/avatars2.mp4",
-    type: "video/mp4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 593
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -17763,20 +17776,14 @@ function Chaos() {
       lineNumber: 594
     },
     __self: this
-  }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
-    href: "https://mrmrs-videos.s3.amazonaws.com/avatars2.mp4",
+  }, "The above is a long list of properties in css. But it\u2019s not that long if you are a computer. On top of that - many of these properties are not needed when styling an element. When I\u2019m styling a button, I don\u2019t expect to use volume. Or page-break. Or a number of other properties. ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    to: "/component-styling-api",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 595
     },
     __self: this
-  }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 598
-    },
-    __self: this
-  }, "The goal is not to eliminate options, it\u2019s to narrow focus on the essential, allowing for expansion and exploration if necessary."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
+  }, "So what if we documented what we know so far about styling components. And created open templates for common components?"), "Where design now becomes configuring an obvious set of properties, instead of needing to guess and declare."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
     controls: true,
     width: "100%",
     __source: {
@@ -17785,7 +17792,7 @@ function Chaos() {
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
-    src: "https://mrmrs-videos.s3.amazonaws.com/components-gradients.mp4",
+    src: "https://mrmrs-videos.s3.amazonaws.com/avatars2.mp4",
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
@@ -17799,7 +17806,7 @@ function Chaos() {
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
-    href: "https://mrmrs-videos.s3.amazonaws.com/components-gradients.mp4",
+    href: "https://mrmrs-videos.s3.amazonaws.com/avatars2.mp4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 603
@@ -17811,11 +17818,46 @@ function Chaos() {
       lineNumber: 606
     },
     __self: this
+  }, "The goal is not to eliminate options, it\u2019s to narrow focus on the essential, allowing for expansion and exploration if necessary."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
+    controls: true,
+    width: "100%",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 608
+    },
+    __self: this
+  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
+    src: "https://mrmrs-videos.s3.amazonaws.com/components-gradients.mp4",
+    type: "video/mp4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 609
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 610
+    },
+    __self: this
+  }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
+    href: "https://mrmrs-videos.s3.amazonaws.com/components-gradients.mp4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 611
+    },
+    __self: this
+  }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 614
+    },
+    __self: this
   }, "This idea of defining a component API has benefits extending beyond just these types of interfaces. Can we leverage teaching a computer what a button looks like in creative ways? Imagine having a design query language where you could ask to see all of the unique table styles in your app. Or all of the error states. Currently to do these types of audits, it takes a lot of rote work - and is likely to be outdated the week after it's finished."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/buttons.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 610
+      lineNumber: 618
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -17824,13 +17866,13 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 611
+      lineNumber: 619
     },
     __self: this
   }, "Collection of buttons from a single company"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 613
+      lineNumber: 621
     },
     __self: this
   }, "What if you controlled inputs for a generative component design tool by deciding if you wanted to use the most popular or the least used values? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("video", {
@@ -17838,7 +17880,7 @@ function Chaos() {
     width: "100%",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 615
+      lineNumber: 623
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("source", {
@@ -17846,20 +17888,20 @@ function Chaos() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 616
+      lineNumber: 624
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 617
+      lineNumber: 625
     },
     __self: this
   }, "Your browser doesn't support HTML5 video. Here is a ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://mrmrs-videos.s3.amazonaws.com/visual-diff.mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 618
+      lineNumber: 626
     },
     __self: this
   }, "link to the video"), " instead.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -17868,72 +17910,72 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 620
+      lineNumber: 628
     },
     __self: this
   }, "Interface from sliding through scales constructed from scraped css. ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://gen.skullcat.now.sh",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 620
+      lineNumber: 628
     },
     __self: this
   }, "Demo available here")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 622
+      lineNumber: 630
     },
     __self: this
   }, " Continuing to look elsewhere"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 624
+      lineNumber: 632
     },
     __self: this
   }, "If we take a look at what people are doing with machine learning, it\u2019s hard to ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://arxiv.org/pdf/1708.05866.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 624
+      lineNumber: 632
     },
     __self: this
   }, "not be intrigued by reinforcement learning"), "."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 626
+      lineNumber: 634
     },
     __self: this
   }, "\"Reinforcement learning is trial and error at a vast scale\""), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs-videos.s3.amazonaws.com/python.gif",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 628
+      lineNumber: 636
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 629
+      lineNumber: 637
     },
     __self: this
   }, "From ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 630
+      lineNumber: 638
     },
     __self: this
   }, "How to teach AI to play Games: Deep Reinforcement Learning")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 633
+      lineNumber: 641
     },
     __self: this
   }, "There are people trying to train computers on how to beat video games.  And they are getting pretty good. Which is probably worth a whole talk in itself. Now training computers to beat video games seems like a pretty obvious thing the first time you see it. The first time I saw a demo of it in practice though - this is the image that flashed in my head. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/lighthouse.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 635
+      lineNumber: 643
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -17942,50 +17984,50 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 636
+      lineNumber: 644
     },
     __self: this
   }, "Screenshot of Lighthouse, a popular auditing tool for sites"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 638
+      lineNumber: 646
     },
     __self: this
   }, "What\u2019s our workflow when we when we are trying to optimize something on the web? Running a lighthouse audit takes ~10-60 seconds to run. We check to see if the numbers have gone up or down. We make some adjustments. We re-run the lighthouse audit. And we check to see if the numbers go up or down. Now you might be using something else to audit your code. But the workflow is probably similar. This workflow is ripe for distractions. Computers don\u2019t need to stop to check their email. Or reply to a ping in chat. This is the type of work that I just have a feeling computers are better suited for. Figuring out implementation details. Here we have a desired outcome. Four 100s.", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://arxiv.org/pdf/1906.02386.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 640
+      lineNumber: 648
     },
     __self: this
   }, "There\u2019s compelling work being done right now that is going to make this type of work even easier for a computer to do.")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 643
+      lineNumber: 651
     },
     __self: this
   }, "Now this is emerging work now - but imagine where we\u2019ll be in 101 years! "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 645
+      lineNumber: 653
     },
     __self: this
   }, "So what will the life of an interface designer be like in the year 2120? or 2121 even? A nice round 300 years after Babbage first had the idea of calculations being executed by steam. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("blockquote", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 647
+      lineNumber: 655
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 648
+      lineNumber: 656
     },
     __self: this
   }, "\u201C\u2026back/neck/wrist strain will live in the past because I\u2019ll be designing in a dimly lit room, in an inversion chair using mostly voice and gestural cues to control design software.\u201D - Lauren LoPrete")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 652
+      lineNumber: 660
     },
     __self: this
   }, "The first time I saw this video, it felt like a paradigm shift in my head. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("iframe", {
@@ -17997,26 +18039,26 @@ function Chaos() {
     allowfullscreen: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 654
+      lineNumber: 662
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 656
+      lineNumber: 664
     },
     __self: this
   }, "It\u2019s from a study referenced in last years article titled", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://arxiv.org/pdf/1803.03453.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 657
+      lineNumber: 665
     },
     __self: this
   }, "The Surprising Creativity of Digital Evolution: A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 659
+      lineNumber: 667
     },
     __self: this
   }, "In it the constraint is that the grip has been disabled, but the crane is still able to grab ahold of the ball and move it between any two points. Will we learn to apply this type of optimization learning to interface design? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("iframe", {
@@ -18028,26 +18070,26 @@ function Chaos() {
     allowfullscreen: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 663
+      lineNumber: 671
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 665
+      lineNumber: 673
     },
     __self: this
   }, "My mind wonders at the creative solutions computers might come up with to get a website to be fully responsive, performant, and accessible. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 667
+      lineNumber: 675
     },
     __self: this
   }, "Project Dreamcatcher is a generative design project at Autodesk. They\u2019ve started to incorporate some of that technology into other products and the industrial design industry is already seeing real world results. This is a tool that people use overhead, so weight is a primary concern. But they also have a constraint that it can\u2019t be any weaker. With this problem and constraint, they were able to use generative design to shave off 3 pounds. That\u2019s a 60% reduction in weight."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/tool.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 670
+      lineNumber: 678
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -18056,56 +18098,56 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 671
+      lineNumber: 679
     },
     __self: this
   }, "Redesigned component"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("blockquote", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 674
+      lineNumber: 682
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 675
+      lineNumber: 683
     },
     __self: this
   }, " IT\u2019S NOT BRUTE FORCE ENGINEERING. IT\u2019S ELEGANT. YOU DEFINE A PROBLEM AND YOU GET A SOLUTION SET UNLIKE ANYTHING YOU\u2019D PREDICT."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 677
+      lineNumber: 685
     },
     __self: this
   }, "- Frank DeSantis, Vice President of the Breakthrough Innovation")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 682
+      lineNumber: 690
     },
     __self: this
   }, "How could we develop a language where we design interfaces by defining contraints and desired outcomes? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 684
+      lineNumber: 692
     },
     __self: this
   }, "Future of interface design"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 686
+      lineNumber: 694
     },
     __self: this
   }, "So I\u2019ve talked about how hard it is to be good here. But here\u2019s the thing - this is the least amount of stuff we are ever going to need to worry about. Interfaces are going to get more and more complex. The likelihood of people sitting at a desk in front of two 27\u201D monitors is incomprehensible to me. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 688
+      lineNumber: 696
     },
     __self: this
   }, "Like the third phase in print, I think much of our work will be augmented by the user. We see small scale emerging hints at this with dark mode options, theming controls at os level. A new media query for what avatar shape users prefer. We open up these small options because no matter which one you choose the interface designers think it\u2019s good. But these are incredibly small sets of options if we were to calculate how many fully usable designs the user could pick from. The more we understand how things relate to each other - we can offer up more options with great confidence. "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/mac1.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 690
+      lineNumber: 698
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -18114,13 +18156,13 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 691
+      lineNumber: 699
     },
     __self: this
   }, "There are 128 combinations of color based theming options from curated values"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_Flex__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 693
+      lineNumber: 701
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
@@ -18128,7 +18170,7 @@ function Chaos() {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/mac2.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 695
+      lineNumber: 703
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
@@ -18136,7 +18178,7 @@ function Chaos() {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/mac3.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 696
+      lineNumber: 704
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
@@ -18144,33 +18186,33 @@ function Chaos() {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/mac4.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 697
+      lineNumber: 705
     },
     __self: this
   })), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 701
+      lineNumber: 709
     },
     __self: this
   }, "My best guess is it ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://www.osapublishing.org/DirectPDFAccess/FF7D6769-D38A-8C65-35F3CB19F8D4BBF6_398845/optica-5-10-1200.pdf?da=1&id=398845&seq=0&mobile=no",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 701
+      lineNumber: 709
     },
     __self: this
   }, "we will see augmented reality usage grow"), " the most in the immediate future. As AR and VR become more prevalent, will interface design largely be world building?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 704
+      lineNumber: 712
     },
     __self: this
   }, "Will we interact with computers and machines by moving our body in expressive ways to manipulate our  virtual environment? "), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("img", {
     src: "https://mrmrs.s3.us-west-2.amazonaws.com/writing/botw.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 706
+      lineNumber: 714
     },
     __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
@@ -18179,32 +18221,32 @@ function Chaos() {
     py: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 707
+      lineNumber: 715
     },
     __self: this
   }, "Breath of the Wild"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 709
+      lineNumber: 717
     },
     __self: this
   }, "Regardless of what the future brings, our problem space is growing every single day. And we need better feedback loops to handle the increasing amount of chaos. I\u2019m pretty sure robots won't be taking away our jobs. But I do think they will take away some of our current work. I\u2019m excited about that future though. I imagine we will spend more and more time ", Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("a", {
     href: "https://github.com/papers-we-love/papers-we-love/raw/master/design/out-of-the-tar-pit.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 710
+      lineNumber: 718
     },
     __self: this
   }, "defining a desired output with what our constraints are")), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 713
+      lineNumber: 721
     },
     __self: this
   }, "If you\u2019re an ad agency - maybe web performance is important but maybe not the MOST important thing. Maybe you\u2019re willing to have a 2mb website for the added pay off of high definition visual shine. For many businesses - you don't need anywhere near 1mb to serve up a page that will allow you to communicate with an audience, and potentially, to receive their input as well. So  maybe you're biggest constraints are around your color palette and making sure your site is accessible and localized. Being able to fluidly evaluate and augment content in multiple contexts will allow us to spend more time deciding and less time processing data."), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 717
+      lineNumber: 725
     },
     __self: this
   }, "I hope you'll join me in figuring out how to automate some of this work so we can build more resilient systems that fail less often. Someday I hope people get to use interfaces that always work, all of the time, no matter what. Maybe someday."));
