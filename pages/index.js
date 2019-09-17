@@ -3,11 +3,15 @@ import jsx from '../jsx'
 import  Link  from 'next/link'
 import  BlockLink  from '../components/BlockLink'
 import  Container  from '../components/Container'
+import  A  from '../elements/A'
 
 function Home() {
   return (
     <Container>
     <div display='grid' px={3} py={[3,4,5]}>
+      <A color='black' mb={2} title="Thinking About Color" href='https://cloudflare.design/color/thinking'>
+        Thinking About Color
+      </A>
       <BlockLink title="Chaos Design" href='chaos-design'>
         Chaos Design
       </BlockLink>
