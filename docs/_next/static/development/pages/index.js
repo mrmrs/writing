@@ -15661,6 +15661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_BlockLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/BlockLink */ "./components/BlockLink.js");
 /* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Container */ "./components/Container.js");
+/* harmony import */ var _elements_A__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../elements/A */ "./elements/A.js");
 var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/index.js";
 
 
@@ -15670,11 +15671,12 @@ var _jsxFileName = "/Users/mrmrs/p/writing-current/pages/index.js";
 
 
 
+
 function Home() {
   return Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
@@ -15683,15 +15685,25 @@ function Home() {
     py: [3, 4, 5],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
-  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_elements_A__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    color: "black",
+    mb: 2,
+    title: "Thinking About Color",
+    href: "https://cloudflare.design/color/thinking",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Thinking About Color"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Chaos Design",
     href: "chaos-design",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 15
     },
     __self: this
   }, "Chaos Design"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15699,7 +15711,7 @@ function Home() {
     href: "component-styling-api",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, "Component Styling API"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15707,7 +15719,7 @@ function Home() {
     href: "the-veil-of-ignorance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 21
     },
     __self: this
   }, "The Veil of Ignorance"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15715,7 +15727,7 @@ function Home() {
     href: "scalable-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
     },
     __self: this
   }, "Css and Scalability"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15723,7 +15735,7 @@ function Home() {
     href: "too-many-tools",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 27
     },
     __self: this
   }, "Too Many Tools And Frameworks"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15731,7 +15743,7 @@ function Home() {
     href: "design-systems",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 30
     },
     __self: this
   }, "Design Systems"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15739,7 +15751,7 @@ function Home() {
     href: "developing-ui",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
     },
     __self: this
   }, "Developing UI"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15747,7 +15759,7 @@ function Home() {
     href: "dogma",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 36
     },
     __self: this
   }, "Growing up with Dogma"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15755,7 +15767,7 @@ function Home() {
     href: "webfonts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 39
     },
     __self: this
   }, "Webfonts"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -15763,34 +15775,10 @@ function Home() {
     href: "getting-critiqued",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "Getting Critiqued"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+  }, "Getting Critiqued"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -15808,95 +15796,119 @@ function Home() {
       lineNumber: 48
     },
     __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
   }), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "learning-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
   }, "Learning Css"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "line-height",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 56
     },
     __self: this
   }, "How to Line-height"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "what-are-classes-for",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 59
     },
     __self: this
   }, "What are Classes for?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "advice-on-change",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 62
     },
     __self: this
   }, "The Best Advice on Changing Things"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "living-with-jxnblk",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 65
     },
     __self: this
   }, "Living with Jxnblk"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "mobile-first-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 68
     },
     __self: this
   }, "Mobile-first Css"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "good-css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 71
     },
     __self: this
   }, "What is good Css?"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "vim-workflows",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 74
     },
     __self: this
   }, "Vim Workflows"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "how-to-learn-vim",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 77
     },
     __self: this
   }, "How to Learn Vim"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "common-vim",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 80
     },
     __self: this
   }, "Common Vim"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "vim-as-a-design-tool",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 83
     },
     __self: this
   }, "Vim as a Design Tool"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "essential-vim-plugins",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 86
     },
     __self: this
   }, "Essential Vim Plugins"), Object(_jsx__WEBPACK_IMPORTED_MODULE_1__["default"])(_components_BlockLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
     href: "what-is-css-for",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 89
     },
     __self: this
   }, "What is Css for")));
