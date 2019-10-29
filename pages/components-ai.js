@@ -7,7 +7,6 @@ import PostHeader from '../components/PostHeader'
 
 function Page() {
   return (
-
     <Container pb={5}>
       <PostHeader 
         title="Components.ai"
@@ -15,8 +14,8 @@ function Page() {
        published="29-10-2019"
       />
     <p>
-    <a href="https://twitter.com/mrmrs_/status/1145543229229735937"In July</a>, <a href="https://johno.com">John Otander</a> and I released a modest start to a project we are calling <a href="https://components.ai">components.ai</a>. This is an ambitious and long-term project John Otander and I have been working on aimed at exploring two questions:
-In design, what can be computed? 
+      <a href="https://twitter.com/mrmrs_/status/1145543229229735937">In July</a>, <a href="https://johno.com">John Otander</a> and I released a modest start to a project we are calling <a href="https://components.ai">components.ai</a>. This is an ambitious and long-term project we've been working on aimed at exploring two questions: <br /><br />
+In design, what can be computed?<br />
 How might we contribute to our collective design knowledge?
     </p>
 
@@ -41,8 +40,9 @@ How might we contribute to our collective design knowledge?
 
 <p>
     We currently have a lot of questions but we’re excited and energized about the opportunity to explore potential answers. </p>
+
 </Container>
 
- )}
+)}
 
 export default Page
