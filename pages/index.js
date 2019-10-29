@@ -9,6 +9,9 @@ function Home() {
   return (
     <Container>
     <div display='grid' px={3} py={[3,4,5]}>
+      <BlockLink title="Components AI" href='components-ai'>
+        Components.ai
+      </BlockLink>
       <A color='black' mb={2} title="Thinking About Color" href='https://cloudflare.design/color/thinking'>
         Thinking About Color
       </A>
