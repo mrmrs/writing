@@ -9,6 +9,9 @@ function Home() {
   return (
     <Container>
     <div display='grid' px={3} py={[3,4,5]}>
+      <A color='black' mb={2} title="Generative Logo Design" href='https://components.ai/notes/logo'>
+        Generative Logo Design
+      </A>
       <BlockLink title="Components AI" href='components-ai'>
         Components.ai
       </BlockLink>
