@@ -9,13 +9,13 @@ function Home() {
   return (
     <Container>
     <div display='grid' px={3} py={[3,4,5]}>
-      <A color='black' mb={2} title="Generative Logo Design" href='https://components.ai/notes/logo'>
+      <A fontSize={[2,3]} color='black' py={2} title="Generative Logo Design" href='https://components.ai/notes/logo'>
         Generative Logo Design
       </A>
       <BlockLink title="Components AI" href='components-ai'>
         Components.ai
       </BlockLink>
-      <A color='black' mb={2} title="Thinking About Color" href='https://cloudflare.design/color/thinking'>
+      <A fontSize={[2,3]} color='black' py={2} title="Thinking About Color" href='https://cloudflare.design/color/thinking'>
         Thinking About Color
       </A>
       <BlockLink title="Chaos Design" href='chaos-design'>
@@ -48,7 +48,6 @@ function Home() {
       <BlockLink title="Getting critiqued" href='getting-critiqued'>
         Getting Critiqued
       </BlockLink>
-
       <br />
       <br />
       <br />

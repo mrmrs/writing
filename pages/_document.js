@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style>{`body { margin: 0; font-family: inconsolata,menlo, monospace } /* custom! */`}</style>
+          <style>{`body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, gotham, avenir, helvetica, ubuntu, roboto, noto, arial, sans-serif; } /* custom! */`}</style>
         </Head>
         <body>
           <Main />

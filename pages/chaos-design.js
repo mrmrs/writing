@@ -25,7 +25,7 @@ function Chaos() {
     </p>
 </blockquote>
 
-<p>This excerpt is from the first paragraph in *The Origin of Species*. I've highlighted the word philosopher here because it's easy to miss. But here is Charles Darwin giving a shout out to this unnamed person in the opening paragraph of his most seminal work.</p>
+<p>This excerpt is from the first paragraph in <b>The Origin of Species</b>. I've highlighted the word philosopher here because it's easy to miss. But here is Charles Darwin giving a shout out to this unnamed person in the opening paragraph of his most seminal work.</p>
 
 <p>It turns out, he was referring to this guy, Sir John Herschel.</p>
 
@@ -712,7 +712,7 @@ will interface design largely be world building?</p>
 <p>Will we interact with computers and machines by moving our body in expressive ways to manipulate our  virtual environment? </p>
 
 <img src='https://mrmrs.s3.us-west-2.amazonaws.com/writing/botw.jpg' />
-<p fontSize={1} mt={0} py={1}>Breath of the Wild</p>
+<p fontSize={1} mt={0} py={1}><b>Gods & Monsters</b> / Ubisoft</p>
 
 <p>
    Regardless of what the future brings, our problem space is growing every single day. And we need better feedback loops to handle the increasing amount of chaos. I’m pretty sure robots won't be taking away our jobs. But I do think they will take away some of our current work. I’m excited about that future though. I imagine we will spend more and more time <a href="https://github.com/papers-we-love/papers-we-love/raw/master/design/out-of-the-tar-pit.pdf">defining a desired output with what our constraints are</a>

@@ -13,7 +13,7 @@ const Container = ({ innerBg, innerWidth, ...props }) => {
 }
 
 Container.defaultProps = {
-  innerWidth: theme.containerWidth? theme.containerWidth: '36em',
+  innerWidth: theme.containerWidth? theme.containerWidth: '38em',
   fontSize: 3,
   innerBg: "transparent"
 }
