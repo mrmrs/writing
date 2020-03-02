@@ -13,7 +13,7 @@ function Home() {
         Generative Logo Design
       </A>
       <BlockLink title="Components AI" href='components-ai'>
-        Components.ai
+        Making Components AI
       </BlockLink>
       <A fontSize={[2,3]} color='black' py={2} title="Thinking About Color" href='https://cloudflare.design/color/thinking'>
         Thinking About Color
