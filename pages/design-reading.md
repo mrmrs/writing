@@ -109,7 +109,7 @@ design everything from poems to 3D worlds.
 
 There is a certain type of creativity that emerges when computers can attempt millions of attempts at optimizing towards a goal within a given set of constraints. Shown below is a crane that's had it's gripping function disabled - learning to pick up a cube from a platform.
 
-<iframe width="728" height="320" src="https://www.youtube.com/embed/_5Y1hSLhYdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="728" height="320" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/_5Y1hSLhYdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Surprising Creativity of AI](https://arxiv.org/pdf/1803.03453.pdf)<br />
 [Multi-agent Reinforcement Learning](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning)<br />
