@@ -7,10 +7,12 @@ import PostHeader from '../components/PostHeader'
     published="12-04-2020"
   />
 
-The following is a list of articles, technologies, videos, and resources that
-have changed the shape of how I see the world in a significant way over the
-last few years. Each concept or piece of technology is something I recommend
-designers have at least a cursory understanding of.
+The following is a list of writings, technologies, and videos that
+have changed the shape of how I approach and think about design in a
+significant way over the last few years. Each concept or piece of technology is
+something I recommend designers have at least a cursory understanding of. 
+While they are all currently being explored, I still view their potential as largely
+untapped in digital ui design.
 
 
 ## Generative Design
