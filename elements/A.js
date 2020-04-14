@@ -1,5 +1,6 @@
 import styled from "@emotion/styled"
 import shouldForwardProp from "@styled-system/should-forward-prop"
+import theme from "../theme"
 
 import {
   space,
@@ -37,7 +38,16 @@ const A = styled('a', { shouldForwardProp })(
     boxSizing: "border-box",
     textDecoration: "none",
     ":hover": {
-      cursor: "pointer"
+      cursor: "pointer",
+      transition: 'color .33s ease-in',
+      opacity: 1,
+      color: theme.colors.blue[6], 
+    },
+    ":focus": {
+      cursor: "pointer",
+      transition: 'color .33s ease-in',
+      opacity: 1,
+      color: theme.colors.indigo[6], 
     }
   }
 )
