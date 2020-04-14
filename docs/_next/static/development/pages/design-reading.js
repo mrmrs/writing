@@ -8901,6 +8901,9 @@ function MDXContent(_ref) {
   }, "There is a certain type of creativity that emerges when computers can attempt millions of attempts at optimizing towards a goal within a given set of constraints. Shown below is a crane that's had it's gripping function disabled - learning to pick up a cube from a platform."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("iframe", {
     width: "728",
     height: "320",
+    style: {
+      maxWidth: '100%'
+    },
     src: "https://www.youtube.com/embed/_5Y1hSLhYdY",
     frameborder: "0",
     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
@@ -8913,7 +8916,7 @@ function MDXContent(_ref) {
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 153
     },
     __self: this
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -8923,13 +8926,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 153
     },
     __self: this
   }), "Surprising Creativity of AI"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 155
     },
     __self: this
   }), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -8939,13 +8942,13 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 156
     },
     __self: this
   }), "Multi-agent Reinforcement Learning"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 158
     },
     __self: this
   }), "\n", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -8955,7 +8958,7 @@ function MDXContent(_ref) {
   }, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 159
     },
     __self: this
   }), "How to teach AI to play Games: Deep Reinforcement Learning"))));
