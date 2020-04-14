@@ -12,6 +12,7 @@ module.exports = withMDX({
       return {
         '/': { page: '/' },
         '/chaos-design': { page: '/chaos-design' },
+        '/design-reading': { page: '/design-reading' },
         '/components-ai': { page: '/components-ai' },
         '/advice-on-change': { page: '/advice-on-change' },
         '/common-vim': { page: '/common-vim' },
